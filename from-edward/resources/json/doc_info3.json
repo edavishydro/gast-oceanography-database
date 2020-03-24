@@ -1,0 +1,30 @@
+[
+  {
+    "id": 1234,
+    "Year": "2000",
+    "Author": "Smith",
+    "Title": "Sciencey Paper",
+    "long": "44",
+    "lat": "44",
+    "contentTags": ["foo", "bar"]
+  },
+
+  {
+    "id": 2345,
+    "Year": "2001",
+    "Author": "Miller",
+    "Title": "Sciencey Paper",
+    "long": "90",
+    "lat": "-44",
+    "contentTags": ["foo", "bar"]
+  },
+  {
+    "id": 5555,
+    "Year": "2000",
+    "Author": "Jones",
+    "Title": "Sciencey Paper",
+    "long": "44",
+    "lat": "44",
+    "contentTags": ["foo", "bar"]
+  }
+]
