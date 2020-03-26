@@ -1,0 +1,30 @@
+{
+  "name": "gast-oceanography-database",
+  "version": "1.0.0",
+  "description": "Codebase for Gast Oceanography Database on TGAEC.com",
+  "main": "index.js",
+  "scripts": {
+    "dev": "next",
+    "build": "next build",
+    "start": "next start"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/edavishydro/gast-oceanography-database.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/edavishydro/gast-oceanography-database/issues"
+  },
+  "homepage": "https://github.com/edavishydro/gast-oceanography-database#readme",
+  "dependencies": {
+    "@sendgrid/mail": "^6.5.5",
+    "dotenv": "^8.2.0",
+    "fuse.js": "^5.0.10-beta",
+    "next": "^9.3.1",
+    "react": "^16.13.1",
+    "react-dom": "^16.13.1"
+  }
+}
