@@ -371,7 +371,7 @@ const writeData = source => {
 const makeDataTable = data => {
   let html = '<table class="table is-striped" id="addition">';
   html += "<tr>";
-  const headers = ["Year", "Author", "Title", "Tags", ""];
+  const headers = ["Year", "Author", "Title", ""];
   headers.forEach(header => {
     return (html += `<th>${header}</th>`);
   });
@@ -382,12 +382,7 @@ const makeDataTable = data => {
       <td>${doc.Year}</td>
       <td>${doc.Author}</td>
       <td>${doc.Title}</td>
-      <td>${Object.keys(doc.contentTags).map(key => {
-        return ` ${doc.contentTags[key]}`;
-      })}</td>
-      <td><button class="button is-link is-outlined is-small addCart" id="${
-        doc.FID
-      }">Add to cart</button></td>
+      <td><button class="button is-link is-outlined is-small addCart" id="${doc.FID}">Add to cart</button></td>
       </tr>`;
     return (html += tableRow);
   });
@@ -477,7 +472,7 @@ function removeDoc(fid) {
 function makeCartTable() {
   let html = '<table class="table is-striped">';
   html += "<tr>";
-  const headers = ["Year", "Author", "Title", "Tags", ""];
+  const headers = ["Year", "Author", "Title", ""];
   headers.forEach(header => {
     return (html += `<th>${header}</th>`);
   });
@@ -487,7 +482,6 @@ function makeCartTable() {
     <td>${doc.Year}</td>
     <td>${doc.Author}</td>
     <td>${doc.Title}</td>
-    <td>${doc.contentTags}</td>
     <td><button class="button is-danger is-outlined is-small" id="${doc.FID}">Remove from cart</button></td>
     </tr>`;
     return (html += tableRow);
@@ -511,7 +505,7 @@ let options = {
   distance: 100,
   maxPatternLength: 32,
   minMatchCharLength: 1,
-  keys: ["Title", "Author"]
+  keys: ["Title", "Author", "contentTags"]
 };
 
 /* FUSE SEARCH RESULTS */
@@ -525,7 +519,7 @@ function fusesearch() {
     var html = `<p>Your search returned ${result.length} results.</p><table class="table is-striped" id="addition">`;
     html += "<tr>";
     var flag = 0;
-    var headers = ["Year", "Author", "Title", "Tags", ""];
+    var headers = ["Year", "Author", "Title", ""];
     headers.forEach(header => {
       return (html += `<th>${header}</th>`);
     });
@@ -535,7 +529,6 @@ function fusesearch() {
       <td>${doc.Year}</td>
       <td>${doc.Author}</td>
       <td>${doc.Title}</td>
-      <td>${doc.contentTags}</td>
       <td><button class="button is-link is-outlined is-small addCart" id="${doc.FID}">Add to cart</button></td>
       </tr>`;
       return (html += tableRow);
