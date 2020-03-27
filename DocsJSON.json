@@ -6,7 +6,7 @@
     "long": "-64",
     "lat": "32",
     "contentTags": [null],
-    "FID": "0001"
+    "FID": "GO0001"
   },
   {
     "Year": "1953",
@@ -15,7 +15,7 @@
     "long": "-122.3",
     "lat": "47.65",
     "contentTags": [null],
-    "FID": "0002"
+    "FID": "GO0002"
   },
   {
     "Year": "1935",
@@ -24,7 +24,7 @@
     "long": "-40",
     "lat": "40",
     "contentTags": [null],
-    "FID": "0003"
+    "FID": "GO0003"
   },
   {
     "Year": "1974",
@@ -33,7 +33,7 @@
     "long": "-145.567",
     "lat": "72.85",
     "contentTags": [null],
-    "FID": "0004"
+    "FID": "GO0004"
   },
   {
     "Year": "1937",
@@ -42,7 +42,7 @@
     "long": "-169",
     "lat": "58",
     "contentTags": [null],
-    "FID": "0005"
+    "FID": "GO0005"
   },
   {
     "Year": "1958",
@@ -54,7 +54,7 @@
       "Artificial laboratory systems and studies- aquaria, flumes, etc",
       "Fishes, fisheries reports, fishing gear, capture techniques, and fish passage"
     ],
-    "FID": "0006"
+    "FID": "GO0006"
   },
   {
     "Year": "1957",
@@ -66,7 +66,7 @@
       "Artificial laboratory systems and studies- aquaria, flumes, etc",
       "Fishes, fisheries reports, fishing gear, capture techniques, and fish passage"
     ],
-    "FID": "0007"
+    "FID": "GO0007"
   },
   {
     "Year": "1959",
@@ -78,7 +78,7 @@
       "Artificial laboratory systems and studies- aquaria, flumes, etc",
       "Fishes, fisheries reports, fishing gear, capture techniques, and fish passage"
     ],
-    "FID": "0008"
+    "FID": "GO0008"
   },
   {
     "Year": "1966",
@@ -90,7 +90,7 @@
       "Artificial laboratory systems and studies- aquaria, flumes, etc",
       "Hydrodynamics"
     ],
-    "FID": "0009"
+    "FID": "GO0009"
   },
   {
     "Year": "1972",
@@ -105,7 +105,7 @@
       "Fouling & benthic sessile invertebrates",
       "Physical and chemical properties"
     ],
-    "FID": "0010"
+    "FID": "GO0010"
   },
   {
     "Year": "1968",
@@ -118,7 +118,7 @@
       "Meteorology, Climatology,  & air-sea exchange",
       "Physical and chemical properties"
     ],
-    "FID": "0011"
+    "FID": "GO0011"
   },
   {
     "Year": "1957",
@@ -127,7 +127,7 @@
     "long": "-70.783",
     "lat": "42.7",
     "contentTags": ["Commercially unimportant benthic motile invertebrates"],
-    "FID": "0012"
+    "FID": "GO0012"
   },
   {
     "Year": "1965",
@@ -144,7 +144,7 @@
       "Plankton",
       "Pollution & exploitation- waste discharge, mineral extraction, & radiochemistry"
     ],
-    "FID": "0013"
+    "FID": "GO0013"
   },
   {
     "Year": "1966",
@@ -161,7 +161,7 @@
       "Plankton",
       "Pollution & exploitation- waste discharge, mineral extraction, & radiochemistry"
     ],
-    "FID": "0014"
+    "FID": "GO0014"
   },
   {
     "Year": "1948",
@@ -170,7 +170,7 @@
     "long": "-30.85",
     "lat": "35.617",
     "contentTags": ["Commercially unimportant benthic motile invertebrates"],
-    "FID": "0015"
+    "FID": "GO0015"
   },
   {
     "Year": "1930",
@@ -185,7 +185,7 @@
       "Plankton",
       "Shellfish  and shellfish fisheries"
     ],
-    "FID": "0016"
+    "FID": "GO0016"
   },
   {
     "Year": "1980",
@@ -199,7 +199,7 @@
       "Fouling & benthic sessile invertebrates",
       "sediment, suspended particles, and bathymetry"
     ],
-    "FID": "0017"
+    "FID": "GO0017"
   },
   {
     "Year": "1970",
@@ -212,7 +212,7 @@
       "Fouling & benthic sessile invertebrates",
       "Shellfish  and shellfish fisheries"
     ],
-    "FID": "0018"
+    "FID": "GO0018"
   },
   {
     "Year": "1961",
@@ -221,7 +221,7 @@
     "long": "55.667",
     "lat": "-4.583",
     "contentTags": ["Commercially unimportant benthic motile invertebrates"],
-    "FID": "0019"
+    "FID": "GO0019"
   },
   {
     "Year": "1959",
@@ -237,7 +237,7 @@
       "Physical and chemical properties",
       "Plankton"
     ],
-    "FID": "0020"
+    "FID": "GO0020"
   },
   {
     "Year": "1937",
@@ -250,7 +250,7 @@
       "Flora and macroalgae",
       "Fouling & benthic sessile invertebrates"
     ],
-    "FID": "0021"
+    "FID": "GO0021"
   },
   {
     "Year": "1936",
@@ -262,7 +262,7 @@
       "Commercially unimportant benthic motile invertebrates",
       "sediment, suspended particles, and bathymetry"
     ],
-    "FID": "0022"
+    "FID": "GO0022"
   },
   {
     "Year": "1965",
@@ -276,7 +276,7 @@
       "Hydrodynamics",
       "Physical and chemical properties"
     ],
-    "FID": "0023"
+    "FID": "GO0023"
   },
   {
     "Year": "1959",
@@ -285,7 +285,7 @@
     "long": "-120.317",
     "lat": "47.45",
     "contentTags": ["Environmental impact", "Physical and chemical properties"],
-    "FID": "0024"
+    "FID": "GO0024"
   },
   {
     "Year": "1960",
@@ -294,7 +294,7 @@
     "long": "-94.9",
     "lat": "29.217",
     "contentTags": ["Estuaries"],
-    "FID": "0025"
+    "FID": "GO0025"
   },
   {
     "Year": "1968",
@@ -307,7 +307,7 @@
       "Hydrodynamics",
       "Physical and chemical properties"
     ],
-    "FID": "0026"
+    "FID": "GO0026"
   },
   {
     "Year": "1962",
@@ -316,7 +316,7 @@
     "long": "-76.433",
     "lat": "38.967",
     "contentTags": ["Estuaries", "Plankton"],
-    "FID": "0027"
+    "FID": "GO0027"
   },
   {
     "Year": "1969",
@@ -329,7 +329,7 @@
       "Hydrodynamics",
       "Physical and chemical properties"
     ],
-    "FID": "0028"
+    "FID": "GO0028"
   },
   {
     "Year": "1965",
@@ -342,7 +342,7 @@
       "Hydrodynamics",
       "Physical and chemical properties"
     ],
-    "FID": "0029"
+    "FID": "GO0029"
   },
   {
     "Year": "1975",
@@ -351,7 +351,7 @@
     "long": "-123.333",
     "lat": "49.833",
     "contentTags": ["Estuaries", "Physical and chemical properties"],
-    "FID": "0030"
+    "FID": "GO0030"
   },
   {
     "Year": "1960",
@@ -360,7 +360,7 @@
     "long": "-90",
     "lat": "25",
     "contentTags": ["Estuaries"],
-    "FID": "0031"
+    "FID": "GO0031"
   },
   {
     "Year": "1968",
@@ -373,7 +373,7 @@
       "Fishes, fisheries reports, fishing gear, capture techniques, and fish passage",
       "Physical and chemical properties"
     ],
-    "FID": "0032"
+    "FID": "GO0032"
   },
   {
     "Year": "1962",
@@ -385,7 +385,7 @@
       "Estuaries",
       "sediment, suspended particles, and bathymetry"
     ],
-    "FID": "0033"
+    "FID": "GO0033"
   },
   {
     "Year": "1962",
@@ -394,7 +394,7 @@
     "long": "-126",
     "lat": "50",
     "contentTags": ["Estuaries", "Physical and chemical properties"],
-    "FID": "0034"
+    "FID": "GO0034"
   },
   {
     "Year": "1963",
@@ -403,7 +403,7 @@
     "long": "-126",
     "lat": "50",
     "contentTags": ["Estuaries", "Physical and chemical properties"],
-    "FID": "0035"
+    "FID": "GO0035"
   },
   {
     "Year": "1964",
@@ -412,7 +412,7 @@
     "long": "-126",
     "lat": "50",
     "contentTags": ["Estuaries", "Physical and chemical properties"],
-    "FID": "0036"
+    "FID": "GO0036"
   },
   {
     "Year": "1965",
@@ -421,7 +421,7 @@
     "long": "-139",
     "lat": "55",
     "contentTags": ["Estuaries", "Physical and chemical properties"],
-    "FID": "0037"
+    "FID": "GO0037"
   },
   {
     "Year": "1966",
@@ -430,7 +430,7 @@
     "long": "-139",
     "lat": "55",
     "contentTags": ["Estuaries", "Physical and chemical properties"],
-    "FID": "0038"
+    "FID": "GO0038"
   },
   {
     "Year": "1966",
@@ -439,7 +439,7 @@
     "long": "-126",
     "lat": "50",
     "contentTags": ["Estuaries", "Physical and chemical properties"],
-    "FID": "0039"
+    "FID": "GO0039"
   },
   {
     "Year": "1967",
@@ -448,7 +448,7 @@
     "long": "-134",
     "lat": "46",
     "contentTags": ["Estuaries", "Physical and chemical properties"],
-    "FID": "0040"
+    "FID": "GO0040"
   },
   {
     "Year": "1970",
@@ -457,7 +457,7 @@
     "long": "-134",
     "lat": "46",
     "contentTags": ["Estuaries", "Physical and chemical properties"],
-    "FID": "0041"
+    "FID": "GO0041"
   },
   {
     "Year": "1971",
@@ -466,7 +466,7 @@
     "long": "-134",
     "lat": "46",
     "contentTags": ["Estuaries", "Physical and chemical properties"],
-    "FID": "0042"
+    "FID": "GO0042"
   },
   {
     "Year": "1972",
@@ -475,7 +475,7 @@
     "long": "-134",
     "lat": "46",
     "contentTags": ["Estuaries", "Physical and chemical properties"],
-    "FID": "0043"
+    "FID": "GO0043"
   },
   {
     "Year": "1969",
@@ -488,7 +488,7 @@
       "Hydrodynamics",
       "Physical and chemical properties"
     ],
-    "FID": "0044"
+    "FID": "GO0044"
   },
   {
     "Year": "1977",
@@ -501,7 +501,7 @@
       "Hydrodynamics",
       "sediment, suspended particles, and bathymetry"
     ],
-    "FID": "0045"
+    "FID": "GO0045"
   },
   {
     "Year": "1964",
@@ -514,7 +514,7 @@
       "Flora and macroalgae",
       "Fouling & benthic sessile invertebrates"
     ],
-    "FID": "0046"
+    "FID": "GO0046"
   },
   {
     "Year": "1961",
@@ -523,7 +523,7 @@
     "long": "-76.567",
     "lat": "39.25",
     "contentTags": ["Estuaries", "Hydrodynamics"],
-    "FID": "0047"
+    "FID": "GO0047"
   },
   {
     "Year": "1968",
@@ -536,7 +536,7 @@
       "Plankton",
       "Sample collection and vessel equipment"
     ],
-    "FID": "0048"
+    "FID": "GO0048"
   },
   {
     "Year": "1970",
@@ -545,7 +545,7 @@
     "long": "-76.567",
     "lat": "39.25",
     "contentTags": ["Estuaries", "Hydrodynamics"],
-    "FID": "0049"
+    "FID": "GO0049"
   },
   {
     "Year": "1956",
@@ -556,7 +556,7 @@
     "contentTags": [
       "Fishes, fisheries reports, fishing gear, capture techniques, and fish passage"
     ],
-    "FID": "0050"
+    "FID": "GO0050"
   },
   {
     "Year": "1958",
@@ -567,7 +567,7 @@
     "contentTags": [
       "Fishes, fisheries reports, fishing gear, capture techniques, and fish passage"
     ],
-    "FID": "0051"
+    "FID": "GO0051"
   },
   {
     "Year": "1958",
@@ -578,7 +578,7 @@
     "contentTags": [
       "Fishes, fisheries reports, fishing gear, capture techniques, and fish passage"
     ],
-    "FID": "0052"
+    "FID": "GO0052"
   },
   {
     "Year": "1956",
@@ -589,7 +589,7 @@
     "contentTags": [
       "Fishes, fisheries reports, fishing gear, capture techniques, and fish passage"
     ],
-    "FID": "0053"
+    "FID": "GO0053"
   },
   {
     "Year": "1968",
@@ -601,7 +601,7 @@
       "Fishes, fisheries reports, fishing gear, capture techniques, and fish passage",
       "Shellfish  and shellfish fisheries"
     ],
-    "FID": "0054"
+    "FID": "GO0054"
   },
   {
     "Year": "1958",
@@ -613,7 +613,7 @@
       "Fishes, fisheries reports, fishing gear, capture techniques, and fish passage",
       "Plankton"
     ],
-    "FID": "0055"
+    "FID": "GO0055"
   },
   {
     "Year": "1957",
@@ -628,7 +628,7 @@
       "Physical and chemical properties",
       "Plankton"
     ],
-    "FID": "0056"
+    "FID": "GO0056"
   },
   {
     "Year": "1939",
@@ -639,7 +639,7 @@
     "contentTags": [
       "Fishes, fisheries reports, fishing gear, capture techniques, and fish passage"
     ],
-    "FID": "0057"
+    "FID": "GO0057"
   },
   {
     "Year": "1948",
@@ -650,7 +650,7 @@
     "contentTags": [
       "Fishes, fisheries reports, fishing gear, capture techniques, and fish passage"
     ],
-    "FID": "0058"
+    "FID": "GO0058"
   },
   {
     "Year": "1962",
@@ -661,7 +661,7 @@
     "contentTags": [
       "Fishes, fisheries reports, fishing gear, capture techniques, and fish passage"
     ],
-    "FID": "0059"
+    "FID": "GO0059"
   },
   {
     "Year": "1956",
@@ -674,7 +674,7 @@
       "Physical and chemical properties",
       "Pollution & exploitation- waste discharge, mineral extraction, & radiochemistry"
     ],
-    "FID": "0060"
+    "FID": "GO0060"
   },
   {
     "Year": "1961",
@@ -685,7 +685,7 @@
     "contentTags": [
       "Fishes, fisheries reports, fishing gear, capture techniques, and fish passage"
     ],
-    "FID": "0061"
+    "FID": "GO0061"
   },
   {
     "Year": "1957",
@@ -696,7 +696,7 @@
     "contentTags": [
       "Fishes, fisheries reports, fishing gear, capture techniques, and fish passage"
     ],
-    "FID": "0062"
+    "FID": "GO0062"
   },
   {
     "Year": "1960",
@@ -707,7 +707,7 @@
     "contentTags": [
       "Fishes, fisheries reports, fishing gear, capture techniques, and fish passage"
     ],
-    "FID": "0063"
+    "FID": "GO0063"
   },
   {
     "Year": "1957",
@@ -718,7 +718,7 @@
     "contentTags": [
       "Fishes, fisheries reports, fishing gear, capture techniques, and fish passage"
     ],
-    "FID": "0064"
+    "FID": "GO0064"
   },
   {
     "Year": "1956",
@@ -729,7 +729,7 @@
     "contentTags": [
       "Fishes, fisheries reports, fishing gear, capture techniques, and fish passage"
     ],
-    "FID": "0065"
+    "FID": "GO0065"
   },
   {
     "Year": "1958",
@@ -740,7 +740,7 @@
     "contentTags": [
       "Fishes, fisheries reports, fishing gear, capture techniques, and fish passage"
     ],
-    "FID": "0066"
+    "FID": "GO0066"
   },
   {
     "Year": "1955",
@@ -751,7 +751,7 @@
     "contentTags": [
       "Fishes, fisheries reports, fishing gear, capture techniques, and fish passage"
     ],
-    "FID": "0067"
+    "FID": "GO0067"
   },
   {
     "Year": "1957",
@@ -762,7 +762,7 @@
     "contentTags": [
       "Fishes, fisheries reports, fishing gear, capture techniques, and fish passage"
     ],
-    "FID": "0068"
+    "FID": "GO0068"
   },
   {
     "Year": "1958",
@@ -773,7 +773,7 @@
     "contentTags": [
       "Fishes, fisheries reports, fishing gear, capture techniques, and fish passage"
     ],
-    "FID": "0069"
+    "FID": "GO0069"
   },
   {
     "Year": "1936",
@@ -784,7 +784,7 @@
     "contentTags": [
       "Fishes, fisheries reports, fishing gear, capture techniques, and fish passage"
     ],
-    "FID": "0070"
+    "FID": "GO0070"
   },
   {
     "Year": "1957",
@@ -795,7 +795,7 @@
     "contentTags": [
       "Fishes, fisheries reports, fishing gear, capture techniques, and fish passage"
     ],
-    "FID": "0071"
+    "FID": "GO0071"
   },
   {
     "Year": "1957",
@@ -806,7 +806,7 @@
     "contentTags": [
       "Fishes, fisheries reports, fishing gear, capture techniques, and fish passage"
     ],
-    "FID": "0072"
+    "FID": "GO0072"
   },
   {
     "Year": "1969",
@@ -817,7 +817,7 @@
     "contentTags": [
       "Fishes, fisheries reports, fishing gear, capture techniques, and fish passage"
     ],
-    "FID": "0073"
+    "FID": "GO0073"
   },
   {
     "Year": "1957",
@@ -828,7 +828,7 @@
     "contentTags": [
       "Fishes, fisheries reports, fishing gear, capture techniques, and fish passage"
     ],
-    "FID": "0074"
+    "FID": "GO0074"
   },
   {
     "Year": "1958",
@@ -842,7 +842,7 @@
       "Physical and chemical properties",
       "Plankton"
     ],
-    "FID": "0075"
+    "FID": "GO0075"
   },
   {
     "Year": "1955",
@@ -853,7 +853,7 @@
     "contentTags": [
       "Fishes, fisheries reports, fishing gear, capture techniques, and fish passage"
     ],
-    "FID": "0076"
+    "FID": "GO0076"
   },
   {
     "Year": "1956",
@@ -864,7 +864,7 @@
     "contentTags": [
       "Fishes, fisheries reports, fishing gear, capture techniques, and fish passage"
     ],
-    "FID": "0077"
+    "FID": "GO0077"
   },
   {
     "Year": "1957",
@@ -875,7 +875,7 @@
     "contentTags": [
       "Fishes, fisheries reports, fishing gear, capture techniques, and fish passage"
     ],
-    "FID": "0078"
+    "FID": "GO0078"
   },
   {
     "Year": "195",
@@ -886,7 +886,7 @@
     "contentTags": [
       "Fishes, fisheries reports, fishing gear, capture techniques, and fish passage"
     ],
-    "FID": "0079"
+    "FID": "GO0079"
   },
   {
     "Year": "1957",
@@ -900,7 +900,7 @@
       "Physical and chemical properties",
       "Plankton"
     ],
-    "FID": "0080"
+    "FID": "GO0080"
   },
   {
     "Year": "1964",
@@ -911,7 +911,7 @@
     "contentTags": [
       "Fishes, fisheries reports, fishing gear, capture techniques, and fish passage"
     ],
-    "FID": "0081"
+    "FID": "GO0081"
   },
   {
     "Year": "1964",
@@ -922,7 +922,7 @@
     "contentTags": [
       "Fishes, fisheries reports, fishing gear, capture techniques, and fish passage"
     ],
-    "FID": "0082"
+    "FID": "GO0082"
   },
   {
     "Year": "1965",
@@ -933,7 +933,7 @@
     "contentTags": [
       "Fishes, fisheries reports, fishing gear, capture techniques, and fish passage"
     ],
-    "FID": "0083"
+    "FID": "GO0083"
   },
   {
     "Year": "1961",
@@ -944,7 +944,7 @@
     "contentTags": [
       "Fishes, fisheries reports, fishing gear, capture techniques, and fish passage"
     ],
-    "FID": "0084"
+    "FID": "GO0084"
   },
   {
     "Year": "1959",
@@ -955,7 +955,7 @@
     "contentTags": [
       "Fishes, fisheries reports, fishing gear, capture techniques, and fish passage"
     ],
-    "FID": "0085"
+    "FID": "GO0085"
   },
   {
     "Year": "1960",
@@ -970,7 +970,7 @@
       "Physical and chemical properties",
       "Plankton"
     ],
-    "FID": "0086"
+    "FID": "GO0086"
   },
   {
     "Year": "1956",
@@ -987,7 +987,7 @@
       "Plankton",
       "sediment, suspended particles, and bathymetry"
     ],
-    "FID": "0087"
+    "FID": "GO0087"
   },
   {
     "Year": "1958",
@@ -1004,7 +1004,7 @@
       "Plankton",
       "sediment, suspended particles, and bathymetry"
     ],
-    "FID": "0088"
+    "FID": "GO0088"
   },
   {
     "Year": "1956",
@@ -1020,7 +1020,7 @@
       "Plankton",
       "sediment, suspended particles, and bathymetry"
     ],
-    "FID": "0089"
+    "FID": "GO0089"
   },
   {
     "Year": "1969",
@@ -1031,7 +1031,7 @@
     "contentTags": [
       "Fishes, fisheries reports, fishing gear, capture techniques, and fish passage"
     ],
-    "FID": "0090"
+    "FID": "GO0090"
   },
   {
     "Year": "1956",
@@ -1042,7 +1042,7 @@
     "contentTags": [
       "Fishes, fisheries reports, fishing gear, capture techniques, and fish passage"
     ],
-    "FID": "0091"
+    "FID": "GO0091"
   },
   {
     "Year": "1959",
@@ -1054,7 +1054,7 @@
       "Fishes, fisheries reports, fishing gear, capture techniques, and fish passage",
       "Shellfish  and shellfish fisheries"
     ],
-    "FID": "0092"
+    "FID": "GO0092"
   },
   {
     "Year": "1960",
@@ -1065,7 +1065,7 @@
     "contentTags": [
       "Fishes, fisheries reports, fishing gear, capture techniques, and fish passage"
     ],
-    "FID": "0093"
+    "FID": "GO0093"
   },
   {
     "Year": "1939",
@@ -1076,7 +1076,7 @@
     "contentTags": [
       "Fishes, fisheries reports, fishing gear, capture techniques, and fish passage"
     ],
-    "FID": "0094"
+    "FID": "GO0094"
   },
   {
     "Year": "1968",
@@ -1087,7 +1087,7 @@
     "contentTags": [
       "Fishes, fisheries reports, fishing gear, capture techniques, and fish passage"
     ],
-    "FID": "0095"
+    "FID": "GO0095"
   },
   {
     "Year": "1967",
@@ -1100,7 +1100,7 @@
       "Physical and chemical properties",
       "Plankton"
     ],
-    "FID": "0096"
+    "FID": "GO0096"
   },
   {
     "Year": "1957",
@@ -1111,7 +1111,7 @@
     "contentTags": [
       "Fishes, fisheries reports, fishing gear, capture techniques, and fish passage"
     ],
-    "FID": "0097"
+    "FID": "GO0097"
   },
   {
     "Year": "1955",
@@ -1122,7 +1122,7 @@
     "contentTags": [
       "Fishes, fisheries reports, fishing gear, capture techniques, and fish passage"
     ],
-    "FID": "0098"
+    "FID": "GO0098"
   },
   {
     "Year": "1966",
@@ -1134,7 +1134,7 @@
       "Fishes, fisheries reports, fishing gear, capture techniques, and fish passage",
       "Pollution & exploitation- waste discharge, mineral extraction, & radiochemistry"
     ],
-    "FID": "0099"
+    "FID": "GO0099"
   },
   {
     "Year": "1961",
@@ -1145,7 +1145,7 @@
     "contentTags": [
       "Fishes, fisheries reports, fishing gear, capture techniques, and fish passage"
     ],
-    "FID": "0100"
+    "FID": "GO0100"
   },
   {
     "Year": "1971",
@@ -1156,7 +1156,7 @@
     "contentTags": [
       "Fishes, fisheries reports, fishing gear, capture techniques, and fish passage"
     ],
-    "FID": "0101"
+    "FID": "GO0101"
   },
   {
     "Year": "1960",
@@ -1167,7 +1167,7 @@
     "contentTags": [
       "Fishes, fisheries reports, fishing gear, capture techniques, and fish passage"
     ],
-    "FID": "0102"
+    "FID": "GO0102"
   },
   {
     "Year": "1961",
@@ -1178,7 +1178,7 @@
     "contentTags": [
       "Fishes, fisheries reports, fishing gear, capture techniques, and fish passage"
     ],
-    "FID": "0103"
+    "FID": "GO0103"
   },
   {
     "Year": "1956",
@@ -1190,7 +1190,7 @@
       "Fishes, fisheries reports, fishing gear, capture techniques, and fish passage",
       "Physical and chemical properties"
     ],
-    "FID": "0104"
+    "FID": "GO0104"
   },
   {
     "Year": "1952",
@@ -1204,7 +1204,7 @@
       "Physical and chemical properties",
       "Plankton"
     ],
-    "FID": "0105"
+    "FID": "GO0105"
   },
   {
     "Year": "1955",
@@ -1215,7 +1215,7 @@
     "contentTags": [
       "Fishes, fisheries reports, fishing gear, capture techniques, and fish passage"
     ],
-    "FID": "0106"
+    "FID": "GO0106"
   },
   {
     "Year": "1956",
@@ -1226,7 +1226,7 @@
     "contentTags": [
       "Fishes, fisheries reports, fishing gear, capture techniques, and fish passage"
     ],
-    "FID": "0107"
+    "FID": "GO0107"
   },
   {
     "Year": "1955",
@@ -1237,7 +1237,7 @@
     "contentTags": [
       "Fishes, fisheries reports, fishing gear, capture techniques, and fish passage"
     ],
-    "FID": "0108"
+    "FID": "GO0108"
   },
   {
     "Year": "1969",
@@ -1248,7 +1248,7 @@
     "contentTags": [
       "Fishes, fisheries reports, fishing gear, capture techniques, and fish passage"
     ],
-    "FID": "0109"
+    "FID": "GO0109"
   },
   {
     "Year": "1970",
@@ -1259,7 +1259,7 @@
     "contentTags": [
       "Fishes, fisheries reports, fishing gear, capture techniques, and fish passage"
     ],
-    "FID": "0110"
+    "FID": "GO0110"
   },
   {
     "Year": "1954",
@@ -1270,7 +1270,7 @@
     "contentTags": [
       "Fishes, fisheries reports, fishing gear, capture techniques, and fish passage"
     ],
-    "FID": "0111"
+    "FID": "GO0111"
   },
   {
     "Year": "1961",
@@ -1282,7 +1282,7 @@
       "Fishes, fisheries reports, fishing gear, capture techniques, and fish passage",
       "Physical and chemical properties"
     ],
-    "FID": "0112"
+    "FID": "GO0112"
   },
   {
     "Year": "1972",
@@ -1295,7 +1295,7 @@
       "Meteorology, Climatology,  & air-sea exchange",
       "Physical and chemical properties"
     ],
-    "FID": "0113"
+    "FID": "GO0113"
   },
   {
     "Year": "1967",
@@ -1306,7 +1306,7 @@
     "contentTags": [
       "Fishes, fisheries reports, fishing gear, capture techniques, and fish passage"
     ],
-    "FID": "0114"
+    "FID": "GO0114"
   },
   {
     "Year": "1956",
@@ -1317,7 +1317,7 @@
     "contentTags": [
       "Fishes, fisheries reports, fishing gear, capture techniques, and fish passage"
     ],
-    "FID": "0115"
+    "FID": "GO0115"
   },
   {
     "Year": "1958",
@@ -1331,7 +1331,7 @@
       "Physical and chemical properties",
       "Pollution & exploitation- waste discharge, mineral extraction, & radiochemistry"
     ],
-    "FID": "0116"
+    "FID": "GO0116"
   },
   {
     "Year": "1968",
@@ -1342,7 +1342,7 @@
     "contentTags": [
       "Fishes, fisheries reports, fishing gear, capture techniques, and fish passage"
     ],
-    "FID": "0117"
+    "FID": "GO0117"
   },
   {
     "Year": "1956",
@@ -1353,7 +1353,7 @@
     "contentTags": [
       "Fishes, fisheries reports, fishing gear, capture techniques, and fish passage"
     ],
-    "FID": "0118"
+    "FID": "GO0118"
   },
   {
     "Year": "1957",
@@ -1364,7 +1364,7 @@
     "contentTags": [
       "Fishes, fisheries reports, fishing gear, capture techniques, and fish passage"
     ],
-    "FID": "0119"
+    "FID": "GO0119"
   },
   {
     "Year": "1957",
@@ -1375,7 +1375,7 @@
     "contentTags": [
       "Fishes, fisheries reports, fishing gear, capture techniques, and fish passage"
     ],
-    "FID": "0120"
+    "FID": "GO0120"
   },
   {
     "Year": "1956",
@@ -1386,7 +1386,7 @@
     "contentTags": [
       "Fishes, fisheries reports, fishing gear, capture techniques, and fish passage"
     ],
-    "FID": "0121"
+    "FID": "GO0121"
   },
   {
     "Year": "1958",
@@ -1399,7 +1399,7 @@
       "Physical and chemical properties",
       "Plankton"
     ],
-    "FID": "0122"
+    "FID": "GO0122"
   },
   {
     "Year": "1955",
@@ -1416,7 +1416,7 @@
       "Pollution & exploitation- waste discharge, mineral extraction, & radiochemistry",
       "sediment, suspended particles, and bathymetry"
     ],
-    "FID": "0123"
+    "FID": "GO0123"
   },
   {
     "Year": "1960",
@@ -1428,7 +1428,7 @@
       "Fishes, fisheries reports, fishing gear, capture techniques, and fish passage",
       "Physical and chemical properties"
     ],
-    "FID": "0124"
+    "FID": "GO0124"
   },
   {
     "Year": "1939",
@@ -1437,7 +1437,7 @@
     "long": "-70",
     "lat": "40",
     "contentTags": ["Flora and macroalgae", "Plankton"],
-    "FID": "0125"
+    "FID": "GO0125"
   },
   {
     "Year": "1955",
@@ -1453,7 +1453,7 @@
       "Plankton",
       "sediment, suspended particles, and bathymetry"
     ],
-    "FID": "0126"
+    "FID": "GO0126"
   },
   {
     "Year": "1939",
@@ -1462,7 +1462,7 @@
     "long": "-66",
     "lat": "34",
     "contentTags": ["Flora and macroalgae"],
-    "FID": "0127"
+    "FID": "GO0127"
   },
   {
     "Year": "1936",
@@ -1471,7 +1471,7 @@
     "long": "-40",
     "lat": "40",
     "contentTags": ["Flora and macroalgae"],
-    "FID": "0128"
+    "FID": "GO0128"
   },
   {
     "Year": "1937",
@@ -1480,7 +1480,7 @@
     "long": "-83",
     "lat": "32",
     "contentTags": ["Flora and macroalgae"],
-    "FID": "0129"
+    "FID": "GO0129"
   },
   {
     "Year": "1961",
@@ -1489,7 +1489,7 @@
     "long": "-130",
     "lat": "53",
     "contentTags": ["Flora and macroalgae"],
-    "FID": "0130"
+    "FID": "GO0130"
   },
   {
     "Year": "1966",
@@ -1498,7 +1498,7 @@
     "long": "73",
     "lat": "-1",
     "contentTags": ["Flora and macroalgae"],
-    "FID": "0131"
+    "FID": "GO0131"
   },
   {
     "Year": "1966",
@@ -1507,7 +1507,7 @@
     "long": "-157",
     "lat": "21",
     "contentTags": ["Flora and macroalgae"],
-    "FID": "0132"
+    "FID": "GO0132"
   },
   {
     "Year": "1966",
@@ -1516,7 +1516,7 @@
     "long": "-150",
     "lat": "20",
     "contentTags": ["Flora and macroalgae", "Reference Lists"],
-    "FID": "0133"
+    "FID": "GO0133"
   },
   {
     "Year": "1966",
@@ -1525,7 +1525,7 @@
     "long": "-170",
     "lat": "25",
     "contentTags": ["Flora and macroalgae"],
-    "FID": "0134"
+    "FID": "GO0134"
   },
   {
     "Year": "1936",
@@ -1534,7 +1534,7 @@
     "long": "-67.367",
     "lat": "41.217",
     "contentTags": ["Fouling & benthic sessile invertebrates"],
-    "FID": "0135"
+    "FID": "GO0135"
   },
   {
     "Year": "1939",
@@ -1543,7 +1543,7 @@
     "long": "-80",
     "lat": "22",
     "contentTags": ["Fouling & benthic sessile invertebrates"],
-    "FID": "0136"
+    "FID": "GO0136"
   },
   {
     "Year": "1956",
@@ -1555,7 +1555,7 @@
       "Fouling & benthic sessile invertebrates",
       "Shellfish  and shellfish fisheries"
     ],
-    "FID": "0137"
+    "FID": "GO0137"
   },
   {
     "Year": "1948",
@@ -1564,7 +1564,7 @@
     "long": "-80.217",
     "lat": "25.567",
     "contentTags": ["Fouling & benthic sessile invertebrates"],
-    "FID": "0138"
+    "FID": "GO0138"
   },
   {
     "Year": "1948",
@@ -1573,7 +1573,7 @@
     "long": "-80.217",
     "lat": "25.567",
     "contentTags": ["Fouling & benthic sessile invertebrates"],
-    "FID": "0139"
+    "FID": "GO0139"
   },
   {
     "Year": "1966",
@@ -1582,7 +1582,7 @@
     "long": "-155.083",
     "lat": "19.7",
     "contentTags": ["Geology, seismic activity, and tsunamis"],
-    "FID": "0140"
+    "FID": "GO0140"
   },
   {
     "Year": "1971",
@@ -1597,7 +1597,7 @@
       "Physical and chemical properties",
       "sediment, suspended particles, and bathymetry"
     ],
-    "FID": "0141"
+    "FID": "GO0141"
   },
   {
     "Year": "1969",
@@ -1610,7 +1610,7 @@
       "Hydrodynamics",
       "Physical and chemical properties"
     ],
-    "FID": "0142"
+    "FID": "GO0142"
   },
   {
     "Year": "1967",
@@ -1623,7 +1623,7 @@
       "Hydrodynamics",
       "sediment, suspended particles, and bathymetry"
     ],
-    "FID": "0143"
+    "FID": "GO0143"
   },
   {
     "Year": "1937",
@@ -1632,7 +1632,7 @@
     "long": "-83",
     "lat": "32",
     "contentTags": ["Geology, seismic activity, and tsunamis"],
-    "FID": "0144"
+    "FID": "GO0144"
   },
   {
     "Year": "1967",
@@ -1641,7 +1641,7 @@
     "long": "-166",
     "lat": "23",
     "contentTags": ["Geology, seismic activity, and tsunamis"],
-    "FID": "0145"
+    "FID": "GO0145"
   },
   {
     "Year": "1953",
@@ -1656,7 +1656,7 @@
       "Physical and chemical properties",
       "Polar data"
     ],
-    "FID": "0146"
+    "FID": "GO0146"
   },
   {
     "Year": "1966",
@@ -1665,7 +1665,7 @@
     "long": "-173.5",
     "lat": "52.1",
     "contentTags": ["Geology, seismic activity, and tsunamis"],
-    "FID": "0147"
+    "FID": "GO0147"
   },
   {
     "Year": "1964",
@@ -1677,7 +1677,7 @@
       "Geology, seismic activity, and tsunamis",
       "Instruments, monitoring equipment, and computation"
     ],
-    "FID": "0148"
+    "FID": "GO0148"
   },
   {
     "Year": "1967",
@@ -1691,7 +1691,7 @@
       "Physical and chemical properties",
       "sediment, suspended particles, and bathymetry"
     ],
-    "FID": "0149"
+    "FID": "GO0149"
   },
   {
     "Year": "1966",
@@ -1700,7 +1700,7 @@
     "long": "-172.233",
     "lat": "25.75",
     "contentTags": ["Geology, seismic activity, and tsunamis"],
-    "FID": "0150"
+    "FID": "GO0150"
   },
   {
     "Year": "1971",
@@ -1712,7 +1712,7 @@
       "Geology, seismic activity, and tsunamis",
       "sediment, suspended particles, and bathymetry"
     ],
-    "FID": "0151"
+    "FID": "GO0151"
   },
   {
     "Year": "1970",
@@ -1721,7 +1721,7 @@
     "long": "-122.5",
     "lat": 48,
     "contentTags": ["Geology, seismic activity, and tsunamis", "Hydrodynamics"],
-    "FID": "0152"
+    "FID": "GO0152"
   },
   {
     "Year": "1967",
@@ -1733,7 +1733,7 @@
       "Geology, seismic activity, and tsunamis",
       "sediment, suspended particles, and bathymetry"
     ],
-    "FID": "0153"
+    "FID": "GO0153"
   },
   {
     "Year": "1966",
@@ -1742,7 +1742,7 @@
     "long": "-20",
     "lat": "22",
     "contentTags": ["Geology, seismic activity, and tsunamis"],
-    "FID": "0154"
+    "FID": "GO0154"
   },
   {
     "Year": "1967",
@@ -1754,7 +1754,7 @@
       "Geology, seismic activity, and tsunamis",
       "sediment, suspended particles, and bathymetry"
     ],
-    "FID": "0155"
+    "FID": "GO0155"
   },
   {
     "Year": "1965",
@@ -1763,7 +1763,7 @@
     "long": "-148",
     "lat": "61.083",
     "contentTags": ["Geology, seismic activity, and tsunamis"],
-    "FID": "0156"
+    "FID": "GO0156"
   },
   {
     "Year": "1969",
@@ -1772,7 +1772,7 @@
     "long": "178.983",
     "lat": "51.533",
     "contentTags": ["Geology, seismic activity, and tsunamis"],
-    "FID": "0157"
+    "FID": "GO0157"
   },
   {
     "Year": "1969",
@@ -1781,7 +1781,7 @@
     "long": "-179",
     "lat": "51.5",
     "contentTags": ["Geology, seismic activity, and tsunamis"],
-    "FID": "0158"
+    "FID": "GO0158"
   },
   {
     "Year": "1969",
@@ -1793,7 +1793,7 @@
       "Geology, seismic activity, and tsunamis",
       "sediment, suspended particles, and bathymetry"
     ],
-    "FID": "0159"
+    "FID": "GO0159"
   },
   {
     "Year": "1935",
@@ -1805,7 +1805,7 @@
       "Geology, seismic activity, and tsunamis",
       "sediment, suspended particles, and bathymetry"
     ],
-    "FID": "0160"
+    "FID": "GO0160"
   },
   {
     "Year": "1936",
@@ -1814,7 +1814,7 @@
     "long": "-67.367",
     "lat": "41.217",
     "contentTags": ["Geology, seismic activity, and tsunamis"],
-    "FID": "0161"
+    "FID": "GO0161"
   },
   {
     "Year": "1957",
@@ -1829,7 +1829,7 @@
       "Plankton",
       "sediment, suspended particles, and bathymetry"
     ],
-    "FID": "0162"
+    "FID": "GO0162"
   },
   {
     "Year": "1957",
@@ -1844,7 +1844,7 @@
       "Plankton",
       "sediment, suspended particles, and bathymetry"
     ],
-    "FID": "0163"
+    "FID": "GO0163"
   },
   {
     "Year": "1958",
@@ -1859,7 +1859,7 @@
       "Plankton",
       "sediment, suspended particles, and bathymetry"
     ],
-    "FID": "0164"
+    "FID": "GO0164"
   },
   {
     "Year": "1958",
@@ -1875,7 +1875,7 @@
       "Sample collection and vessel equipment",
       "sediment, suspended particles, and bathymetry"
     ],
-    "FID": "0165"
+    "FID": "GO0165"
   },
   {
     "Year": "1959",
@@ -1890,7 +1890,7 @@
       "Plankton",
       "sediment, suspended particles, and bathymetry"
     ],
-    "FID": "0166"
+    "FID": "GO0166"
   },
   {
     "Year": "1959",
@@ -1905,7 +1905,7 @@
       "Plankton",
       "sediment, suspended particles, and bathymetry"
     ],
-    "FID": "0167"
+    "FID": "GO0167"
   },
   {
     "Year": "1956",
@@ -1920,7 +1920,7 @@
       "Plankton",
       "sediment, suspended particles, and bathymetry"
     ],
-    "FID": "0168"
+    "FID": "GO0168"
   },
   {
     "Year": "1956",
@@ -1935,7 +1935,7 @@
       "Plankton",
       "sediment, suspended particles, and bathymetry"
     ],
-    "FID": "0169"
+    "FID": "GO0169"
   },
   {
     "Year": "1963",
@@ -1947,7 +1947,7 @@
       "Hydrodynamics",
       "Pollution & exploitation- waste discharge, mineral extraction, & radiochemistry"
     ],
-    "FID": "0170"
+    "FID": "GO0170"
   },
   {
     "Year": "1956",
@@ -1956,7 +1956,7 @@
     "long": "-83",
     "lat": "45",
     "contentTags": ["Hydrodynamics"],
-    "FID": "0171"
+    "FID": "GO0171"
   },
   {
     "Year": "1938",
@@ -1969,7 +1969,7 @@
       "Physical and chemical properties",
       "sediment, suspended particles, and bathymetry"
     ],
-    "FID": "0172"
+    "FID": "GO0172"
   },
   {
     "Year": "1948",
@@ -1978,7 +1978,7 @@
     "long": "-168",
     "lat": "9",
     "contentTags": ["Hydrodynamics"],
-    "FID": "0173"
+    "FID": "GO0173"
   },
   {
     "Year": "1981",
@@ -1987,7 +1987,7 @@
     "long": "155",
     "lat": "38",
     "contentTags": ["Hydrodynamics"],
-    "FID": "0174"
+    "FID": "GO0174"
   },
   {
     "Year": "1982",
@@ -2000,7 +2000,7 @@
       "Physical and chemical properties",
       "sediment, suspended particles, and bathymetry"
     ],
-    "FID": "0175"
+    "FID": "GO0175"
   },
   {
     "Year": "1939",
@@ -2009,7 +2009,7 @@
     "long": "-50",
     "lat": "40",
     "contentTags": ["Hydrodynamics", "Physical and chemical properties"],
-    "FID": "0176"
+    "FID": "GO0176"
   },
   {
     "Year": "1957",
@@ -2018,7 +2018,7 @@
     "long": "-68",
     "lat": "43",
     "contentTags": ["Hydrodynamics"],
-    "FID": "0177"
+    "FID": "GO0177"
   },
   {
     "Year": "1961",
@@ -2027,7 +2027,7 @@
     "long": "-66",
     "lat": "43",
     "contentTags": ["Hydrodynamics"],
-    "FID": "0178"
+    "FID": "GO0178"
   },
   {
     "Year": "1973",
@@ -2041,7 +2041,7 @@
       "sediment, suspended particles, and bathymetry",
       "Teaching and Student Materials"
     ],
-    "FID": "0179"
+    "FID": "GO0179"
   },
   {
     "Year": "1967",
@@ -2050,7 +2050,7 @@
     "long": "-69",
     "lat": "38",
     "contentTags": ["Hydrodynamics", "Physical and chemical properties"],
-    "FID": "0180"
+    "FID": "GO0180"
   },
   {
     "Year": "1968",
@@ -2063,7 +2063,7 @@
       "Physical and chemical properties",
       "sediment, suspended particles, and bathymetry"
     ],
-    "FID": "0181"
+    "FID": "GO0181"
   },
   {
     "Year": "1969",
@@ -2072,7 +2072,7 @@
     "long": "-164",
     "lat": "34",
     "contentTags": ["Hydrodynamics", "Physical and chemical properties"],
-    "FID": "0182"
+    "FID": "GO0182"
   },
   {
     "Year": "1961",
@@ -2081,7 +2081,7 @@
     "long": "-124.817",
     "lat": "34.95",
     "contentTags": ["Hydrodynamics"],
-    "FID": "0183"
+    "FID": "GO0183"
   },
   {
     "Year": "1967",
@@ -2090,7 +2090,7 @@
     "long": "-70.3",
     "lat": "41.667",
     "contentTags": ["Hydrodynamics", "Physical and chemical properties"],
-    "FID": "0184"
+    "FID": "GO0184"
   },
   {
     "Year": "1961",
@@ -2105,7 +2105,7 @@
       "Reference Lists",
       "sediment, suspended particles, and bathymetry"
     ],
-    "FID": "0185"
+    "FID": "GO0185"
   },
   {
     "Year": "1967",
@@ -2114,7 +2114,7 @@
     "long": "-125.333",
     "lat": "46.417",
     "contentTags": ["Hydrodynamics", "Physical and chemical properties"],
-    "FID": "0186"
+    "FID": "GO0186"
   },
   {
     "Year": "1967",
@@ -2128,7 +2128,7 @@
       "Plankton",
       "sediment, suspended particles, and bathymetry"
     ],
-    "FID": "0187"
+    "FID": "GO0187"
   },
   {
     "Year": "1968",
@@ -2141,7 +2141,7 @@
       "Physical and chemical properties",
       "sediment, suspended particles, and bathymetry"
     ],
-    "FID": "0188"
+    "FID": "GO0188"
   },
   {
     "Year": "1959",
@@ -2154,7 +2154,7 @@
       "Physical and chemical properties",
       "Plankton"
     ],
-    "FID": "0189"
+    "FID": "GO0189"
   },
   {
     "Year": "1959",
@@ -2167,7 +2167,7 @@
       "Physical and chemical properties",
       "Plankton"
     ],
-    "FID": "0190"
+    "FID": "GO0190"
   },
   {
     "Year": "1977",
@@ -2176,7 +2176,7 @@
     "long": "-167.55",
     "lat": "68.2",
     "contentTags": ["Hydrodynamics", "Physical and chemical properties"],
-    "FID": "0191"
+    "FID": "GO0191"
   },
   {
     "Year": "1977",
@@ -2189,7 +2189,7 @@
       "Physical and chemical properties",
       "Teaching and Student Materials"
     ],
-    "FID": "0192"
+    "FID": "GO0192"
   },
   {
     "Year": "1966",
@@ -2201,7 +2201,7 @@
       "Hydrodynamics",
       "Instruments, monitoring equipment, and computation"
     ],
-    "FID": "0193"
+    "FID": "GO0193"
   },
   {
     "Year": "1965",
@@ -2210,7 +2210,7 @@
     "long": "-135",
     "lat": "40",
     "contentTags": ["Hydrodynamics", "Physical and chemical properties"],
-    "FID": "0194"
+    "FID": "GO0194"
   },
   {
     "Year": "1935",
@@ -2224,7 +2224,7 @@
       "Plankton",
       "sediment, suspended particles, and bathymetry"
     ],
-    "FID": "0195"
+    "FID": "GO0195"
   },
   {
     "Year": "1968",
@@ -2237,7 +2237,7 @@
       "Physical and chemical properties",
       "Plankton"
     ],
-    "FID": "0196"
+    "FID": "GO0196"
   },
   {
     "Year": "1964",
@@ -2246,7 +2246,7 @@
     "long": "-123.067",
     "lat": "38.3",
     "contentTags": ["Hydrodynamics"],
-    "FID": "0197"
+    "FID": "GO0197"
   },
   {
     "Year": "1959",
@@ -2255,7 +2255,7 @@
     "long": "-178",
     "lat": "58",
     "contentTags": ["Hydrodynamics", "Shellfish  and shellfish fisheries"],
-    "FID": "0198"
+    "FID": "GO0198"
   },
   {
     "Year": "1966",
@@ -2264,7 +2264,7 @@
     "long": "-76.533",
     "lat": "34.6",
     "contentTags": ["Hydrodynamics", "Physical and chemical properties"],
-    "FID": "0199"
+    "FID": "GO0199"
   },
   {
     "Year": "1960",
@@ -2279,7 +2279,7 @@
       "Plankton",
       "sediment, suspended particles, and bathymetry"
     ],
-    "FID": "0200"
+    "FID": "GO0200"
   },
   {
     "Year": "1936",
@@ -2288,7 +2288,7 @@
     "long": "-66",
     "lat": "28",
     "contentTags": ["Hydrodynamics"],
-    "FID": "0201"
+    "FID": "GO0201"
   },
   {
     "Year": "1958",
@@ -2297,7 +2297,7 @@
     "long": "-83.583",
     "lat": "43.917",
     "contentTags": ["Hydrodynamics"],
-    "FID": "0202"
+    "FID": "GO0202"
   },
   {
     "Year": "1948",
@@ -2306,7 +2306,7 @@
     "long": "-73",
     "lat": "40",
     "contentTags": ["Hydrodynamics"],
-    "FID": "0203"
+    "FID": "GO0203"
   },
   {
     "Year": "1966",
@@ -2318,7 +2318,7 @@
       "Hydrodynamics",
       "Instruments, monitoring equipment, and computation"
     ],
-    "FID": "0204"
+    "FID": "GO0204"
   },
   {
     "Year": "1970",
@@ -2327,7 +2327,7 @@
     "long": "-160",
     "lat": "22",
     "contentTags": ["Hydrodynamics"],
-    "FID": "0205"
+    "FID": "GO0205"
   },
   {
     "Year": "1966",
@@ -2336,7 +2336,7 @@
     "long": "-155.067",
     "lat": "19.733",
     "contentTags": ["Hydrodynamics"],
-    "FID": "0206"
+    "FID": "GO0206"
   },
   {
     "Year": "1936",
@@ -2349,7 +2349,7 @@
       "Instruments, monitoring equipment, and computation",
       "Meteorology, Climatology,  & air-sea exchange"
     ],
-    "FID": "0207"
+    "FID": "GO0207"
   },
   {
     "Year": "1968",
@@ -2358,7 +2358,7 @@
     "long": "-11.467",
     "lat": "32.883",
     "contentTags": ["Hydrodynamics", "Physical and chemical properties"],
-    "FID": "0208"
+    "FID": "GO0208"
   },
   {
     "Year": "1976",
@@ -2370,7 +2370,7 @@
       "Hydrodynamics",
       "Instruments, monitoring equipment, and computation"
     ],
-    "FID": "0209"
+    "FID": "GO0209"
   },
   {
     "Year": "1965",
@@ -2382,7 +2382,7 @@
       "Hydrodynamics",
       "Instruments, monitoring equipment, and computation"
     ],
-    "FID": "0210"
+    "FID": "GO0210"
   },
   {
     "Year": "1963",
@@ -2397,7 +2397,7 @@
       "Plankton",
       "Shellfish  and shellfish fisheries"
     ],
-    "FID": "0211"
+    "FID": "GO0211"
   },
   {
     "Year": "1967",
@@ -2409,7 +2409,7 @@
       "Hydrodynamics",
       "Instruments, monitoring equipment, and computation"
     ],
-    "FID": "0212"
+    "FID": "GO0212"
   },
   {
     "Year": "1969",
@@ -2418,7 +2418,7 @@
     "long": "-141",
     "lat": "30",
     "contentTags": ["Hydrodynamics"],
-    "FID": "0213"
+    "FID": "GO0213"
   },
   {
     "Year": "1968",
@@ -2427,7 +2427,7 @@
     "long": "-71",
     "lat": "35",
     "contentTags": ["Hydrodynamics"],
-    "FID": "0214"
+    "FID": "GO0214"
   },
   {
     "Year": "1963",
@@ -2439,7 +2439,7 @@
       "Hydrodynamics",
       "Instruments, monitoring equipment, and computation"
     ],
-    "FID": "0215"
+    "FID": "GO0215"
   },
   {
     "Year": "1937",
@@ -2448,7 +2448,7 @@
     "long": "-75",
     "lat": "15",
     "contentTags": ["Hydrodynamics"],
-    "FID": "0216"
+    "FID": "GO0216"
   },
   {
     "Year": "1937",
@@ -2457,7 +2457,7 @@
     "long": "-80.833",
     "lat": 24,
     "contentTags": ["Hydrodynamics"],
-    "FID": "0217"
+    "FID": "GO0217"
   },
   {
     "Year": "1937",
@@ -2466,7 +2466,7 @@
     "long": "-75",
     "lat": "15",
     "contentTags": ["Hydrodynamics"],
-    "FID": "0218"
+    "FID": "GO0218"
   },
   {
     "Year": "1979",
@@ -2475,7 +2475,7 @@
     "long": "-123.367",
     "lat": "48.25",
     "contentTags": ["Hydrodynamics"],
-    "FID": "0219"
+    "FID": "GO0219"
   },
   {
     "Year": "1969",
@@ -2487,7 +2487,7 @@
       "Hydrodynamics",
       "Meteorology, Climatology,  & air-sea exchange"
     ],
-    "FID": "0220"
+    "FID": "GO0220"
   },
   {
     "Year": "1962",
@@ -2496,7 +2496,7 @@
     "long": "-72.333",
     "lat": "41.333",
     "contentTags": ["Hydrodynamics"],
-    "FID": "0221"
+    "FID": "GO0221"
   },
   {
     "Year": "1980",
@@ -2509,7 +2509,7 @@
       "Physical and chemical properties",
       "sediment, suspended particles, and bathymetry"
     ],
-    "FID": "0222"
+    "FID": "GO0222"
   },
   {
     "Year": "1962",
@@ -2518,7 +2518,7 @@
     "long": "-74.05",
     "lat": "40.667",
     "contentTags": ["Hydrodynamics"],
-    "FID": "0223"
+    "FID": "GO0223"
   },
   {
     "Year": "1959",
@@ -2531,7 +2531,7 @@
       "Physical and chemical properties",
       "Plankton"
     ],
-    "FID": "0224"
+    "FID": "GO0224"
   },
   {
     "Year": "1969",
@@ -2544,7 +2544,7 @@
       "Meteorology, Climatology,  & air-sea exchange",
       "Physical and chemical properties"
     ],
-    "FID": "0225"
+    "FID": "GO0225"
   },
   {
     "Year": "1970",
@@ -2553,7 +2553,7 @@
     "long": "-122.25",
     "lat": 48,
     "contentTags": ["Hydrodynamics", "Physical and chemical properties"],
-    "FID": "0226"
+    "FID": "GO0226"
   },
   {
     "Year": "1968",
@@ -2562,7 +2562,7 @@
     "long": "-71",
     "lat": "35",
     "contentTags": ["Hydrodynamics"],
-    "FID": "0227"
+    "FID": "GO0227"
   },
   {
     "Year": "1980",
@@ -2571,7 +2571,7 @@
     "long": "-132",
     "lat": "33",
     "contentTags": ["Hydrodynamics"],
-    "FID": "0228"
+    "FID": "GO0228"
   },
   {
     "Year": "1968",
@@ -2583,7 +2583,7 @@
       "Hydrodynamics",
       "Meteorology, Climatology,  & air-sea exchange"
     ],
-    "FID": "0229"
+    "FID": "GO0229"
   },
   {
     "Year": "1968",
@@ -2596,7 +2596,7 @@
       "Physical and chemical properties",
       "sediment, suspended particles, and bathymetry"
     ],
-    "FID": "0230"
+    "FID": "GO0230"
   },
   {
     "Year": "1962",
@@ -2605,7 +2605,7 @@
     "long": "-80.0",
     "lat": "40.433",
     "contentTags": ["Hydrodynamics"],
-    "FID": "0231"
+    "FID": "GO0231"
   },
   {
     "Year": "1930",
@@ -2618,7 +2618,7 @@
       "Physical and chemical properties",
       "Pollution & exploitation- waste discharge, mineral extraction, & radiochemistry"
     ],
-    "FID": "0232"
+    "FID": "GO0232"
   },
   {
     "Year": "1938",
@@ -2627,7 +2627,7 @@
     "long": "-40",
     "lat": "40",
     "contentTags": ["Hydrodynamics"],
-    "FID": "0233"
+    "FID": "GO0233"
   },
   {
     "Year": "1939",
@@ -2636,7 +2636,7 @@
     "long": "-50.983",
     "lat": "45.233",
     "contentTags": ["Hydrodynamics"],
-    "FID": "0234"
+    "FID": "GO0234"
   },
   {
     "Year": "ND",
@@ -2649,7 +2649,7 @@
       "Physical and chemical properties",
       "Plankton"
     ],
-    "FID": "0235"
+    "FID": "GO0235"
   },
   {
     "Year": "1968",
@@ -2658,7 +2658,7 @@
     "long": "-169",
     "lat": "65.583",
     "contentTags": ["Hydrodynamics"],
-    "FID": "0236"
+    "FID": "GO0236"
   },
   {
     "Year": "1948",
@@ -2667,7 +2667,7 @@
     "long": 166,
     "lat": "11.417",
     "contentTags": ["Hydrodynamics"],
-    "FID": "0237"
+    "FID": "GO0237"
   },
   {
     "Year": "1965",
@@ -2676,7 +2676,7 @@
     "long": "-64.75",
     "lat": "32.3",
     "contentTags": ["Hydrodynamics"],
-    "FID": "0238"
+    "FID": "GO0238"
   },
   {
     "Year": "1936",
@@ -2685,7 +2685,7 @@
     "long": "-65.75",
     "lat": 45,
     "contentTags": ["Hydrodynamics"],
-    "FID": "0239"
+    "FID": "GO0239"
   },
   {
     "Year": "1961",
@@ -2694,7 +2694,7 @@
     "long": "-77.2",
     "lat": "34.6",
     "contentTags": ["Hydrodynamics"],
-    "FID": "0240"
+    "FID": "GO0240"
   },
   {
     "Year": "1965",
@@ -2703,7 +2703,7 @@
     "long": "-70.667",
     "lat": "41.517",
     "contentTags": ["Hydrodynamics"],
-    "FID": "0241"
+    "FID": "GO0241"
   },
   {
     "Year": "1981",
@@ -2712,7 +2712,7 @@
     "long": "-160",
     "lat": "40",
     "contentTags": ["Hydrodynamics"],
-    "FID": "0242"
+    "FID": "GO0242"
   },
   {
     "Year": "1980",
@@ -2721,7 +2721,7 @@
     "long": "155",
     "lat": "17",
     "contentTags": ["Hydrodynamics"],
-    "FID": "0243"
+    "FID": "GO0243"
   },
   {
     "Year": "1982",
@@ -2730,7 +2730,7 @@
     "long": "146",
     "lat": "17",
     "contentTags": ["Hydrodynamics"],
-    "FID": "0244"
+    "FID": "GO0244"
   },
   {
     "Year": "1966",
@@ -2739,7 +2739,7 @@
     "long": null,
     "lat": null,
     "contentTags": ["Hydrodynamics", "Physical and chemical properties"],
-    "FID": "0245"
+    "FID": "GO0245"
   },
   {
     "Year": "1969",
@@ -2748,7 +2748,7 @@
     "long": "-70.0",
     "lat": "12.5",
     "contentTags": ["Hydrodynamics"],
-    "FID": "0246"
+    "FID": "GO0246"
   },
   {
     "Year": "1967",
@@ -2757,7 +2757,7 @@
     "long": "-157",
     "lat": "21",
     "contentTags": ["Hydrodynamics"],
-    "FID": "0247"
+    "FID": "GO0247"
   },
   {
     "Year": "1969",
@@ -2766,7 +2766,7 @@
     "long": "-157",
     "lat": "21",
     "contentTags": ["Hydrodynamics"],
-    "FID": "0248"
+    "FID": "GO0248"
   },
   {
     "Year": "1967",
@@ -2775,7 +2775,7 @@
     "long": "-157",
     "lat": "6.5",
     "contentTags": ["Hydrodynamics"],
-    "FID": "0249"
+    "FID": "GO0249"
   },
   {
     "Year": "1970",
@@ -2784,7 +2784,7 @@
     "long": "-157",
     "lat": "20",
     "contentTags": ["Hydrodynamics"],
-    "FID": "0250"
+    "FID": "GO0250"
   },
   {
     "Year": "1959",
@@ -2798,7 +2798,7 @@
       "Physical and chemical properties",
       "Plankton"
     ],
-    "FID": "0251"
+    "FID": "GO0251"
   },
   {
     "Year": "1965",
@@ -2810,7 +2810,7 @@
       "Hydrodynamics",
       "sediment, suspended particles, and bathymetry"
     ],
-    "FID": "0252"
+    "FID": "GO0252"
   },
   {
     "Year": " 5-1965",
@@ -2823,7 +2823,7 @@
       "Physical and chemical properties",
       "Polar data"
     ],
-    "FID": "0253"
+    "FID": "GO0253"
   },
   {
     "Year": "1-1966",
@@ -2857,7 +2857,7 @@
       "Polar data",
       "Polar data"
     ],
-    "FID": "0254"
+    "FID": "GO0254"
   },
   {
     "Year": "6-1967",
@@ -2870,7 +2870,7 @@
       "Physical and chemical properties",
       "Polar data"
     ],
-    "FID": "0255"
+    "FID": "GO0255"
   },
   {
     "Year": "1986",
@@ -2879,7 +2879,7 @@
     "long": "-124",
     "lat": "39",
     "contentTags": ["Hydrodynamics"],
-    "FID": "0256"
+    "FID": "GO0256"
   },
   {
     "Year": "1988",
@@ -2891,7 +2891,7 @@
       "Hydrodynamics",
       "Pollution & exploitation- waste discharge, mineral extraction, & radiochemistry"
     ],
-    "FID": "0257"
+    "FID": "GO0257"
   },
   {
     "Year": "1989",
@@ -2900,7 +2900,7 @@
     "long": "-124",
     "lat": "39",
     "contentTags": ["Hydrodynamics"],
-    "FID": "0258"
+    "FID": "GO0258"
   },
   {
     "Year": "1989",
@@ -2909,7 +2909,7 @@
     "long": "-124",
     "lat": "39",
     "contentTags": ["Hydrodynamics"],
-    "FID": "0259"
+    "FID": "GO0259"
   },
   {
     "Year": "1989",
@@ -2918,7 +2918,7 @@
     "long": "-124",
     "lat": "39",
     "contentTags": ["Hydrodynamics"],
-    "FID": "0260"
+    "FID": "GO0260"
   },
   {
     "Year": "1989",
@@ -2930,7 +2930,7 @@
       "Hydrodynamics",
       "Pollution & exploitation- waste discharge, mineral extraction, & radiochemistry"
     ],
-    "FID": "0261"
+    "FID": "GO0261"
   },
   {
     "Year": "1989",
@@ -2942,7 +2942,7 @@
       "Hydrodynamics",
       "Pollution & exploitation- waste discharge, mineral extraction, & radiochemistry"
     ],
-    "FID": "0262"
+    "FID": "GO0262"
   },
   {
     "Year": "1989",
@@ -2954,7 +2954,7 @@
       "Hydrodynamics",
       "Pollution & exploitation- waste discharge, mineral extraction, & radiochemistry"
     ],
-    "FID": "0263"
+    "FID": "GO0263"
   },
   {
     "Year": "1989",
@@ -2963,7 +2963,7 @@
     "long": "-124",
     "lat": "39",
     "contentTags": ["Hydrodynamics"],
-    "FID": "0264"
+    "FID": "GO0264"
   },
   {
     "Year": "1989",
@@ -2975,7 +2975,7 @@
       "Hydrodynamics",
       "Pollution & exploitation- waste discharge, mineral extraction, & radiochemistry"
     ],
-    "FID": "0265"
+    "FID": "GO0265"
   },
   {
     "Year": "1989",
@@ -2987,7 +2987,7 @@
       "Hydrodynamics",
       "Pollution & exploitation- waste discharge, mineral extraction, & radiochemistry"
     ],
-    "FID": "0266"
+    "FID": "GO0266"
   },
   {
     "Year": "1989",
@@ -2999,7 +2999,7 @@
       "Hydrodynamics",
       "Pollution & exploitation- waste discharge, mineral extraction, & radiochemistry"
     ],
-    "FID": "0267"
+    "FID": "GO0267"
   },
   {
     "Year": "1990",
@@ -3008,7 +3008,7 @@
     "long": "-124",
     "lat": "39",
     "contentTags": ["Hydrodynamics"],
-    "FID": "0268"
+    "FID": "GO0268"
   },
   {
     "Year": "1990",
@@ -3017,7 +3017,7 @@
     "long": "-124",
     "lat": "39",
     "contentTags": ["Hydrodynamics"],
-    "FID": "0269"
+    "FID": "GO0269"
   },
   {
     "Year": "1991",
@@ -3029,7 +3029,7 @@
       "Hydrodynamics",
       "Pollution & exploitation- waste discharge, mineral extraction, & radiochemistry"
     ],
-    "FID": "0270"
+    "FID": "GO0270"
   },
   {
     "Year": "1991",
@@ -3041,7 +3041,7 @@
       "Hydrodynamics",
       "Pollution & exploitation- waste discharge, mineral extraction, & radiochemistry"
     ],
-    "FID": "0271"
+    "FID": "GO0271"
   },
   {
     "Year": "1991",
@@ -3053,7 +3053,7 @@
       "Hydrodynamics",
       "Pollution & exploitation- waste discharge, mineral extraction, & radiochemistry"
     ],
-    "FID": "0272"
+    "FID": "GO0272"
   },
   {
     "Year": "1991",
@@ -3065,7 +3065,7 @@
       "Hydrodynamics",
       "Pollution & exploitation- waste discharge, mineral extraction, & radiochemistry"
     ],
-    "FID": "0273"
+    "FID": "GO0273"
   },
   {
     "Year": "1991",
@@ -3074,7 +3074,7 @@
     "long": "-124",
     "lat": "39",
     "contentTags": ["Hydrodynamics"],
-    "FID": "0274"
+    "FID": "GO0274"
   },
   {
     "Year": "1987",
@@ -3090,7 +3090,7 @@
       "Pollution & exploitation- waste discharge, mineral extraction, & radiochemistry",
       "Pollution & exploitation- waste discharge, mineral extraction, & radiochemistry"
     ],
-    "FID": "0275"
+    "FID": "GO0275"
   },
   {
     "Year": "1987",
@@ -3102,7 +3102,7 @@
       "Hydrodynamics",
       "Pollution & exploitation- waste discharge, mineral extraction, & radiochemistry"
     ],
-    "FID": "0276"
+    "FID": "GO0276"
   },
   {
     "Year": "1988",
@@ -3114,7 +3114,7 @@
       "Hydrodynamics",
       "Pollution & exploitation- waste discharge, mineral extraction, & radiochemistry"
     ],
-    "FID": "0277"
+    "FID": "GO0277"
   },
   {
     "Year": "1988",
@@ -3126,7 +3126,7 @@
       "Hydrodynamics",
       "Pollution & exploitation- waste discharge, mineral extraction, & radiochemistry"
     ],
-    "FID": "0278"
+    "FID": "GO0278"
   },
   {
     "Year": "1988",
@@ -3138,7 +3138,7 @@
       "Hydrodynamics",
       "Pollution & exploitation- waste discharge, mineral extraction, & radiochemistry"
     ],
-    "FID": "0279"
+    "FID": "GO0279"
   },
   {
     "Year": "1988",
@@ -3150,7 +3150,7 @@
       "Hydrodynamics",
       "Pollution & exploitation- waste discharge, mineral extraction, & radiochemistry"
     ],
-    "FID": "0280"
+    "FID": "GO0280"
   },
   {
     "Year": "1988",
@@ -3164,7 +3164,7 @@
       "Pollution & exploitation- waste discharge, mineral extraction, & radiochemistry",
       "Pollution & exploitation- waste discharge, mineral extraction, & radiochemistry"
     ],
-    "FID": "0281"
+    "FID": "GO0281"
   },
   {
     "Year": "1988",
@@ -3176,7 +3176,7 @@
       "Hydrodynamics",
       "Pollution & exploitation- waste discharge, mineral extraction, & radiochemistry"
     ],
-    "FID": "0282"
+    "FID": "GO0282"
   },
   {
     "Year": "1988",
@@ -3188,7 +3188,7 @@
       "Hydrodynamics",
       "Pollution & exploitation- waste discharge, mineral extraction, & radiochemistry"
     ],
-    "FID": "0283"
+    "FID": "GO0283"
   },
   {
     "Year": "1988",
@@ -3200,7 +3200,7 @@
       "Hydrodynamics",
       "Pollution & exploitation- waste discharge, mineral extraction, & radiochemistry"
     ],
-    "FID": "0284"
+    "FID": "GO0284"
   },
   {
     "Year": "1988",
@@ -3214,7 +3214,7 @@
       "Pollution & exploitation- waste discharge, mineral extraction, & radiochemistry",
       "Pollution & exploitation- waste discharge, mineral extraction, & radiochemistry"
     ],
-    "FID": "0285"
+    "FID": "GO0285"
   },
   {
     "Year": "1989",
@@ -3223,7 +3223,7 @@
     "long": "-124",
     "lat": "39",
     "contentTags": ["Hydrodynamics"],
-    "FID": "0286"
+    "FID": "GO0286"
   },
   {
     "Year": "1989",
@@ -3232,7 +3232,7 @@
     "long": "-124",
     "lat": "39",
     "contentTags": ["Hydrodynamics"],
-    "FID": "0287"
+    "FID": "GO0287"
   },
   {
     "Year": "1989",
@@ -3244,7 +3244,7 @@
       "Hydrodynamics",
       "Pollution & exploitation- waste discharge, mineral extraction, & radiochemistry"
     ],
-    "FID": "0288"
+    "FID": "GO0288"
   },
   {
     "Year": "1989",
@@ -3256,7 +3256,7 @@
       "Hydrodynamics",
       "Pollution & exploitation- waste discharge, mineral extraction, & radiochemistry"
     ],
-    "FID": "0289"
+    "FID": "GO0289"
   },
   {
     "Year": "1989",
@@ -3268,7 +3268,7 @@
       "Hydrodynamics",
       "Pollution & exploitation- waste discharge, mineral extraction, & radiochemistry"
     ],
-    "FID": "0290"
+    "FID": "GO0290"
   },
   {
     "Year": "1989",
@@ -3280,7 +3280,7 @@
       "Hydrodynamics",
       "Pollution & exploitation- waste discharge, mineral extraction, & radiochemistry"
     ],
-    "FID": "0291"
+    "FID": "GO0291"
   },
   {
     "Year": "1989",
@@ -3292,7 +3292,7 @@
       "Hydrodynamics",
       "Pollution & exploitation- waste discharge, mineral extraction, & radiochemistry"
     ],
-    "FID": "0292"
+    "FID": "GO0292"
   },
   {
     "Year": "1989",
@@ -3304,7 +3304,7 @@
       "Hydrodynamics",
       "Pollution & exploitation- waste discharge, mineral extraction, & radiochemistry"
     ],
-    "FID": "0293"
+    "FID": "GO0293"
   },
   {
     "Year": "1990",
@@ -3316,7 +3316,7 @@
       "Hydrodynamics",
       "Pollution & exploitation- waste discharge, mineral extraction, & radiochemistry"
     ],
-    "FID": "0294"
+    "FID": "GO0294"
   },
   {
     "Year": "1990",
@@ -3328,7 +3328,7 @@
       "Hydrodynamics",
       "Pollution & exploitation- waste discharge, mineral extraction, & radiochemistry"
     ],
-    "FID": "0295"
+    "FID": "GO0295"
   },
   {
     "Year": "1987",
@@ -3337,7 +3337,7 @@
     "long": "-124",
     "lat": "39",
     "contentTags": ["Hydrodynamics"],
-    "FID": "0296"
+    "FID": "GO0296"
   },
   {
     "Year": "1988",
@@ -3349,7 +3349,7 @@
       "Hydrodynamics",
       "Pollution & exploitation- waste discharge, mineral extraction, & radiochemistry"
     ],
-    "FID": "0297"
+    "FID": "GO0297"
   },
   {
     "Year": "1989",
@@ -3358,7 +3358,7 @@
     "long": "-124",
     "lat": "39",
     "contentTags": ["Hydrodynamics"],
-    "FID": "0298"
+    "FID": "GO0298"
   },
   {
     "Year": "1989",
@@ -3370,7 +3370,7 @@
       "Hydrodynamics",
       "Pollution & exploitation- waste discharge, mineral extraction, & radiochemistry"
     ],
-    "FID": "0299"
+    "FID": "GO0299"
   },
   {
     "Year": "1991",
@@ -3382,7 +3382,7 @@
       "Hydrodynamics",
       "Pollution & exploitation- waste discharge, mineral extraction, & radiochemistry"
     ],
-    "FID": "0300"
+    "FID": "GO0300"
   },
   {
     "Year": "1965",
@@ -3394,7 +3394,7 @@
       "Instruments, monitoring equipment, and computation",
       "Physical and chemical properties"
     ],
-    "FID": "0301"
+    "FID": "GO0301"
   },
   {
     "Year": "1966",
@@ -3406,7 +3406,7 @@
       "Instruments, monitoring equipment, and computation",
       "Physical and chemical properties"
     ],
-    "FID": "0302"
+    "FID": "GO0302"
   },
   {
     "Year": "1968",
@@ -3419,7 +3419,7 @@
       "Meteorology, Climatology,  & air-sea exchange",
       "Physical and chemical properties"
     ],
-    "FID": "0303"
+    "FID": "GO0303"
   },
   {
     "Year": "1969",
@@ -3432,7 +3432,7 @@
       "Meteorology, Climatology,  & air-sea exchange",
       "Physical and chemical properties"
     ],
-    "FID": "0304"
+    "FID": "GO0304"
   },
   {
     "Year": "1969",
@@ -3441,7 +3441,7 @@
     "long": "-125",
     "lat": "44.6",
     "contentTags": ["Instruments, monitoring equipment, and computation"],
-    "FID": "0305"
+    "FID": "GO0305"
   },
   {
     "Year": "1972",
@@ -3454,7 +3454,7 @@
       "Meteorology, Climatology,  & air-sea exchange",
       "Physical and chemical properties"
     ],
-    "FID": "0306"
+    "FID": "GO0306"
   },
   {
     "Year": "1969",
@@ -3463,7 +3463,7 @@
     "long": "-70.0",
     "lat": "39.167",
     "contentTags": ["Instruments, monitoring equipment, and computation"],
-    "FID": "0307"
+    "FID": "GO0307"
   },
   {
     "Year": "1971",
@@ -3472,7 +3472,7 @@
     "long": "166.6",
     "lat": "19.3",
     "contentTags": ["Marine mammals, birds, and reptiles"],
-    "FID": "0308"
+    "FID": "GO0308"
   },
   {
     "Year": "1970",
@@ -3481,7 +3481,7 @@
     "long": "-157",
     "lat": "21",
     "contentTags": ["Marine mammals, birds, and reptiles"],
-    "FID": "0309"
+    "FID": "GO0309"
   },
   {
     "Year": "1969",
@@ -3490,7 +3490,7 @@
     "long": "-65",
     "lat": "32",
     "contentTags": ["Marine mammals, birds, and reptiles"],
-    "FID": "0310"
+    "FID": "GO0310"
   },
   {
     "Year": "1969",
@@ -3499,7 +3499,7 @@
     "long": "-170",
     "lat": "56.833",
     "contentTags": ["Marine mammals, birds, and reptiles"],
-    "FID": "0311"
+    "FID": "GO0311"
   },
   {
     "Year": "1970",
@@ -3508,7 +3508,7 @@
     "long": "-170",
     "lat": "56.833",
     "contentTags": ["Marine mammals, birds, and reptiles"],
-    "FID": "0312"
+    "FID": "GO0312"
   },
   {
     "Year": "1971",
@@ -3517,7 +3517,7 @@
     "long": "-170",
     "lat": "56.833",
     "contentTags": ["Marine mammals, birds, and reptiles"],
-    "FID": "0313"
+    "FID": "GO0313"
   },
   {
     "Year": "1961",
@@ -3526,7 +3526,7 @@
     "long": "-122.333",
     "lat": "37.1",
     "contentTags": ["Marine mammals, birds, and reptiles"],
-    "FID": "0314"
+    "FID": "GO0314"
   },
   {
     "Year": "1966",
@@ -3535,7 +3535,7 @@
     "long": "-170",
     "lat": "56.833",
     "contentTags": ["Marine mammals, birds, and reptiles"],
-    "FID": "0315"
+    "FID": "GO0315"
   },
   {
     "Year": "1960",
@@ -3544,7 +3544,7 @@
     "long": "-150",
     "lat": "64",
     "contentTags": ["Marine mammals, birds, and reptiles"],
-    "FID": "0316"
+    "FID": "GO0316"
   },
   {
     "Year": "1960",
@@ -3553,7 +3553,7 @@
     "long": "-170",
     "lat": "5",
     "contentTags": ["Marine Organism Poisoning"],
-    "FID": "0317"
+    "FID": "GO0317"
   },
   {
     "Year": "1968",
@@ -3566,7 +3566,7 @@
       "Physical and chemical properties",
       "Pollution & exploitation- waste discharge, mineral extraction, & radiochemistry"
     ],
-    "FID": "0318"
+    "FID": "GO0318"
   },
   {
     "Year": "1957",
@@ -3578,7 +3578,7 @@
       "Meteorology, Climatology,  & air-sea exchange",
       "Physical and chemical properties"
     ],
-    "FID": "0319"
+    "FID": "GO0319"
   },
   {
     "Year": "1958",
@@ -3590,7 +3590,7 @@
       "Meteorology, Climatology,  & air-sea exchange",
       "Physical and chemical properties"
     ],
-    "FID": "0320"
+    "FID": "GO0320"
   },
   {
     "Year": "1959",
@@ -3603,7 +3603,7 @@
       "Physical and chemical properties",
       "sediment, suspended particles, and bathymetry"
     ],
-    "FID": "0321"
+    "FID": "GO0321"
   },
   {
     "Year": "1960",
@@ -3615,7 +3615,7 @@
       "Meteorology, Climatology,  & air-sea exchange",
       "Physical and chemical properties"
     ],
-    "FID": "0322"
+    "FID": "GO0322"
   },
   {
     "Year": "1948",
@@ -3624,7 +3624,7 @@
     "long": "-83.133",
     "lat": "42.217",
     "contentTags": ["Meteorology, Climatology,  & air-sea exchange"],
-    "FID": "0323"
+    "FID": "GO0323"
   },
   {
     "Year": "1962",
@@ -3636,7 +3636,7 @@
       "Meteorology, Climatology,  & air-sea exchange",
       "Physical and chemical properties"
     ],
-    "FID": "0324"
+    "FID": "GO0324"
   },
   {
     "Year": "1974",
@@ -3645,7 +3645,7 @@
     "long": "-145",
     "lat": "50",
     "contentTags": ["Meteorology, Climatology,  & air-sea exchange"],
-    "FID": "0325"
+    "FID": "GO0325"
   },
   {
     "Year": "1963",
@@ -3654,7 +3654,7 @@
     "long": "-125",
     "lat": "40",
     "contentTags": ["Meteorology, Climatology,  & air-sea exchange"],
-    "FID": "0326"
+    "FID": "GO0326"
   },
   {
     "Year": "1966",
@@ -3667,7 +3667,7 @@
       "Physical and chemical properties",
       "Pollution & exploitation- waste discharge, mineral extraction, & radiochemistry"
     ],
-    "FID": "0327"
+    "FID": "GO0327"
   },
   {
     "Year": "1957",
@@ -3676,7 +3676,7 @@
     "long": "-160",
     "lat": "50",
     "contentTags": ["Meteorology, Climatology,  & air-sea exchange"],
-    "FID": "0328"
+    "FID": "GO0328"
   },
   {
     "Year": "1960",
@@ -3689,7 +3689,7 @@
       "Physical and chemical properties",
       "Plankton"
     ],
-    "FID": "0329"
+    "FID": "GO0329"
   },
   {
     "Year": "1961",
@@ -3698,7 +3698,7 @@
     "long": "-157",
     "lat": "21",
     "contentTags": ["Meteorology, Climatology,  & air-sea exchange"],
-    "FID": "0330"
+    "FID": "GO0330"
   },
   {
     "Year": "1955",
@@ -3712,7 +3712,7 @@
       "Plankton",
       "sediment, suspended particles, and bathymetry"
     ],
-    "FID": "0331"
+    "FID": "GO0331"
   },
   {
     "Year": "1970",
@@ -3721,7 +3721,7 @@
     "long": "-157",
     "lat": "21",
     "contentTags": ["Meteorology, Climatology,  & air-sea exchange"],
-    "FID": "0332"
+    "FID": "GO0332"
   },
   {
     "Year": "1957",
@@ -3734,7 +3734,7 @@
       "Physical and chemical properties",
       "Plankton"
     ],
-    "FID": "0333"
+    "FID": "GO0333"
   },
   {
     "Year": "1980",
@@ -3743,7 +3743,7 @@
     "long": "-158",
     "lat": "20",
     "contentTags": ["Navigation and Geodetics"],
-    "FID": "0334"
+    "FID": "GO0334"
   },
   {
     "Year": "1961",
@@ -3752,7 +3752,7 @@
     "long": "-140",
     "lat": "50",
     "contentTags": ["Navigation and Geodetics"],
-    "FID": "0335"
+    "FID": "GO0335"
   },
   {
     "Year": "1964",
@@ -3765,7 +3765,7 @@
       "Plankton",
       "Shellfish  and shellfish fisheries"
     ],
-    "FID": "0336"
+    "FID": "GO0336"
   },
   {
     "Year": "1961",
@@ -3774,7 +3774,7 @@
     "long": "-80",
     "lat": "35",
     "contentTags": ["Physical and chemical properties"],
-    "FID": "0337"
+    "FID": "GO0337"
   },
   {
     "Year": "1961",
@@ -3783,7 +3783,7 @@
     "long": "-80",
     "lat": "35",
     "contentTags": ["Physical and chemical properties"],
-    "FID": "0338"
+    "FID": "GO0338"
   },
   {
     "Year": "ND",
@@ -3792,7 +3792,7 @@
     "long": "-178",
     "lat": "58",
     "contentTags": ["Physical and chemical properties"],
-    "FID": "0339"
+    "FID": "GO0339"
   },
   {
     "Year": "1937",
@@ -3801,7 +3801,7 @@
     "long": "-178",
     "lat": "58",
     "contentTags": ["Physical and chemical properties"],
-    "FID": "0340"
+    "FID": "GO0340"
   },
   {
     "Year": "1928",
@@ -3810,7 +3810,7 @@
     "long": "-123.017",
     "lat": "48.517",
     "contentTags": ["Physical and chemical properties"],
-    "FID": "0341"
+    "FID": "GO0341"
   },
   {
     "Year": "1969",
@@ -3819,7 +3819,7 @@
     "long": "-76.183",
     "lat": "39.333",
     "contentTags": ["Physical and chemical properties"],
-    "FID": "0342"
+    "FID": "GO0342"
   },
   {
     "Year": "1957",
@@ -3828,7 +3828,7 @@
     "long": "-71",
     "lat": "35",
     "contentTags": ["Physical and chemical properties"],
-    "FID": "0343"
+    "FID": "GO0343"
   },
   {
     "Year": "1957",
@@ -3837,7 +3837,7 @@
     "long": "-71",
     "lat": "35",
     "contentTags": ["Physical and chemical properties"],
-    "FID": "0344"
+    "FID": "GO0344"
   },
   {
     "Year": "1967",
@@ -3846,7 +3846,7 @@
     "long": "-157",
     "lat": "21",
     "contentTags": ["Physical and chemical properties"],
-    "FID": "0345"
+    "FID": "GO0345"
   },
   {
     "Year": "1967",
@@ -3855,7 +3855,7 @@
     "long": "-157",
     "lat": "21",
     "contentTags": ["Physical and chemical properties"],
-    "FID": "0346"
+    "FID": "GO0346"
   },
   {
     "Year": "1967",
@@ -3864,7 +3864,7 @@
     "long": "-157",
     "lat": "21",
     "contentTags": ["Physical and chemical properties"],
-    "FID": "0347"
+    "FID": "GO0347"
   },
   {
     "Year": "1967",
@@ -3873,7 +3873,7 @@
     "long": "-157",
     "lat": "21",
     "contentTags": ["Physical and chemical properties"],
-    "FID": "0348"
+    "FID": "GO0348"
   },
   {
     "Year": "1967",
@@ -3882,7 +3882,7 @@
     "long": "-157",
     "lat": "21",
     "contentTags": ["Physical and chemical properties"],
-    "FID": "0349"
+    "FID": "GO0349"
   },
   {
     "Year": "1967",
@@ -3891,7 +3891,7 @@
     "long": "-157",
     "lat": "21",
     "contentTags": ["Physical and chemical properties"],
-    "FID": "0350"
+    "FID": "GO0350"
   },
   {
     "Year": "1937",
@@ -3900,7 +3900,7 @@
     "long": "-66",
     "lat": "34",
     "contentTags": ["Physical and chemical properties"],
-    "FID": "0351"
+    "FID": "GO0351"
   },
   {
     "Year": "1961",
@@ -3909,7 +3909,7 @@
     "long": "-81.8",
     "lat": "26.15",
     "contentTags": ["Physical and chemical properties", "Plankton"],
-    "FID": "0352"
+    "FID": "GO0352"
   },
   {
     "Year": "1961",
@@ -3918,7 +3918,7 @@
     "long": "-169",
     "lat": "58",
     "contentTags": ["Physical and chemical properties"],
-    "FID": "0353"
+    "FID": "GO0353"
   },
   {
     "Year": "1955",
@@ -3927,7 +3927,7 @@
     "long": "-160",
     "lat": "50",
     "contentTags": ["Physical and chemical properties"],
-    "FID": "0354"
+    "FID": "GO0354"
   },
   {
     "Year": "1939",
@@ -3936,7 +3936,7 @@
     "long": "-178",
     "lat": "58",
     "contentTags": ["Physical and chemical properties"],
-    "FID": "0355"
+    "FID": "GO0355"
   },
   {
     "Year": "ND",
@@ -3945,7 +3945,7 @@
     "long": "-123.033",
     "lat": "48.533",
     "contentTags": ["Physical and chemical properties", "Plankton"],
-    "FID": "0356"
+    "FID": "GO0356"
   },
   {
     "Year": "1965",
@@ -3954,7 +3954,7 @@
     "long": "-160",
     "lat": "60",
     "contentTags": ["Physical and chemical properties"],
-    "FID": "0357"
+    "FID": "GO0357"
   },
   {
     "Year": "1965",
@@ -3963,7 +3963,7 @@
     "long": "-70.667",
     "lat": "41.517",
     "contentTags": ["Physical and chemical properties"],
-    "FID": "0358"
+    "FID": "GO0358"
   },
   {
     "Year": "1961",
@@ -3975,7 +3975,7 @@
       "Physical and chemical properties",
       "sediment, suspended particles, and bathymetry"
     ],
-    "FID": "0359"
+    "FID": "GO0359"
   },
   {
     "Year": "1961",
@@ -3984,7 +3984,7 @@
     "long": "-150",
     "lat": "37",
     "contentTags": ["Physical and chemical properties"],
-    "FID": "0360"
+    "FID": "GO0360"
   },
   {
     "Year": "1969",
@@ -3993,7 +3993,7 @@
     "long": "-157.8",
     "lat": "21.467",
     "contentTags": ["Physical and chemical properties"],
-    "FID": "0361"
+    "FID": "GO0361"
   },
   {
     "Year": "1968",
@@ -4002,7 +4002,7 @@
     "long": "-100",
     "lat": "15",
     "contentTags": ["Physical and chemical properties"],
-    "FID": "0362"
+    "FID": "GO0362"
   },
   {
     "Year": "1955",
@@ -4015,7 +4015,7 @@
       "Plankton",
       "sediment, suspended particles, and bathymetry"
     ],
-    "FID": "0363"
+    "FID": "GO0363"
   },
   {
     "Year": "1974",
@@ -4024,7 +4024,7 @@
     "long": "-124.117",
     "lat": "41.183",
     "contentTags": ["Physical and chemical properties"],
-    "FID": "0364"
+    "FID": "GO0364"
   },
   {
     "Year": "1966",
@@ -4033,7 +4033,7 @@
     "long": "22",
     "lat": "35",
     "contentTags": ["Physical and chemical properties"],
-    "FID": "0365"
+    "FID": "GO0365"
   },
   {
     "Year": "1960",
@@ -4045,7 +4045,7 @@
       "Physical and chemical properties",
       "sediment, suspended particles, and bathymetry"
     ],
-    "FID": "0366"
+    "FID": "GO0366"
   },
   {
     "Year": "1960",
@@ -4054,7 +4054,7 @@
     "long": "-117",
     "lat": "25",
     "contentTags": ["Physical and chemical properties"],
-    "FID": "0367"
+    "FID": "GO0367"
   },
   {
     "Year": "1961",
@@ -4063,7 +4063,7 @@
     "long": "-125",
     "lat": "50",
     "contentTags": ["Physical and chemical properties"],
-    "FID": "0368"
+    "FID": "GO0368"
   },
   {
     "Year": "1971",
@@ -4072,7 +4072,7 @@
     "long": "-74",
     "lat": "-48",
     "contentTags": ["Physical and chemical properties"],
-    "FID": "0369"
+    "FID": "GO0369"
   },
   {
     "Year": "1973",
@@ -4081,7 +4081,7 @@
     "long": "-134",
     "lat": "46",
     "contentTags": ["Physical and chemical properties"],
-    "FID": "0370"
+    "FID": "GO0370"
   },
   {
     "Year": "1974",
@@ -4090,7 +4090,7 @@
     "long": "-126",
     "lat": "50",
     "contentTags": ["Physical and chemical properties"],
-    "FID": "0371"
+    "FID": "GO0371"
   },
   {
     "Year": "1983",
@@ -4099,7 +4099,7 @@
     "long": "-117",
     "lat": "25",
     "contentTags": ["Physical and chemical properties"],
-    "FID": "0372"
+    "FID": "GO0372"
   },
   {
     "Year": "1969",
@@ -4108,7 +4108,7 @@
     "long": "-74",
     "lat": "40",
     "contentTags": ["Physical and chemical properties"],
-    "FID": "0373"
+    "FID": "GO0373"
   },
   {
     "Year": "1937",
@@ -4117,7 +4117,7 @@
     "long": "-123.033",
     "lat": "48.533",
     "contentTags": ["Physical and chemical properties"],
-    "FID": "0374"
+    "FID": "GO0374"
   },
   {
     "Year": "1968",
@@ -4126,7 +4126,7 @@
     "long": "-10",
     "lat": "64",
     "contentTags": ["Physical and chemical properties"],
-    "FID": "0375"
+    "FID": "GO0375"
   },
   {
     "Year": "1969",
@@ -4135,7 +4135,7 @@
     "long": "-96.5",
     "lat": "33.083",
     "contentTags": ["Physical and chemical properties"],
-    "FID": "0376"
+    "FID": "GO0376"
   },
   {
     "Year": "1935",
@@ -4144,7 +4144,7 @@
     "long": "-66",
     "lat": "34",
     "contentTags": ["Physical and chemical properties"],
-    "FID": "0377"
+    "FID": "GO0377"
   },
   {
     "Year": "1937",
@@ -4153,7 +4153,7 @@
     "long": "-75",
     "lat": "15",
     "contentTags": ["Physical and chemical properties"],
-    "FID": "0378"
+    "FID": "GO0378"
   },
   {
     "Year": "1939",
@@ -4162,7 +4162,7 @@
     "long": "-66",
     "lat": "34",
     "contentTags": ["Physical and chemical properties", "Plankton"],
-    "FID": "0379"
+    "FID": "GO0379"
   },
   {
     "Year": "1966",
@@ -4171,7 +4171,7 @@
     "long": "-76",
     "lat": "24.25",
     "contentTags": ["Physical and chemical properties"],
-    "FID": "0380"
+    "FID": "GO0380"
   },
   {
     "Year": "1969",
@@ -4180,7 +4180,7 @@
     "long": "-145",
     "lat": "50",
     "contentTags": ["Physical and chemical properties"],
-    "FID": "0381"
+    "FID": "GO0381"
   },
   {
     "Year": "1961",
@@ -4192,7 +4192,7 @@
       "Physical and chemical properties",
       "Project proposals & study descriptions"
     ],
-    "FID": "0382"
+    "FID": "GO0382"
   },
   {
     "Year": "1970",
@@ -4201,7 +4201,7 @@
     "long": "-122.417",
     "lat": 46,
     "contentTags": ["Physical and chemical properties", "Plankton"],
-    "FID": "0383"
+    "FID": "GO0383"
   },
   {
     "Year": "1967",
@@ -4210,7 +4210,7 @@
     "long": "-141",
     "lat": "30",
     "contentTags": ["Physical and chemical properties"],
-    "FID": "0384"
+    "FID": "GO0384"
   },
   {
     "Year": "1965",
@@ -4219,7 +4219,7 @@
     "long": "-10",
     "lat": 35,
     "contentTags": ["Physical and chemical properties"],
-    "FID": "0385"
+    "FID": "GO0385"
   },
   {
     "Year": "1961",
@@ -4228,7 +4228,7 @@
     "long": "-123.433",
     "lat": "39.55",
     "contentTags": ["Physical and chemical properties"],
-    "FID": "0386"
+    "FID": "GO0386"
   },
   {
     "Year": "1958",
@@ -4237,7 +4237,7 @@
     "long": "-120.317",
     "lat": "47.45",
     "contentTags": ["Physical and chemical properties"],
-    "FID": "0387"
+    "FID": "GO0387"
   },
   {
     "Year": "1935",
@@ -4246,7 +4246,7 @@
     "long": "-40",
     "lat": "40",
     "contentTags": ["Physical and chemical properties"],
-    "FID": "0388"
+    "FID": "GO0388"
   },
   {
     "Year": "1935",
@@ -4255,7 +4255,7 @@
     "long": "-40",
     "lat": "6",
     "contentTags": ["Physical and chemical properties"],
-    "FID": "0389"
+    "FID": "GO0389"
   },
   {
     "Year": "1935",
@@ -4264,7 +4264,7 @@
     "long": "-66",
     "lat": "34",
     "contentTags": ["Physical and chemical properties"],
-    "FID": "0390"
+    "FID": "GO0390"
   },
   {
     "Year": "1937",
@@ -4273,7 +4273,7 @@
     "long": "-66",
     "lat": "34",
     "contentTags": ["Physical and chemical properties"],
-    "FID": "0391"
+    "FID": "GO0391"
   },
   {
     "Year": "1937",
@@ -4282,7 +4282,7 @@
     "long": "-66",
     "lat": "34",
     "contentTags": ["Physical and chemical properties"],
-    "FID": "0392"
+    "FID": "GO0392"
   },
   {
     "Year": "1937",
@@ -4291,7 +4291,7 @@
     "long": "-66",
     "lat": "34",
     "contentTags": ["Physical and chemical properties"],
-    "FID": "0393"
+    "FID": "GO0393"
   },
   {
     "Year": "1939",
@@ -4300,7 +4300,7 @@
     "long": "-75",
     "lat": "15",
     "contentTags": ["Physical and chemical properties"],
-    "FID": "0394"
+    "FID": "GO0394"
   },
   {
     "Year": "1939",
@@ -4309,7 +4309,7 @@
     "long": "-66",
     "lat": "34",
     "contentTags": ["Physical and chemical properties"],
-    "FID": "0395"
+    "FID": "GO0395"
   },
   {
     "Year": "1948",
@@ -4318,7 +4318,7 @@
     "long": "-70.667",
     "lat": "41.533",
     "contentTags": ["Physical and chemical properties"],
-    "FID": "0396"
+    "FID": "GO0396"
   },
   {
     "Year": "1937",
@@ -4327,7 +4327,7 @@
     "long": "-58",
     "lat": "65",
     "contentTags": ["Physical and chemical properties"],
-    "FID": "0397"
+    "FID": "GO0397"
   },
   {
     "Year": "1937",
@@ -4336,7 +4336,7 @@
     "long": "-178",
     "lat": "58",
     "contentTags": ["Physical and chemical properties"],
-    "FID": "0398"
+    "FID": "GO0398"
   },
   {
     "Year": "1968",
@@ -4345,7 +4345,7 @@
     "long": "-67",
     "lat": "38",
     "contentTags": ["Physical and chemical properties"],
-    "FID": "0399"
+    "FID": "GO0399"
   },
   {
     "Year": "1939",
@@ -4354,7 +4354,7 @@
     "long": "-150",
     "lat": "35",
     "contentTags": ["Physical and chemical properties"],
-    "FID": "0400"
+    "FID": "GO0400"
   },
   {
     "Year": "1936",
@@ -4363,7 +4363,7 @@
     "long": "-122.4",
     "lat": "47.6",
     "contentTags": ["Physical and chemical properties", "Plankton"],
-    "FID": "0401"
+    "FID": "GO0401"
   },
   {
     "Year": "1936",
@@ -4372,7 +4372,7 @@
     "long": "-122.4",
     "lat": "47.6",
     "contentTags": ["Physical and chemical properties", "Plankton"],
-    "FID": "0402"
+    "FID": "GO0402"
   },
   {
     "Year": "1934",
@@ -4381,7 +4381,7 @@
     "long": "-175",
     "lat": "35",
     "contentTags": ["Physical and chemical properties"],
-    "FID": "0403"
+    "FID": "GO0403"
   },
   {
     "Year": "1939",
@@ -4390,7 +4390,7 @@
     "long": "-178",
     "lat": "58",
     "contentTags": ["Physical and chemical properties"],
-    "FID": "0404"
+    "FID": "GO0404"
   },
   {
     "Year": "ND",
@@ -4399,7 +4399,7 @@
     "long": "-122",
     "lat": "47.5",
     "contentTags": ["Physical and chemical properties"],
-    "FID": "0405"
+    "FID": "GO0405"
   },
   {
     "Year": "1962",
@@ -4408,7 +4408,7 @@
     "long": "-124",
     "lat": "49",
     "contentTags": ["Physical and chemical properties"],
-    "FID": "0406"
+    "FID": "GO0406"
   },
   {
     "Year": "1939",
@@ -4420,7 +4420,7 @@
       "Physical and chemical properties",
       "sediment, suspended particles, and bathymetry"
     ],
-    "FID": "0407"
+    "FID": "GO0407"
   },
   {
     "Year": "1968",
@@ -4429,7 +4429,7 @@
     "long": "-87",
     "lat": "45.75",
     "contentTags": ["Physical and chemical properties"],
-    "FID": "0408"
+    "FID": "GO0408"
   },
   {
     "Year": "1938",
@@ -4438,7 +4438,7 @@
     "long": "-159.917",
     "lat": "70.683",
     "contentTags": ["Physical and chemical properties"],
-    "FID": "0409"
+    "FID": "GO0409"
   },
   {
     "Year": "1938",
@@ -4447,7 +4447,7 @@
     "long": "-164.667",
     "lat": "69.383",
     "contentTags": ["Physical and chemical properties"],
-    "FID": "0410"
+    "FID": "GO0410"
   },
   {
     "Year": "1938",
@@ -4456,7 +4456,7 @@
     "long": "-165.783",
     "lat": "68.883",
     "contentTags": ["Physical and chemical properties"],
-    "FID": "0411"
+    "FID": "GO0411"
   },
   {
     "Year": "1938",
@@ -4465,7 +4465,7 @@
     "long": "-166.267",
     "lat": "68.967",
     "contentTags": ["Physical and chemical properties"],
-    "FID": "0412"
+    "FID": "GO0412"
   },
   {
     "Year": "1938",
@@ -4474,7 +4474,7 @@
     "long": "-166.683",
     "lat": "68.933",
     "contentTags": ["Physical and chemical properties"],
-    "FID": "0413"
+    "FID": "GO0413"
   },
   {
     "Year": "1938",
@@ -4483,7 +4483,7 @@
     "long": "-167.167",
     "lat": "68.9",
     "contentTags": ["Physical and chemical properties"],
-    "FID": "0414"
+    "FID": "GO0414"
   },
   {
     "Year": "1938",
@@ -4492,7 +4492,7 @@
     "long": "-167.25",
     "lat": "68.733",
     "contentTags": ["Physical and chemical properties"],
-    "FID": "0415"
+    "FID": "GO0415"
   },
   {
     "Year": "1938",
@@ -4501,7 +4501,7 @@
     "long": "-167.2",
     "lat": "68.583",
     "contentTags": ["Physical and chemical properties"],
-    "FID": "0416"
+    "FID": "GO0416"
   },
   {
     "Year": "1938",
@@ -4510,7 +4510,7 @@
     "long": "-166.683",
     "lat": "68.583",
     "contentTags": ["Physical and chemical properties"],
-    "FID": "0417"
+    "FID": "GO0417"
   },
   {
     "Year": "1938",
@@ -4519,7 +4519,7 @@
     "long": "-166.817",
     "lat": "68.367",
     "contentTags": ["Physical and chemical properties"],
-    "FID": "0418"
+    "FID": "GO0418"
   },
   {
     "Year": "1938",
@@ -4528,7 +4528,7 @@
     "long": "-167.25",
     "lat": "68.333",
     "contentTags": ["Physical and chemical properties"],
-    "FID": "0419"
+    "FID": "GO0419"
   },
   {
     "Year": "1938",
@@ -4537,7 +4537,7 @@
     "long": "-156.667",
     "lat": "71.333",
     "contentTags": ["Physical and chemical properties"],
-    "FID": "0420"
+    "FID": "GO0420"
   },
   {
     "Year": "1938",
@@ -4546,7 +4546,7 @@
     "long": "-167.633",
     "lat": 68,
     "contentTags": ["Physical and chemical properties"],
-    "FID": "0421"
+    "FID": "GO0421"
   },
   {
     "Year": "1938",
@@ -4555,7 +4555,7 @@
     "long": "-167.25",
     "lat": "68.15",
     "contentTags": ["Physical and chemical properties"],
-    "FID": "0422"
+    "FID": "GO0422"
   },
   {
     "Year": "1938",
@@ -4564,7 +4564,7 @@
     "long": "-166.75",
     "lat": "68.033",
     "contentTags": ["Physical and chemical properties"],
-    "FID": "0423"
+    "FID": "GO0423"
   },
   {
     "Year": "1938",
@@ -4573,7 +4573,7 @@
     "long": "-164.833",
     "lat": "67.7",
     "contentTags": ["Physical and chemical properties"],
-    "FID": "0424"
+    "FID": "GO0424"
   },
   {
     "Year": "1938",
@@ -4582,7 +4582,7 @@
     "long": "-162.667",
     "lat": "66.733",
     "contentTags": ["Physical and chemical properties"],
-    "FID": "0425"
+    "FID": "GO0425"
   },
   {
     "Year": "1938",
@@ -4591,7 +4591,7 @@
     "long": "-162.667",
     "lat": "66.083",
     "contentTags": ["Physical and chemical properties"],
-    "FID": "0426"
+    "FID": "GO0426"
   },
   {
     "Year": "1938",
@@ -4600,7 +4600,7 @@
     "long": "-163.083",
     "lat": "66.4",
     "contentTags": ["Physical and chemical properties"],
-    "FID": "0427"
+    "FID": "GO0427"
   },
   {
     "Year": "1938",
@@ -4609,7 +4609,7 @@
     "long": "-163.417",
     "lat": "66.65",
     "contentTags": ["Physical and chemical properties"],
-    "FID": "0428"
+    "FID": "GO0428"
   },
   {
     "Year": "1938",
@@ -4618,7 +4618,7 @@
     "long": "-166.2",
     "lat": "66.2",
     "contentTags": ["Physical and chemical properties"],
-    "FID": "0429"
+    "FID": "GO0429"
   },
   {
     "Year": "1938",
@@ -4627,7 +4627,7 @@
     "long": "-169.667",
     "lat": "66.233",
     "contentTags": ["Physical and chemical properties"],
-    "FID": "0430"
+    "FID": "GO0430"
   },
   {
     "Year": "1938",
@@ -4636,7 +4636,7 @@
     "long": "-158.0",
     "lat": "71.15",
     "contentTags": ["Physical and chemical properties"],
-    "FID": "0431"
+    "FID": "GO0431"
   },
   {
     "Year": "1938",
@@ -4645,7 +4645,7 @@
     "long": "-169.7",
     "lat": "66.283",
     "contentTags": ["Physical and chemical properties"],
-    "FID": "0432"
+    "FID": "GO0432"
   },
   {
     "Year": "1938",
@@ -4654,7 +4654,7 @@
     "long": "-169.667",
     "lat": "66.367",
     "contentTags": ["Physical and chemical properties"],
-    "FID": "0433"
+    "FID": "GO0433"
   },
   {
     "Year": "1938",
@@ -4663,7 +4663,7 @@
     "long": "-169.333",
     "lat": "66.333",
     "contentTags": ["Physical and chemical properties"],
-    "FID": "0434"
+    "FID": "GO0434"
   },
   {
     "Year": "1938",
@@ -4672,7 +4672,7 @@
     "long": "-169.367",
     "lat": "66.117",
     "contentTags": ["Physical and chemical properties"],
-    "FID": "0435"
+    "FID": "GO0435"
   },
   {
     "Year": "1938",
@@ -4681,7 +4681,7 @@
     "long": "-157.933",
     "lat": "65.55",
     "contentTags": ["Physical and chemical properties"],
-    "FID": "0436"
+    "FID": "GO0436"
   },
   {
     "Year": "1938",
@@ -4690,7 +4690,7 @@
     "long": "-168.133",
     "lat": "65.6",
     "contentTags": ["Physical and chemical properties"],
-    "FID": "0437"
+    "FID": "GO0437"
   },
   {
     "Year": "1938",
@@ -4699,7 +4699,7 @@
     "long": "-168.567",
     "lat": "66.7",
     "contentTags": ["Physical and chemical properties"],
-    "FID": "0438"
+    "FID": "GO0438"
   },
   {
     "Year": "1938",
@@ -4708,7 +4708,7 @@
     "long": "-168.917",
     "lat": "65.75",
     "contentTags": ["Physical and chemical properties"],
-    "FID": "0439"
+    "FID": "GO0439"
   },
   {
     "Year": "1938",
@@ -4717,7 +4717,7 @@
     "long": "-169.717",
     "lat": "66.233",
     "contentTags": ["Physical and chemical properties"],
-    "FID": "0440"
+    "FID": "GO0440"
   },
   {
     "Year": "1938",
@@ -4726,7 +4726,7 @@
     "long": "-166.717",
     "lat": "66.233",
     "contentTags": ["Physical and chemical properties"],
-    "FID": "0441"
+    "FID": "GO0441"
   },
   {
     "Year": "1938",
@@ -4735,7 +4735,7 @@
     "long": "-159.917",
     "lat": "70.667",
     "contentTags": ["Physical and chemical properties"],
-    "FID": "0442"
+    "FID": "GO0442"
   },
   {
     "Year": "1938",
@@ -4744,7 +4744,7 @@
     "long": "-169.667",
     "lat": "66.383",
     "contentTags": ["Physical and chemical properties"],
-    "FID": "0443"
+    "FID": "GO0443"
   },
   {
     "Year": "1938",
@@ -4753,7 +4753,7 @@
     "long": "-169.583",
     "lat": "66.567",
     "contentTags": ["Physical and chemical properties"],
-    "FID": "0444"
+    "FID": "GO0444"
   },
   {
     "Year": "1938",
@@ -4762,7 +4762,7 @@
     "long": "-169.383",
     "lat": "66.383",
     "contentTags": ["Physical and chemical properties"],
-    "FID": "0445"
+    "FID": "GO0445"
   },
   {
     "Year": "1938",
@@ -4771,7 +4771,7 @@
     "long": "-169.0",
     "lat": "66.117",
     "contentTags": ["Physical and chemical properties"],
-    "FID": "0446"
+    "FID": "GO0446"
   },
   {
     "Year": "1938",
@@ -4780,7 +4780,7 @@
     "long": "-169.45",
     "lat": "65.9",
     "contentTags": ["Physical and chemical properties"],
-    "FID": "0447"
+    "FID": "GO0447"
   },
   {
     "Year": "1938",
@@ -4789,7 +4789,7 @@
     "long": "-169.417",
     "lat": "65.7",
     "contentTags": ["Physical and chemical properties"],
-    "FID": "0448"
+    "FID": "GO0448"
   },
   {
     "Year": "1938",
@@ -4798,7 +4798,7 @@
     "long": "-168.283",
     "lat": "65.367",
     "contentTags": ["Physical and chemical properties"],
-    "FID": "0449"
+    "FID": "GO0449"
   },
   {
     "Year": "1938",
@@ -4807,7 +4807,7 @@
     "long": "-162.933",
     "lat": "64.45",
     "contentTags": ["Physical and chemical properties"],
-    "FID": "0450"
+    "FID": "GO0450"
   },
   {
     "Year": "1938",
@@ -4816,7 +4816,7 @@
     "long": "-161.083",
     "lat": 63,
     "contentTags": ["Physical and chemical properties"],
-    "FID": "0451"
+    "FID": "GO0451"
   },
   {
     "Year": "1938",
@@ -4825,7 +4825,7 @@
     "long": "-160.1",
     "lat": "70.65",
     "contentTags": ["Physical and chemical properties"],
-    "FID": "0452"
+    "FID": "GO0452"
   },
   {
     "Year": "1938",
@@ -4834,7 +4834,7 @@
     "long": "-160.983",
     "lat": "64.133",
     "contentTags": ["Physical and chemical properties"],
-    "FID": "0453"
+    "FID": "GO0453"
   },
   {
     "Year": "1938",
@@ -4843,7 +4843,7 @@
     "long": "-161.2",
     "lat": "64.283",
     "contentTags": ["Physical and chemical properties"],
-    "FID": "0454"
+    "FID": "GO0454"
   },
   {
     "Year": "1938",
@@ -4852,7 +4852,7 @@
     "long": "-161.65",
     "lat": 64,
     "contentTags": ["Physical and chemical properties"],
-    "FID": "0455"
+    "FID": "GO0455"
   },
   {
     "Year": "1938",
@@ -4861,7 +4861,7 @@
     "long": "-162.233",
     "lat": "64.6",
     "contentTags": ["Physical and chemical properties"],
-    "FID": "0456"
+    "FID": "GO0456"
   },
   {
     "Year": "1938",
@@ -4870,7 +4870,7 @@
     "long": "-165.417",
     "lat": "64.483",
     "contentTags": ["Physical and chemical properties"],
-    "FID": "0457"
+    "FID": "GO0457"
   },
   {
     "Year": "1938",
@@ -4879,7 +4879,7 @@
     "long": "-166.25",
     "lat": "64.367",
     "contentTags": ["Physical and chemical properties"],
-    "FID": "0458"
+    "FID": "GO0458"
   },
   {
     "Year": "1938",
@@ -4888,7 +4888,7 @@
     "long": "-167.017",
     "lat": "64.233",
     "contentTags": ["Physical and chemical properties"],
-    "FID": "0459"
+    "FID": "GO0459"
   },
   {
     "Year": "1938",
@@ -4897,7 +4897,7 @@
     "long": "-167.8",
     "lat": "64.1",
     "contentTags": ["Physical and chemical properties"],
-    "FID": "0460"
+    "FID": "GO0460"
   },
   {
     "Year": "1938",
@@ -4906,7 +4906,7 @@
     "long": "-168.567",
     "lat": "63.95",
     "contentTags": ["Physical and chemical properties"],
-    "FID": "0461"
+    "FID": "GO0461"
   },
   {
     "Year": "1938",
@@ -4915,7 +4915,7 @@
     "long": "-169.333",
     "lat": "63.817",
     "contentTags": ["Physical and chemical properties"],
-    "FID": "0462"
+    "FID": "GO0462"
   },
   {
     "Year": "1938",
@@ -4924,7 +4924,7 @@
     "long": "-161.45",
     "lat": "70.583",
     "contentTags": ["Physical and chemical properties"],
-    "FID": "0463"
+    "FID": "GO0463"
   },
   {
     "Year": "1938",
@@ -4933,7 +4933,7 @@
     "long": "-170.433",
     "lat": "63.75",
     "contentTags": ["Physical and chemical properties"],
-    "FID": "0464"
+    "FID": "GO0464"
   },
   {
     "Year": "1938",
@@ -4942,7 +4942,7 @@
     "long": "-171.683",
     "lat": 63,
     "contentTags": ["Physical and chemical properties"],
-    "FID": "0465"
+    "FID": "GO0465"
   },
   {
     "Year": "1938",
@@ -4951,7 +4951,7 @@
     "long": "-171.9",
     "lat": "64.067",
     "contentTags": ["Physical and chemical properties"],
-    "FID": "0466"
+    "FID": "GO0466"
   },
   {
     "Year": "1938",
@@ -4960,7 +4960,7 @@
     "long": "-172.167",
     "lat": "64.183",
     "contentTags": ["Physical and chemical properties"],
-    "FID": "0467"
+    "FID": "GO0467"
   },
   {
     "Year": "1938",
@@ -4969,7 +4969,7 @@
     "long": "-171.417",
     "lat": "64.533",
     "contentTags": ["Physical and chemical properties"],
-    "FID": "0468"
+    "FID": "GO0468"
   },
   {
     "Year": "1938",
@@ -4978,7 +4978,7 @@
     "long": "-170.517",
     "lat": "65.417",
     "contentTags": ["Physical and chemical properties"],
-    "FID": "0469"
+    "FID": "GO0469"
   },
   {
     "Year": "1938",
@@ -4987,7 +4987,7 @@
     "long": "-170.133",
     "lat": "65.483",
     "contentTags": ["Physical and chemical properties"],
-    "FID": "0470"
+    "FID": "GO0470"
   },
   {
     "Year": "1938",
@@ -4996,7 +4996,7 @@
     "long": "-169.75",
     "lat": 65,
     "contentTags": ["Physical and chemical properties"],
-    "FID": "0471"
+    "FID": "GO0471"
   },
   {
     "Year": "1938",
@@ -5005,7 +5005,7 @@
     "long": "-169.367",
     "lat": "65.617",
     "contentTags": ["Physical and chemical properties"],
-    "FID": "0472"
+    "FID": "GO0472"
   },
   {
     "Year": "1938",
@@ -5014,7 +5014,7 @@
     "long": "-169.0",
     "lat": "65.667",
     "contentTags": ["Physical and chemical properties"],
-    "FID": "0473"
+    "FID": "GO0473"
   },
   {
     "Year": "1938",
@@ -5023,7 +5023,7 @@
     "long": "-162.417",
     "lat": "70.45",
     "contentTags": ["Physical and chemical properties"],
-    "FID": "0474"
+    "FID": "GO0474"
   },
   {
     "Year": "1938",
@@ -5032,7 +5032,7 @@
     "long": "-158.933",
     "lat": "68.1",
     "contentTags": ["Physical and chemical properties"],
-    "FID": "0475"
+    "FID": "GO0475"
   },
   {
     "Year": "1938",
@@ -5041,7 +5041,7 @@
     "long": "-168.933",
     "lat": "65.733",
     "contentTags": ["Physical and chemical properties"],
-    "FID": "0476"
+    "FID": "GO0476"
   },
   {
     "Year": "1938",
@@ -5050,7 +5050,7 @@
     "long": "-168.583",
     "lat": "65.617",
     "contentTags": ["Physical and chemical properties"],
-    "FID": "0477"
+    "FID": "GO0477"
   },
   {
     "Year": "1938",
@@ -5059,7 +5059,7 @@
     "long": "-168.367",
     "lat": "65.483",
     "contentTags": ["Physical and chemical properties"],
-    "FID": "0478"
+    "FID": "GO0478"
   },
   {
     "Year": "1938",
@@ -5068,7 +5068,7 @@
     "long": "-171.667",
     "lat": "63.817",
     "contentTags": ["Physical and chemical properties"],
-    "FID": "0479"
+    "FID": "GO0479"
   },
   {
     "Year": "1938",
@@ -5077,7 +5077,7 @@
     "long": "-172.1",
     "lat": "63.767",
     "contentTags": ["Physical and chemical properties"],
-    "FID": "0480"
+    "FID": "GO0480"
   },
   {
     "Year": "1938",
@@ -5086,7 +5086,7 @@
     "long": "-172.5",
     "lat": "63.333",
     "contentTags": ["Physical and chemical properties"],
-    "FID": "0481"
+    "FID": "GO0481"
   },
   {
     "Year": "1938",
@@ -5095,7 +5095,7 @@
     "long": "-172.583",
     "lat": "62.633",
     "contentTags": ["Physical and chemical properties"],
-    "FID": "0482"
+    "FID": "GO0482"
   },
   {
     "Year": "1938",
@@ -5104,7 +5104,7 @@
     "long": "-172.7",
     "lat": "61.967",
     "contentTags": ["Physical and chemical properties"],
-    "FID": "0483"
+    "FID": "GO0483"
   },
   {
     "Year": "1938",
@@ -5113,7 +5113,7 @@
     "long": "-172.833",
     "lat": "61.317",
     "contentTags": ["Physical and chemical properties"],
-    "FID": "0484"
+    "FID": "GO0484"
   },
   {
     "Year": "1938",
@@ -5122,7 +5122,7 @@
     "long": "-163.417",
     "lat": "69.85",
     "contentTags": ["Physical and chemical properties"],
-    "FID": "0485"
+    "FID": "GO0485"
   },
   {
     "Year": "1938",
@@ -5131,7 +5131,7 @@
     "long": "-173.1",
     "lat": "60.583",
     "contentTags": ["Physical and chemical properties"],
-    "FID": "0486"
+    "FID": "GO0486"
   },
   {
     "Year": "1938",
@@ -5140,7 +5140,7 @@
     "long": "-173.133",
     "lat": "60.067",
     "contentTags": ["Physical and chemical properties"],
-    "FID": "0487"
+    "FID": "GO0487"
   },
   {
     "Year": "1938",
@@ -5149,7 +5149,7 @@
     "long": "-172.733",
     "lat": "59.533",
     "contentTags": ["Physical and chemical properties"],
-    "FID": "0488"
+    "FID": "GO0488"
   },
   {
     "Year": "1938",
@@ -5158,7 +5158,7 @@
     "long": "-172.367",
     "lat": "59.0",
     "contentTags": ["Physical and chemical properties"],
-    "FID": "0489"
+    "FID": "GO0489"
   },
   {
     "Year": "1938",
@@ -5167,7 +5167,7 @@
     "long": "-172.017",
     "lat": "58.417",
     "contentTags": ["Physical and chemical properties"],
-    "FID": "0490"
+    "FID": "GO0490"
   },
   {
     "Year": "1938",
@@ -5176,7 +5176,7 @@
     "long": "-171.45",
     "lat": "57.867",
     "contentTags": ["Physical and chemical properties"],
-    "FID": "0491"
+    "FID": "GO0491"
   },
   {
     "Year": "1938",
@@ -5185,7 +5185,7 @@
     "long": "-170.667",
     "lat": "57.333",
     "contentTags": ["Physical and chemical properties"],
-    "FID": "0492"
+    "FID": "GO0492"
   },
   {
     "Year": "1938",
@@ -5194,7 +5194,7 @@
     "long": "-163.167",
     "lat": "69.783",
     "contentTags": ["Physical and chemical properties"],
-    "FID": "0493"
+    "FID": "GO0493"
   },
   {
     "Year": "1939",
@@ -5206,7 +5206,7 @@
       "Plankton",
       "sediment, suspended particles, and bathymetry"
     ],
-    "FID": "0494"
+    "FID": "GO0494"
   },
   {
     "Year": "1970",
@@ -5215,7 +5215,7 @@
     "long": "-76.183",
     "lat": "37.583",
     "contentTags": ["Plankton"],
-    "FID": "0495"
+    "FID": "GO0495"
   },
   {
     "Year": "1966",
@@ -5224,7 +5224,7 @@
     "long": "-169.5",
     "lat": "16.25",
     "contentTags": ["Plankton"],
-    "FID": "0496"
+    "FID": "GO0496"
   },
   {
     "Year": "1970",
@@ -5233,7 +5233,7 @@
     "long": "-122.6",
     "lat": "45.633",
     "contentTags": ["Plankton"],
-    "FID": "0497"
+    "FID": "GO0497"
   },
   {
     "Year": "1936",
@@ -5245,7 +5245,7 @@
       "Plankton",
       "sediment, suspended particles, and bathymetry"
     ],
-    "FID": "0498"
+    "FID": "GO0498"
   },
   {
     "Year": "1971",
@@ -5254,7 +5254,7 @@
     "long": "-127",
     "lat": "48",
     "contentTags": ["Plankton"],
-    "FID": "0499"
+    "FID": "GO0499"
   },
   {
     "Year": "1948",
@@ -5263,7 +5263,7 @@
     "long": "-70.65",
     "lat": "41.35",
     "contentTags": ["Plankton"],
-    "FID": "0500"
+    "FID": "GO0500"
   },
   {
     "Year": "1960",
@@ -5272,7 +5272,7 @@
     "long": "-75",
     "lat": "39",
     "contentTags": ["Plankton"],
-    "FID": "0501"
+    "FID": "GO0501"
   },
   {
     "Year": "1966",
@@ -5281,7 +5281,7 @@
     "long": "-88",
     "lat": "27",
     "contentTags": ["Plankton"],
-    "FID": "0502"
+    "FID": "GO0502"
   },
   {
     "Year": "1961",
@@ -5290,7 +5290,7 @@
     "long": "-88",
     "lat": "27",
     "contentTags": ["Plankton"],
-    "FID": "0503"
+    "FID": "GO0503"
   },
   {
     "Year": "1937",
@@ -5299,7 +5299,7 @@
     "long": "-65.75",
     "lat": 45,
     "contentTags": ["Plankton"],
-    "FID": "0504"
+    "FID": "GO0504"
   },
   {
     "Year": "1936",
@@ -5308,7 +5308,7 @@
     "long": "-68",
     "lat": "43",
     "contentTags": ["Plankton"],
-    "FID": "0505"
+    "FID": "GO0505"
   },
   {
     "Year": "1936",
@@ -5317,7 +5317,7 @@
     "long": "-68",
     "lat": "43",
     "contentTags": ["Plankton"],
-    "FID": "0506"
+    "FID": "GO0506"
   },
   {
     "Year": "1957",
@@ -5326,7 +5326,7 @@
     "long": "-160",
     "lat": "50",
     "contentTags": ["Plankton"],
-    "FID": "0507"
+    "FID": "GO0507"
   },
   {
     "Year": "1957",
@@ -5335,7 +5335,7 @@
     "long": "-157",
     "lat": "21",
     "contentTags": ["Plankton"],
-    "FID": "0508"
+    "FID": "GO0508"
   },
   {
     "Year": "1964",
@@ -5344,7 +5344,7 @@
     "long": "-135",
     "lat": "40",
     "contentTags": ["Plankton"],
-    "FID": "0509"
+    "FID": "GO0509"
   },
   {
     "Year": "1965",
@@ -5353,7 +5353,7 @@
     "long": "-135",
     "lat": "40",
     "contentTags": ["Plankton"],
-    "FID": "0510"
+    "FID": "GO0510"
   },
   {
     "Year": "1965",
@@ -5362,7 +5362,7 @@
     "long": "-145",
     "lat": "50",
     "contentTags": ["Plankton"],
-    "FID": "0511"
+    "FID": "GO0511"
   },
   {
     "Year": "1937",
@@ -5371,7 +5371,7 @@
     "long": "-70.667",
     "lat": "41.533",
     "contentTags": ["Plankton"],
-    "FID": "0512"
+    "FID": "GO0512"
   },
   {
     "Year": "1959",
@@ -5380,7 +5380,7 @@
     "long": "162.333",
     "lat": "11.517",
     "contentTags": ["Plankton"],
-    "FID": "0513"
+    "FID": "GO0513"
   },
   {
     "Year": "1969",
@@ -5389,7 +5389,7 @@
     "long": "-130",
     "lat": "25",
     "contentTags": ["Plankton"],
-    "FID": "0514"
+    "FID": "GO0514"
   },
   {
     "Year": "1967",
@@ -5398,7 +5398,7 @@
     "long": "-157",
     "lat": "21",
     "contentTags": ["Plankton"],
-    "FID": "0515"
+    "FID": "GO0515"
   },
   {
     "Year": "1955",
@@ -5407,7 +5407,7 @@
     "long": "-120",
     "lat": "30",
     "contentTags": ["Plankton"],
-    "FID": "0516"
+    "FID": "GO0516"
   },
   {
     "Year": "1956",
@@ -5416,7 +5416,7 @@
     "long": "-120",
     "lat": "30",
     "contentTags": ["Plankton"],
-    "FID": "0517"
+    "FID": "GO0517"
   },
   {
     "Year": "1958",
@@ -5425,7 +5425,7 @@
     "long": "-83.833",
     "lat": 28,
     "contentTags": ["Plankton"],
-    "FID": "0518"
+    "FID": "GO0518"
   },
   {
     "Year": "1966",
@@ -5434,7 +5434,7 @@
     "long": "-88",
     "lat": "27",
     "contentTags": ["Plankton"],
-    "FID": "0519"
+    "FID": "GO0519"
   },
   {
     "Year": "1966",
@@ -5443,7 +5443,7 @@
     "long": "-68",
     "lat": "43",
     "contentTags": ["Plankton"],
-    "FID": "0520"
+    "FID": "GO0520"
   },
   {
     "Year": "1968",
@@ -5452,7 +5452,7 @@
     "long": "-68",
     "lat": "43",
     "contentTags": ["Plankton"],
-    "FID": "0521"
+    "FID": "GO0521"
   },
   {
     "Year": "1970",
@@ -5461,7 +5461,7 @@
     "long": "-68",
     "lat": "43",
     "contentTags": ["Plankton"],
-    "FID": "0522"
+    "FID": "GO0522"
   },
   {
     "Year": "1956",
@@ -5470,7 +5470,7 @@
     "long": "-120",
     "lat": "30",
     "contentTags": ["Plankton"],
-    "FID": "0523"
+    "FID": "GO0523"
   },
   {
     "Year": "1957",
@@ -5479,7 +5479,7 @@
     "long": "-120",
     "lat": "30",
     "contentTags": ["Plankton"],
-    "FID": "0524"
+    "FID": "GO0524"
   },
   {
     "Year": "1961",
@@ -5488,7 +5488,7 @@
     "long": "-123",
     "lat": "33",
     "contentTags": ["Plankton"],
-    "FID": "0525"
+    "FID": "GO0525"
   },
   {
     "Year": "1956",
@@ -5497,7 +5497,7 @@
     "long": "152",
     "lat": "40",
     "contentTags": ["Plankton"],
-    "FID": "0526"
+    "FID": "GO0526"
   },
   {
     "Year": "1948",
@@ -5506,7 +5506,7 @@
     "long": "-67.367",
     "lat": "41.217",
     "contentTags": ["Plankton"],
-    "FID": "0527"
+    "FID": "GO0527"
   },
   {
     "Year": "1968",
@@ -5515,7 +5515,7 @@
     "long": "-90",
     "lat": "85",
     "contentTags": ["Polar data"],
-    "FID": "0528"
+    "FID": "GO0528"
   },
   {
     "Year": "1969",
@@ -5524,7 +5524,7 @@
     "long": "-90",
     "lat": "85",
     "contentTags": ["Polar data"],
-    "FID": "0529"
+    "FID": "GO0529"
   },
   {
     "Year": "1969",
@@ -5533,7 +5533,7 @@
     "long": "-90",
     "lat": "85",
     "contentTags": ["Polar data"],
-    "FID": "0530"
+    "FID": "GO0530"
   },
   {
     "Year": "1968",
@@ -5542,7 +5542,7 @@
     "long": "-90",
     "lat": "85",
     "contentTags": ["Polar data"],
-    "FID": "0531"
+    "FID": "GO0531"
   },
   {
     "Year": "1969",
@@ -5551,7 +5551,7 @@
     "long": "-90",
     "lat": "85",
     "contentTags": ["Polar data"],
-    "FID": "0532"
+    "FID": "GO0532"
   },
   {
     "Year": "1969",
@@ -5560,7 +5560,7 @@
     "long": "-90",
     "lat": "85",
     "contentTags": ["Polar data"],
-    "FID": "0533"
+    "FID": "GO0533"
   },
   {
     "Year": "1969",
@@ -5569,7 +5569,7 @@
     "long": "-90",
     "lat": "85",
     "contentTags": ["Polar data"],
-    "FID": "0534"
+    "FID": "GO0534"
   },
   {
     "Year": "1969",
@@ -5578,7 +5578,7 @@
     "long": "-90",
     "lat": "85",
     "contentTags": ["Polar data"],
-    "FID": "0535"
+    "FID": "GO0535"
   },
   {
     "Year": "1969",
@@ -5587,7 +5587,7 @@
     "long": "-90",
     "lat": "85",
     "contentTags": ["Polar data"],
-    "FID": "0536"
+    "FID": "GO0536"
   },
   {
     "Year": "1968",
@@ -5596,7 +5596,7 @@
     "long": "-90",
     "lat": "85",
     "contentTags": ["Polar data"],
-    "FID": "0537"
+    "FID": "GO0537"
   },
   {
     "Year": "1963",
@@ -5607,7 +5607,7 @@
     "contentTags": [
       "Pollution & exploitation- waste discharge, mineral extraction, & radiochemistry"
     ],
-    "FID": "0538"
+    "FID": "GO0538"
   },
   {
     "Year": "1961",
@@ -5618,7 +5618,7 @@
     "contentTags": [
       "Pollution & exploitation- waste discharge, mineral extraction, & radiochemistry"
     ],
-    "FID": "0539"
+    "FID": "GO0539"
   },
   {
     "Year": "1966",
@@ -5630,7 +5630,7 @@
       "Pollution & exploitation- waste discharge, mineral extraction, & radiochemistry",
       "sediment, suspended particles, and bathymetry"
     ],
-    "FID": "0540"
+    "FID": "GO0540"
   },
   {
     "Year": "1961",
@@ -5641,7 +5641,7 @@
     "contentTags": [
       "Pollution & exploitation- waste discharge, mineral extraction, & radiochemistry"
     ],
-    "FID": "0541"
+    "FID": "GO0541"
   },
   {
     "Year": "1964",
@@ -5652,7 +5652,7 @@
     "contentTags": [
       "Pollution & exploitation- waste discharge, mineral extraction, & radiochemistry"
     ],
-    "FID": "0542"
+    "FID": "GO0542"
   },
   {
     "Year": "1967",
@@ -5663,7 +5663,7 @@
     "contentTags": [
       "Pollution & exploitation- waste discharge, mineral extraction, & radiochemistry"
     ],
-    "FID": "0543"
+    "FID": "GO0543"
   },
   {
     "Year": "1969",
@@ -5674,7 +5674,7 @@
     "contentTags": [
       "Pollution & exploitation- waste discharge, mineral extraction, & radiochemistry"
     ],
-    "FID": "0544"
+    "FID": "GO0544"
   },
   {
     "Year": "1970",
@@ -5685,7 +5685,7 @@
     "contentTags": [
       "Pollution & exploitation- waste discharge, mineral extraction, & radiochemistry"
     ],
-    "FID": "0545"
+    "FID": "GO0545"
   },
   {
     "Year": "1986",
@@ -5696,7 +5696,7 @@
     "contentTags": [
       "Pollution & exploitation- waste discharge, mineral extraction, & radiochemistry"
     ],
-    "FID": "0546"
+    "FID": "GO0546"
   },
   {
     "Year": "1965",
@@ -5707,7 +5707,7 @@
     "contentTags": [
       "Pollution & exploitation- waste discharge, mineral extraction, & radiochemistry"
     ],
-    "FID": "0547"
+    "FID": "GO0547"
   },
   {
     "Year": "1965",
@@ -5718,7 +5718,7 @@
     "contentTags": [
       "Pollution & exploitation- waste discharge, mineral extraction, & radiochemistry"
     ],
-    "FID": "0548"
+    "FID": "GO0548"
   },
   {
     "Year": "1966",
@@ -5729,7 +5729,7 @@
     "contentTags": [
       "Pollution & exploitation- waste discharge, mineral extraction, & radiochemistry"
     ],
-    "FID": "0549"
+    "FID": "GO0549"
   },
   {
     "Year": "1966",
@@ -5740,7 +5740,7 @@
     "contentTags": [
       "Pollution & exploitation- waste discharge, mineral extraction, & radiochemistry"
     ],
-    "FID": "0550"
+    "FID": "GO0550"
   },
   {
     "Year": "1967",
@@ -5751,7 +5751,7 @@
     "contentTags": [
       "Pollution & exploitation- waste discharge, mineral extraction, & radiochemistry"
     ],
-    "FID": "0551"
+    "FID": "GO0551"
   },
   {
     "Year": "1967",
@@ -5762,7 +5762,7 @@
     "contentTags": [
       "Pollution & exploitation- waste discharge, mineral extraction, & radiochemistry"
     ],
-    "FID": "0552"
+    "FID": "GO0552"
   },
   {
     "Year": "1967",
@@ -5773,7 +5773,7 @@
     "contentTags": [
       "Pollution & exploitation- waste discharge, mineral extraction, & radiochemistry"
     ],
-    "FID": "0553"
+    "FID": "GO0553"
   },
   {
     "Year": "1968",
@@ -5784,7 +5784,7 @@
     "contentTags": [
       "Pollution & exploitation- waste discharge, mineral extraction, & radiochemistry"
     ],
-    "FID": "0554"
+    "FID": "GO0554"
   },
   {
     "Year": "1968",
@@ -5795,7 +5795,7 @@
     "contentTags": [
       "Pollution & exploitation- waste discharge, mineral extraction, & radiochemistry"
     ],
-    "FID": "0555"
+    "FID": "GO0555"
   },
   {
     "Year": "1968",
@@ -5806,7 +5806,7 @@
     "contentTags": [
       "Pollution & exploitation- waste discharge, mineral extraction, & radiochemistry"
     ],
-    "FID": "0556"
+    "FID": "GO0556"
   },
   {
     "Year": "1968",
@@ -5817,7 +5817,7 @@
     "contentTags": [
       "Pollution & exploitation- waste discharge, mineral extraction, & radiochemistry"
     ],
-    "FID": "0557"
+    "FID": "GO0557"
   },
   {
     "Year": "1968",
@@ -5828,7 +5828,7 @@
     "contentTags": [
       "Pollution & exploitation- waste discharge, mineral extraction, & radiochemistry"
     ],
-    "FID": "0558"
+    "FID": "GO0558"
   },
   {
     "Year": "1968",
@@ -5839,7 +5839,7 @@
     "contentTags": [
       "Pollution & exploitation- waste discharge, mineral extraction, & radiochemistry"
     ],
-    "FID": "0559"
+    "FID": "GO0559"
   },
   {
     "Year": "1969",
@@ -5850,7 +5850,7 @@
     "contentTags": [
       "Pollution & exploitation- waste discharge, mineral extraction, & radiochemistry"
     ],
-    "FID": "0560"
+    "FID": "GO0560"
   },
   {
     "Year": "1969",
@@ -5861,7 +5861,7 @@
     "contentTags": [
       "Pollution & exploitation- waste discharge, mineral extraction, & radiochemistry"
     ],
-    "FID": "0561"
+    "FID": "GO0561"
   },
   {
     "Year": "1969",
@@ -5872,7 +5872,7 @@
     "contentTags": [
       "Pollution & exploitation- waste discharge, mineral extraction, & radiochemistry"
     ],
-    "FID": "0562"
+    "FID": "GO0562"
   },
   {
     "Year": "1970",
@@ -5883,7 +5883,7 @@
     "contentTags": [
       "Pollution & exploitation- waste discharge, mineral extraction, & radiochemistry"
     ],
-    "FID": "0563"
+    "FID": "GO0563"
   },
   {
     "Year": "1970",
@@ -5894,7 +5894,7 @@
     "contentTags": [
       "Pollution & exploitation- waste discharge, mineral extraction, & radiochemistry"
     ],
-    "FID": "0564"
+    "FID": "GO0564"
   },
   {
     "Year": "1986",
@@ -5905,7 +5905,7 @@
     "contentTags": [
       "Pollution & exploitation- waste discharge, mineral extraction, & radiochemistry"
     ],
-    "FID": "0565"
+    "FID": "GO0565"
   },
   {
     "Year": "1961",
@@ -5914,7 +5914,7 @@
     "long": "-124.217",
     "lat": "40.75",
     "contentTags": ["Project proposals & study descriptions"],
-    "FID": "0566"
+    "FID": "GO0566"
   },
   {
     "Year": "1969",
@@ -5923,7 +5923,7 @@
     "long": "-122",
     "lat": "39.633",
     "contentTags": ["Project proposals & study descriptions"],
-    "FID": "0567"
+    "FID": "GO0567"
   },
   {
     "Year": "1973",
@@ -5932,7 +5932,7 @@
     "long": "-122.233",
     "lat": "37.65",
     "contentTags": ["Project proposals & study descriptions"],
-    "FID": "0568"
+    "FID": "GO0568"
   },
   {
     "Year": "1962",
@@ -5941,7 +5941,7 @@
     "long": "80",
     "lat": "-20",
     "contentTags": ["Reference Lists"],
-    "FID": "0569"
+    "FID": "GO0569"
   },
   {
     "Year": "1958",
@@ -5953,7 +5953,7 @@
       "Sample collection and vessel equipment",
       "sediment, suspended particles, and bathymetry"
     ],
-    "FID": "0570"
+    "FID": "GO0570"
   },
   {
     "Year": "1965",
@@ -5962,7 +5962,7 @@
     "long": "-65.167",
     "lat": "10.617",
     "contentTags": ["sediment, suspended particles, and bathymetry"],
-    "FID": "0571"
+    "FID": "GO0571"
   },
   {
     "Year": "1948",
@@ -5971,7 +5971,7 @@
     "long": "-70.667",
     "lat": "41.533",
     "contentTags": ["sediment, suspended particles, and bathymetry"],
-    "FID": "0572"
+    "FID": "GO0572"
   },
   {
     "Year": "1963",
@@ -5980,7 +5980,7 @@
     "long": "-124",
     "lat": "49",
     "contentTags": ["sediment, suspended particles, and bathymetry"],
-    "FID": "0573"
+    "FID": "GO0573"
   },
   {
     "Year": "1969",
@@ -5989,7 +5989,7 @@
     "long": "-170",
     "lat": "60",
     "contentTags": ["sediment, suspended particles, and bathymetry"],
-    "FID": "0574"
+    "FID": "GO0574"
   },
   {
     "Year": "1970",
@@ -5998,7 +5998,7 @@
     "long": "-169",
     "lat": "66",
     "contentTags": ["sediment, suspended particles, and bathymetry"],
-    "FID": "0575"
+    "FID": "GO0575"
   },
   {
     "Year": "1962",
@@ -6007,7 +6007,7 @@
     "long": "-124.5",
     "lat": 50,
     "contentTags": ["sediment, suspended particles, and bathymetry"],
-    "FID": "0576"
+    "FID": "GO0576"
   },
   {
     "Year": "1968",
@@ -6016,7 +6016,7 @@
     "long": "-125.333",
     "lat": "47.417",
     "contentTags": ["sediment, suspended particles, and bathymetry"],
-    "FID": "0577"
+    "FID": "GO0577"
   },
   {
     "Year": "1963",
@@ -6025,7 +6025,7 @@
     "long": "-127.633",
     "lat": "53.733",
     "contentTags": ["sediment, suspended particles, and bathymetry"],
-    "FID": "0578"
+    "FID": "GO0578"
   },
   {
     "Year": "1948",
@@ -6034,7 +6034,7 @@
     "long": "-73",
     "lat": "39",
     "contentTags": ["sediment, suspended particles, and bathymetry"],
-    "FID": "0579"
+    "FID": "GO0579"
   },
   {
     "Year": "1948",
@@ -6043,7 +6043,7 @@
     "long": "-75",
     "lat": "15",
     "contentTags": ["sediment, suspended particles, and bathymetry"],
-    "FID": "0580"
+    "FID": "GO0580"
   },
   {
     "Year": "1937",
@@ -6052,7 +6052,7 @@
     "long": "-175",
     "lat": "-75",
     "contentTags": ["sediment, suspended particles, and bathymetry"],
-    "FID": "0581"
+    "FID": "GO0581"
   },
   {
     "Year": "1970",
@@ -6061,7 +6061,7 @@
     "long": "-76.183",
     "lat": "39.333",
     "contentTags": ["sediment, suspended particles, and bathymetry"],
-    "FID": "0582"
+    "FID": "GO0582"
   },
   {
     "Year": "1964",
@@ -6070,7 +6070,7 @@
     "long": "-50.983",
     "lat": "45.233",
     "contentTags": ["sediment, suspended particles, and bathymetry"],
-    "FID": "0583"
+    "FID": "GO0583"
   },
   {
     "Year": "1935",
@@ -6079,7 +6079,7 @@
     "long": "-70.75",
     "lat": "42.383",
     "contentTags": ["sediment, suspended particles, and bathymetry"],
-    "FID": "0584"
+    "FID": "GO0584"
   },
   {
     "Year": "1937",
@@ -6088,7 +6088,7 @@
     "long": "-175",
     "lat": "-75",
     "contentTags": ["sediment, suspended particles, and bathymetry"],
-    "FID": "0585"
+    "FID": "GO0585"
   },
   {
     "Year": "1936",
@@ -6097,7 +6097,7 @@
     "long": "-67.367",
     "lat": "41.217",
     "contentTags": ["sediment, suspended particles, and bathymetry"],
-    "FID": "0586"
+    "FID": "GO0586"
   },
   {
     "Year": "1936",
@@ -6106,7 +6106,7 @@
     "long": "-76.183",
     "lat": "37.583",
     "contentTags": ["sediment, suspended particles, and bathymetry"],
-    "FID": "0587"
+    "FID": "GO0587"
   },
   {
     "Year": "1939",
@@ -6115,7 +6115,7 @@
     "long": "-64",
     "lat": "32",
     "contentTags": ["sediment, suspended particles, and bathymetry"],
-    "FID": "0588"
+    "FID": "GO0588"
   },
   {
     "Year": "1956",
@@ -6124,7 +6124,7 @@
     "long": "-78",
     "lat": "31",
     "contentTags": ["Shellfish  and shellfish fisheries"],
-    "FID": "0589"
+    "FID": "GO0589"
   },
   {
     "Year": "1967",
@@ -6133,7 +6133,7 @@
     "long": "-151.35",
     "lat": "59.6",
     "contentTags": ["Shellfish  and shellfish fisheries"],
-    "FID": "0590"
+    "FID": "GO0590"
   },
   {
     "Year": "1939",
@@ -6142,7 +6142,7 @@
     "long": "-68",
     "lat": "43",
     "contentTags": ["Shellfish  and shellfish fisheries"],
-    "FID": "0591"
+    "FID": "GO0591"
   },
   {
     "Year": "1939",
@@ -6151,7 +6151,7 @@
     "long": "-90",
     "lat": "25",
     "contentTags": ["Shellfish  and shellfish fisheries"],
-    "FID": "0592"
+    "FID": "GO0592"
   },
   {
     "Year": "1971",
@@ -6160,7 +6160,7 @@
     "long": "-77",
     "lat": "34",
     "contentTags": ["Shellfish  and shellfish fisheries"],
-    "FID": "0593"
+    "FID": "GO0593"
   },
   {
     "Year": "1957",
@@ -6169,7 +6169,7 @@
     "long": "-78",
     "lat": "-10",
     "contentTags": ["Shellfish  and shellfish fisheries"],
-    "FID": "0594"
+    "FID": "GO0594"
   },
   {
     "Year": "1959",
@@ -6178,7 +6178,7 @@
     "long": "-178",
     "lat": "58",
     "contentTags": ["Shellfish  and shellfish fisheries"],
-    "FID": "0595"
+    "FID": "GO0595"
   },
   {
     "Year": "1971",
@@ -6187,7 +6187,7 @@
     "long": "-10.717",
     "lat": "6.417",
     "contentTags": ["Shellfish  and shellfish fisheries"],
-    "FID": "0596"
+    "FID": "GO0596"
   },
   {
     "Year": "1967",
@@ -6196,7 +6196,7 @@
     "long": "-124",
     "lat": "39",
     "contentTags": ["Shellfish  and shellfish fisheries"],
-    "FID": "0597"
+    "FID": "GO0597"
   },
   {
     "Year": "1968",
@@ -6205,7 +6205,7 @@
     "long": "-124",
     "lat": "39",
     "contentTags": ["Shellfish  and shellfish fisheries"],
-    "FID": "0598"
+    "FID": "GO0598"
   },
   {
     "Year": "1960",
@@ -6214,7 +6214,7 @@
     "long": "-70.25",
     "lat": "41.333",
     "contentTags": ["Shellfish  and shellfish fisheries"],
-    "FID": "0599"
+    "FID": "GO0599"
   },
   {
     "Year": "1968",
@@ -6223,7 +6223,7 @@
     "long": "-82.533",
     "lat": "27.75",
     "contentTags": ["Shellfish  and shellfish fisheries"],
-    "FID": "0600"
+    "FID": "GO0600"
   },
   {
     "Year": "1960",
@@ -6232,7 +6232,7 @@
     "long": "-88.567",
     "lat": "37.067",
     "contentTags": ["Shellfish  and shellfish fisheries"],
-    "FID": "0601"
+    "FID": "GO0601"
   },
   {
     "Year": "1969",
@@ -6241,7 +6241,7 @@
     "long": "-76.183",
     "lat": "37.883",
     "contentTags": ["Shellfish  and shellfish fisheries"],
-    "FID": "0602"
+    "FID": "GO0602"
   },
   {
     "Year": "1955",
@@ -6250,7 +6250,7 @@
     "long": "-70.833",
     "lat": "42.767",
     "contentTags": ["Shellfish  and shellfish fisheries"],
-    "FID": "0603"
+    "FID": "GO0603"
   },
   {
     "Year": "1971",
@@ -6259,7 +6259,7 @@
     "long": "-76.183",
     "lat": "37.583",
     "contentTags": ["Shellfish  and shellfish fisheries"],
-    "FID": "0604"
+    "FID": "GO0604"
   },
   {
     "Year": "1948",
@@ -6268,7 +6268,7 @@
     "long": "-70.667",
     "lat": "41.967",
     "contentTags": ["Shellfish  and shellfish fisheries"],
-    "FID": "0605"
+    "FID": "GO0605"
   },
   {
     "Year": "1968",
@@ -6277,6 +6277,6 @@
     "long": "-76.067",
     "lat": "39.533",
     "contentTags": ["Shellfish  and shellfish fisheries"],
-    "FID": "0606"
+    "FID": "GO0606"
   }
 ]

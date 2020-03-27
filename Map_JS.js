@@ -1,3 +1,4 @@
+"use strict";
 //<!-- SEARCH -->
 //<!-- This script will read through .JSON data and construct a queryable HTML table from it -->
 //<script type="text/javascript">
@@ -349,9 +350,7 @@ document.ondblclick = function ElementCoords() {
   }
 };
 /////////////////////////////////////////////////////////////////////////////////////////
-
-("use strict");
-
+*/
 /* READ IN LOCAL JSON AS ARRAY */
 fetch("DocsJSON.json")
   .then(res => res.json())
@@ -384,9 +383,9 @@ const makeDataTable = data => {
       <td>${Object.keys(doc.contentTags).map(key => {
         return ` ${doc.contentTags[key]}`;
       })}</td>
-      <td><button class="button is-link is-outlined is-small" onclick="addDoc(${
+      <td><button class="button is-link is-outlined is-small" onclick="addDoc('${
         doc.FID
-      })">Add to cart</button></td>
+      }')">Add to cart</button></td>
       </tr>`;
     return (html += tableRow);
   });
@@ -399,27 +398,25 @@ let docsInCart = [];
 
 function addDoc(x) {
   data.forEach(doc => {
-    if (x == doc.FID) {
+    if (x === doc.FID) {
       if (docsInCart && docsInCart.length) {
-        var found = false;
+        let found = false;
 
         for (let i = 0; i < docsInCart.length; i++) {
-          if (docsInCart[i].FID == doc.FID) {
+          if (docsInCart[i].FID === doc.FID) {
             found = true;
             break;
           }
         }
 
-        if (found == false) {
+        if (found === false) {
           docsInCart.push(doc);
-        } else {
         }
       } else {
         docsInCart.push(doc);
       }
     }
   });
-  console.log(docsInCart);
   makeCartTable();
 }
 
@@ -427,17 +424,18 @@ function removeDoc(x) {
   let docIndex;
 
   docsInCart.forEach(doc => {
-    if (x == doc.FID) {
+    if (x === doc.FID) {
       docIndex = docsInCart.indexOf(doc);
     }
   });
 
   docsInCart.splice(docIndex, 1);
-  console.log(docsInCart);
+
   makeCartTable();
 }
 
 function makeCartTable() {
+  console.log(docsInCart);
   let html = '<table class="table is-striped">';
   html += "<tr>";
   const headers = ["Year", "Author", "Title", "Tags", ""];
@@ -451,7 +449,7 @@ function makeCartTable() {
     <td>${doc.Author}</td>
     <td>${doc.Title}</td>
     <td>${doc.contentTags}</td>
-    <td><button class="button is-danger is-outlined is-small" onclick="removeDoc(${doc.FID})">Remove from cart</button></td>
+    <td><button class="button is-danger is-outlined is-small" onclick="removeDoc('${doc.FID}')">Remove from cart</button></td>
     </tr>`;
     return (html += tableRow);
   });
@@ -498,7 +496,7 @@ function fusesearch() {
       <td>${doc.Author}</td>
       <td>${doc.Title}</td>
       <td>${doc.contentTags}</td>
-      <td><button class="button is-link is-outlined is-small" onclick="addDoc(${doc.FID})">Add to cart</button></td>
+      <td><button class="button is-link is-outlined is-small" onclick="addDoc('${doc.FID}')">Add to cart</button></td>
       </tr>`;
       return (html += tableRow);
     });
