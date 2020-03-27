@@ -46,16 +46,20 @@ const makeDataTable = data => {
 let docsInCart = [];
 
 const additionListener = () => {
-  const addition = document.getElementById("addition");
-  addition.addEventListener("click", event => {
-    event.preventDefault();
-    const isButton = event.target.nodeName === "BUTTON";
-    if (!isButton) {
-      return;
-    }
-    let fid = event.target.id;
-    addDoc(fid);
-  });
+  const addition = document.getElementById("clicky");
+  addition.addEventListener(
+    "click",
+    event => {
+      event.preventDefault();
+      const isButton = event.target.nodeName === "BUTTON";
+      if (!isButton) {
+        return;
+      }
+      let fid = event.target.id;
+      addDoc(fid);
+    },
+    false
+  );
 };
 
 function addDoc(fid) {
@@ -82,18 +86,11 @@ function addDoc(fid) {
   makeCartTable();
 }
 
-const logText = e => {
-  e.stopPropagation();
-  console.log(e.target.id);
-};
-
 const removalListener = () => {
   const removal = document.getElementById("cart");
-  removal.addEventListener("click", logText, true);
-};
-
-/*
-event => {
+  removal.addEventListener(
+    "click",
+    event => {
       event.stopPropagation();
       const isButton = event.target.nodeName === "BUTTON";
       if (!isButton) {
@@ -101,7 +98,14 @@ event => {
       }
       let fid = event.target.id;
       removeDoc(fid);
-    }
+      //logText(event);
+    },
+    false
+  );
+};
+
+/*
+    
 */
 
 function removeDoc(fid) {
@@ -112,9 +116,9 @@ function removeDoc(fid) {
       docIndex = docsInCart.indexOf(doc);
     }
   });
-  console.log(docIndex);
   docsInCart.splice(docIndex, 1);
   makeCartTable();
+  return;
 }
 
 function makeCartTable() {
@@ -165,7 +169,7 @@ function fusesearch() {
   if (result.length == 0) {
     var html = "No search results found.";
   } else {
-    var html = `<p>Your search returned ${result.length} results.</p><table class="table is-striped">`;
+    var html = `<p>Your search returned ${result.length} results.</p><table class="table is-striped" id="addition">`;
     html += "<tr>";
     var flag = 0;
     var headers = ["Year", "Author", "Title", "Tags", ""];
@@ -179,14 +183,14 @@ function fusesearch() {
       <td>${doc.Author}</td>
       <td>${doc.Title}</td>
       <td>${doc.contentTags}</td>
-      <td><button class="button is-link is-outlined is-small addCart" onclick="addDoc('${doc.FID}')">Add to cart</button></td>
+      <td><button class="button is-link is-outlined is-small addCart" id="${doc.FID}">Add to cart</button></td>
       </tr>`;
       return (html += tableRow);
     });
     html += "</table>";
   }
   document.querySelector("div#clicky").innerHTML = html;
-  return false;
+  return;
 }
 
 /* FORM SUBMISSION */

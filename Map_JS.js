@@ -1,4 +1,3 @@
-"use strict";
 //<!-- SEARCH -->
 //<!-- This script will read through .JSON data and construct a queryable HTML table from it -->
 //<script type="text/javascript">
@@ -350,7 +349,8 @@ document.ondblclick = function ElementCoords() {
   }
 };
 /////////////////////////////////////////////////////////////////////////////////////////
-*/
+
+("use strict");
 /* READ IN LOCAL JSON AS ARRAY */
 fetch("DocsJSON.json")
   .then(res => res.json())
@@ -358,6 +358,8 @@ fetch("DocsJSON.json")
     writeData(data);
     makeDataTable(data);
     makeSearch();
+    additionListener();
+    removalListener();
   });
 
 let data;
@@ -367,7 +369,7 @@ const writeData = source => {
 
 /* LOCAL JSON TABLE */
 const makeDataTable = data => {
-  let html = '<table class="table is-striped">';
+  let html = '<table class="table is-striped" id="addition">';
   html += "<tr>";
   const headers = ["Year", "Author", "Title", "Tags", ""];
   headers.forEach(header => {
@@ -376,16 +378,16 @@ const makeDataTable = data => {
   html += "</tr>";
   let thing = 1;
   data.forEach(doc => {
-    const tableRow = `<tr id="${doc.FID}">
+    const tableRow = `<tr class="addCart">
       <td>${doc.Year}</td>
       <td>${doc.Author}</td>
       <td>${doc.Title}</td>
       <td>${Object.keys(doc.contentTags).map(key => {
         return ` ${doc.contentTags[key]}`;
       })}</td>
-      <td><button class="button is-link is-outlined is-small" onclick="addDoc('${
+      <td><button class="button is-link is-outlined is-small addCart" id="${
         doc.FID
-      }')">Add to cart</button></td>
+      }">Add to cart</button></td>
       </tr>`;
     return (html += tableRow);
   });
@@ -396,9 +398,26 @@ const makeDataTable = data => {
 /* SHOPPING CART */
 let docsInCart = [];
 
-function addDoc(x) {
+const additionListener = () => {
+  const addition = document.getElementById("clicky");
+  addition.addEventListener(
+    "click",
+    event => {
+      event.preventDefault();
+      const isButton = event.target.nodeName === "BUTTON";
+      if (!isButton) {
+        return;
+      }
+      let fid = event.target.id;
+      addDoc(fid);
+    },
+    false
+  );
+};
+
+function addDoc(fid) {
   data.forEach(doc => {
-    if (x === doc.FID) {
+    if (fid === doc.FID) {
       if (docsInCart && docsInCart.length) {
         let found = false;
 
@@ -420,22 +439,42 @@ function addDoc(x) {
   makeCartTable();
 }
 
-function removeDoc(x) {
+const removalListener = () => {
+  const removal = document.getElementById("cart");
+  removal.addEventListener(
+    "click",
+    event => {
+      event.stopPropagation();
+      const isButton = event.target.nodeName === "BUTTON";
+      if (!isButton) {
+        return;
+      }
+      let fid = event.target.id;
+      removeDoc(fid);
+      //logText(event);
+    },
+    false
+  );
+};
+
+/*
+    
+*/
+
+function removeDoc(fid) {
   let docIndex;
 
   docsInCart.forEach(doc => {
-    if (x === doc.FID) {
+    if (fid === doc.FID) {
       docIndex = docsInCart.indexOf(doc);
     }
   });
-
   docsInCart.splice(docIndex, 1);
-
   makeCartTable();
+  return;
 }
 
 function makeCartTable() {
-  console.log(docsInCart);
   let html = '<table class="table is-striped">';
   html += "<tr>";
   const headers = ["Year", "Author", "Title", "Tags", ""];
@@ -444,17 +483,18 @@ function makeCartTable() {
   });
   html += "</tr>";
   docsInCart.forEach(doc => {
-    const tableRow = `<tr id="${doc.FID}">
+    const tableRow = `<tr>
     <td>${doc.Year}</td>
     <td>${doc.Author}</td>
     <td>${doc.Title}</td>
     <td>${doc.contentTags}</td>
-    <td><button class="button is-danger is-outlined is-small" onclick="removeDoc('${doc.FID}')">Remove from cart</button></td>
+    <td><button class="button is-danger is-outlined is-small" id="${doc.FID}">Remove from cart</button></td>
     </tr>`;
     return (html += tableRow);
   });
   html += "</table>";
   document.querySelector("div#cart").innerHTML = html;
+  console.log(docsInCart);
 }
 
 /* FUSE SEARCH */
@@ -482,7 +522,7 @@ function fusesearch() {
   if (result.length == 0) {
     var html = "No search results found.";
   } else {
-    var html = `<p>Your search returned ${result.length} results.</p><table class="table is-striped">`;
+    var html = `<p>Your search returned ${result.length} results.</p><table class="table is-striped" id="addition">`;
     html += "<tr>";
     var flag = 0;
     var headers = ["Year", "Author", "Title", "Tags", ""];
@@ -491,18 +531,19 @@ function fusesearch() {
     });
     html += "</tr>";
     result.forEach(doc => {
-      const tableRow = `<tr id="${doc.FID}">
+      const tableRow = `<tr>
       <td>${doc.Year}</td>
       <td>${doc.Author}</td>
       <td>${doc.Title}</td>
       <td>${doc.contentTags}</td>
-      <td><button class="button is-link is-outlined is-small" onclick="addDoc('${doc.FID}')">Add to cart</button></td>
+      <td><button class="button is-link is-outlined is-small addCart" id="${doc.FID}">Add to cart</button></td>
       </tr>`;
       return (html += tableRow);
     });
     html += "</table>";
   }
   document.querySelector("div#clicky").innerHTML = html;
+  return;
 }
 
 /* FORM SUBMISSION */
