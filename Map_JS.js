@@ -1,35 +1,3 @@
-//<!-- SEARCH -->
-//<!-- This script will read through .JSON data and construct a queryable HTML table from it -->
-//<script type="text/javascript">
-
-var column = 0;
-var InfoBox = null;
-
-//Reads the HTML table created from the XML
-function readTable() {
-  // Declare variables
-  var input, filter, table, tr, td, i, txtValue;
-  input = document.getElementById("myInput");
-  filter = input.value.toUpperCase();
-  table = document.getElementById("dvCSV");
-  tr = table.getElementsByTagName("tr");
-
-  // Loop through all table rows, and hide those who don't match the search query
-  // make i = 1 to start reading table below the header
-
-  for (i = 0; i < tr.length; i++) {
-    td = tr[i].getElementsByTagName("td")[column];
-    if (td) {
-      txtValue = td.textContent || td.innerText;
-      if (txtValue.toUpperCase().indexOf(filter) > -1) {
-        tr[i].style.display = "";
-      } else {
-        tr[i].style.display = "none";
-      }
-    }
-  }
-}
-
 // This has to set the value of the column before the search function is performed
 function displayRadioValue(value) {
   column = value;
@@ -351,6 +319,7 @@ document.ondblclick = function ElementCoords() {
 /////////////////////////////////////////////////////////////////////////////////////////
 
 ("use strict");
+
 /* READ IN LOCAL JSON AS ARRAY */
 fetch("DocsJSON.json")
   .then(res => res.json())
@@ -431,6 +400,7 @@ function addDoc(fid) {
       }
     }
   });
+  console.log(docsInCart);
   makeCartTable();
 }
 
@@ -465,6 +435,7 @@ function removeDoc(fid) {
     }
   });
   docsInCart.splice(docIndex, 1);
+  console.log(docsInCart);
   makeCartTable();
   return;
 }
@@ -619,126 +590,6 @@ document.onreadystatechange = function() {
       }
     }
 
-    /*
-		function CreateTableFromJSON() {
-
-			var docArray = null;   //This is IMPORTANT
-			$.ajax({
-				'async': false,
-				'global': false,
-				'url': "/document_Info.json",
-				'dataType': "json",
-				'success': function (data) {
-					docArray = data;
-				}
-			});
-
-			// EXTRACT VALUE FOR HTML HEADER. 
-			var col = [];
-			//for (var i = 0; i < docArray.length; i++) {
-			for (var i = 0; i < docArray.length; i++) {
-				for (var key in docArray[i]) {
-					if (col.indexOf(key) === -1) {
-						col.push(key);
-					}
-				}
-			};
-
-			// CREATE DYNAMIC TABLE.
-			var table = document.createElement("table");
-
-			// CREATE HTML TABLE HEADER ROW USING THE EXTRACTED HEADERS ABOVE.
-
-			var tr = table.insertRow(-1);                   // TABLE ROW.
-			
-			var th = document.createElement("th");
-			th.innerHTML = "Select";
-			tr.appendChild(th);
-			
-			var th = document.createElement("th");
-			th.innerHTML = col[0];
-			tr.appendChild(th);
-			
-			var th = document.createElement("th");
-			th.innerHTML = col[1];
-			tr.appendChild(th);
-			
-			var th = document.createElement("th");
-			th.innerHTML = col[2];
-			tr.appendChild(th);
-			
-			// ***Coordinates ***
-			var th = document.createElement("th");
-			th.innerHTML = "Longitude,Latitude";
-			tr.appendChild(th);
-			
-			
-			// ADD JSON DATA TO THE TABLE AS ROWS.
-			for (var i = 0; i < docArray.length; i++) {
-				
-				tr = table.insertRow(-1);
-				
-				var tabCell = tr.insertCell(-1);
-				tabCell.innerHTML = "<input type='checkbox' id='myCheck' onmouseup='captureDoc()'><span class='checkmark'></span>"
-				
-				var tabCell = tr.insertCell(-1);
-				tabCell.innerHTML = docArray[i][col[0]];
-				
-				var tabCell = tr.insertCell(-1);
-				tabCell.innerHTML = docArray[i][col[1]];
-				
-				var tabCell = tr.insertCell(-1);
-				tabCell.innerHTML = docArray[i][col[2]];
-				
-				//  *** Coordinates ***
-				//var tabCell = tr.insertCell(-1);
-				var tabCell = tr.insertCell(-1);
-				tabCell.innerHTML = docArray[i][col[3]]+ "," +docArray[i][col[4]];
-
-			};
-
-			// FINALLY ADD THE NEWLY CREATED TABLE WITH JSON DATA TO A CONTAINER.
-			var divContainer = document.getElementById("dvCSV");
-			divContainer.innerHTML = "";
-			divContainer.appendChild(table);
-			
-		}
-
-		CreateTableFromJSON()	
-			
-*/
-    /*
-		var domString = '<table><tr><th>Select</th><th>FID</th><th>Year</th><th>Author</th><th>Title</th><th>Location</th></tr></table>';
-
-		function captureDoc() {
-			//$(document).ready(function(){
-			
-				$("#myCheck").click(function() {                             //Select ID myCheck and on click perform this function
-				var $td = $(this).closest('tr').children("td");              //Select the closest tr of the td then creates list of children tds
-					//$td = $td.shift(),                                       //removes first element of the array
-					len = $td.length;		                                 //finds length of the selected children 
-				var tableData = $td.map(function(i) {	                     // makes a new jQuery object
-					//return $this.text()                                    //
-					
-					if(i < len)                                              //
-						return $(this).text();                               //
-						
-				}).get();
-				
-				tableData = JSON.stringify(tableData);
-				//tableData = tableData.splice(0,1);
-				
-				$('#SelectedDocs').append(tableData);
-				
-				console.log(tableData);
-				
-				return tableData;
-				
-				docCartTable();
-			});
-		};
-
-*/
     /* MODAL SCRIPT */
     /* this script is at the end of the HTML because it needs to be loaded first for the script to work */
     /* The Modal (background) */
