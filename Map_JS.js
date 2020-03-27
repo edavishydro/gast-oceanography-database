@@ -319,6 +319,7 @@ document.ondblclick = function ElementCoords() {
 /////////////////////////////////////////////////////////////////////////////////////////
 
 ("use strict");
+
 /* READ IN LOCAL JSON AS ARRAY */
 fetch("DocsJSON.json")
   .then(res => res.json())
@@ -404,6 +405,7 @@ function addDoc(fid) {
       }
     }
   });
+  console.log(docsInCart);
   makeCartTable();
 }
 
@@ -438,6 +440,7 @@ function removeDoc(fid) {
     }
   });
   docsInCart.splice(docIndex, 1);
+  console.log(docsInCart);
   makeCartTable();
   return;
 }
