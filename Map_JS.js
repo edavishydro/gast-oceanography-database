@@ -1,9 +1,8 @@
-//<!-- SEARCH -->
-//<!-- This script will read through .JSON data and construct a queryable HTML table from it -->
-//<script type="text/javascript">
-
-var column = 0;
-var InfoBox = null;
+// This has to set the value of the column before the search function is performed
+function displayRadioValue(value) {
+  column = value;
+  //alert(column);
+}
 
 /**
  * Setup the information box and display the specified HTML content
@@ -283,9 +282,40 @@ function init() {
   TheMainContainer.StartMap(false);
 
   SetupInfoBox("<a id='InfoBoxStyle'>Hover mouse for Marine Body Name</a>");
+}
+
+//broken call on mouse move
+document.ondblclick = function ElementCoords() {
+  if (column == 4) {
+    var coordClass = document.getElementsByClassName("CM_MapCoordinates");
+    var coordinates = coordClass[0].innerText;
+
+    MoreCoords = coordinates.split(" ");
+
+    console.log(MoreCoords[0]);
+    console.log(MoreCoords[1]);
+    console.log(MoreCoords[2]);
+    console.log(MoreCoords[3]);
+
+    lat1 = parseInt(MoreCoords[0].slice(0, -1));
+    long1 = parseInt(MoreCoords[2].slice(0, -1));
+
+    if (MoreCoords[1] == "S") {
+      lat1 = lat1 * -1;
+    }
+
+    if (MoreCoords[3] == "W") {
+      long1 = long1 * -1;
+    }
+
+    coordinatesFinal = long1 + "," + lat1;
+
+    console.log(coordinatesFinal);
+
+    //document.getElementById("demooo").innerHTML = coordinates; //this will appear under the discription text
+    document.getElementById("myInput").value = coordinatesFinal;
+  }
 };
-
-
 /////////////////////////////////////////////////////////////////////////////////////////
 
 ("use strict");
@@ -297,6 +327,8 @@ fetch("DocsJSON.json")
     writeData(data);
     makeDataTable(data);
     makeSearch();
+    additionListener();
+    removalListener();
   });
 
 let data;
@@ -306,7 +338,7 @@ const writeData = source => {
 
 /* LOCAL JSON TABLE */
 const makeDataTable = data => {
-  let html = '<table class="table is-striped">';
+  let html = '<table class="table is-striped" id="addition">';
   html += "<tr>";
   const headers = ["Year", "Author", "Title", "Tags", ""];
   headers.forEach(header => {
@@ -315,16 +347,16 @@ const makeDataTable = data => {
   html += "</tr>";
   let thing = 1;
   data.forEach(doc => {
-    const tableRow = `<tr id="${doc.FID}">
+    const tableRow = `<tr class="addCart">
       <td>${doc.Year}</td>
       <td>${doc.Author}</td>
       <td>${doc.Title}</td>
       <td>${Object.keys(doc.contentTags).map(key => {
         return ` ${doc.contentTags[key]}`;
       })}</td>
-      <td><button class="button is-link is-outlined is-small" onclick="addDoc(${
+      <td><button class="button is-link is-outlined is-small addCart" id="${
         doc.FID
-      })">Add to cart</button></td>
+      }">Add to cart</button></td>
       </tr>`;
     return (html += tableRow);
   });
@@ -335,22 +367,38 @@ const makeDataTable = data => {
 /* SHOPPING CART */
 let docsInCart = [];
 
-function addDoc(x) {
+const additionListener = () => {
+  const addition = document.getElementById("clicky");
+  addition.addEventListener(
+    "click",
+    event => {
+      event.preventDefault();
+      const isButton = event.target.nodeName === "BUTTON";
+      if (!isButton) {
+        return;
+      }
+      let fid = event.target.id;
+      addDoc(fid);
+    },
+    false
+  );
+};
+
+function addDoc(fid) {
   data.forEach(doc => {
-    if (x == doc.FID) {
+    if (fid === doc.FID) {
       if (docsInCart && docsInCart.length) {
-        var found = false;
+        let found = false;
 
         for (let i = 0; i < docsInCart.length; i++) {
-          if (docsInCart[i].FID == doc.FID) {
+          if (docsInCart[i].FID === doc.FID) {
             found = true;
             break;
           }
         }
 
-        if (found == false) {
+        if (found === false) {
           docsInCart.push(doc);
-        } else {
         }
       } else {
         docsInCart.push(doc);
@@ -361,18 +409,40 @@ function addDoc(x) {
   makeCartTable();
 }
 
-function removeDoc(x) {
+const removalListener = () => {
+  const removal = document.getElementById("cart");
+  removal.addEventListener(
+    "click",
+    event => {
+      event.stopPropagation();
+      const isButton = event.target.nodeName === "BUTTON";
+      if (!isButton) {
+        return;
+      }
+      let fid = event.target.id;
+      removeDoc(fid);
+      //logText(event);
+    },
+    false
+  );
+};
+
+/*
+    
+*/
+
+function removeDoc(fid) {
   let docIndex;
 
   docsInCart.forEach(doc => {
-    if (x == doc.FID) {
+    if (fid === doc.FID) {
       docIndex = docsInCart.indexOf(doc);
     }
   });
-
   docsInCart.splice(docIndex, 1);
   console.log(docsInCart);
   makeCartTable();
+  return;
 }
 
 function makeCartTable() {
@@ -384,17 +454,18 @@ function makeCartTable() {
   });
   html += "</tr>";
   docsInCart.forEach(doc => {
-    const tableRow = `<tr id="${doc.FID}">
+    const tableRow = `<tr>
     <td>${doc.Year}</td>
     <td>${doc.Author}</td>
     <td>${doc.Title}</td>
     <td>${doc.contentTags}</td>
-    <td><button class="button is-danger is-outlined is-small" onclick="removeDoc(${doc.FID})">Remove from cart</button></td>
+    <td><button class="button is-danger is-outlined is-small" id="${doc.FID}">Remove from cart</button></td>
     </tr>`;
     return (html += tableRow);
   });
   html += "</table>";
   document.querySelector("div#cart").innerHTML = html;
+  console.log(docsInCart);
 }
 
 /* FUSE SEARCH */
@@ -422,7 +493,7 @@ function fusesearch() {
   if (result.length == 0) {
     var html = "No search results found.";
   } else {
-    var html = `<p>Your search returned ${result.length} results.</p><table class="table is-striped">`;
+    var html = `<p>Your search returned ${result.length} results.</p><table class="table is-striped" id="addition">`;
     html += "<tr>";
     var flag = 0;
     var headers = ["Year", "Author", "Title", "Tags", ""];
@@ -431,18 +502,19 @@ function fusesearch() {
     });
     html += "</tr>";
     result.forEach(doc => {
-      const tableRow = `<tr id="${doc.FID}">
+      const tableRow = `<tr>
       <td>${doc.Year}</td>
       <td>${doc.Author}</td>
       <td>${doc.Title}</td>
       <td>${doc.contentTags}</td>
-      <td><button class="button is-link is-outlined is-small" onclick="addDoc(${doc.FID})">Add to cart</button></td>
+      <td><button class="button is-link is-outlined is-small addCart" id="${doc.FID}">Add to cart</button></td>
       </tr>`;
       return (html += tableRow);
     });
     html += "</table>";
   }
   document.querySelector("div#clicky").innerHTML = html;
+  return;
 }
 
 /* FORM SUBMISSION */
@@ -524,7 +596,6 @@ document.onreadystatechange = function() {
         document.getElementById("coordinate").innerHTML = test;
       }
     }
-
 
     /* MODAL SCRIPT */
     /* this script is at the end of the HTML because it needs to be loaded first for the script to work */
