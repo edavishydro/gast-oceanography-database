@@ -1,3 +1,4 @@
+
 <!DOCTYPE HTML>
 
 <html>
@@ -26,7 +27,6 @@
 
 <style>
 /* Modal stylings are set here  */
-
 /* The Modal (background) */
 
 .modal {
@@ -71,12 +71,7 @@ tr {
   border-bottom: 1px solid #ddd; 
 }
 
-</style>
-
-<style>
-
 /* Sets the initial style of the InfoBox */
-
 #InfoBoxStyle {
  /* background-color: red;  #use this to visualize the background of the text */ 
  font-size: 18px;
@@ -132,16 +127,14 @@ tr {
 	</tr>
 </table>
 		<!-- MODAL BOX WITH DOCUMENT CART HERE -->
-		
 			<!-- The Modal -->
 		<div id="myModal" class="modal" style="display:none;z-index:10;">
 
-		  <!-- Modal content -->
+		<!-- Modal content -->
 			<div class="modal-content">
 				<span class="close">&times;</span>
 				
 				<!-- This is going to be the contents of the Document cart -->
-				
 				<div>
 					<h3> Review Selected Documents </h3>
 					<div class="container">
@@ -191,12 +184,8 @@ tr {
 								  </div>
 								</form>
 							<pre id="output"></pre>
-
-							<table>
-								     
-								<h1 class="is-size-2"> Shopping Cart </h1>
-								
-								
+							<table>    
+								<h1 class="is-size-2"> Document Cart </h1>
 							</table>
 							<!-- selected document data will be appended here inside of <td> -->	
 						</form>
@@ -220,7 +209,7 @@ tr {
 						</div>
 					</td>
 					<!-- Search bar Items -->
-					<td style="width:50%; min-width:400px;">
+					<td style="width:50%; min-width:400px; max-width:800px;">
 						<div>
 							<div style="background: lightgrey;text-align: center; margin:auto; position: inherit;">
 			
@@ -232,9 +221,9 @@ tr {
 							
 							<!-- JSON will be read in here and converted to the HTML table -->		
 
-							<div  style="height: 650px; float:right; display:inline; overflow-y:auto;"> <!-- make scrollable -->
+							<div  style="height: 700px; display:inline; overflow-y:scroll;"> <!-- make scrollable -->
 								        <h1 class="is-size-4" style="margin: auto; text-align: center"> Search Results </h1>
-										<div id="clicky" class="table-container"></div>
+										<div id="clicky" class="table-container" style="height:650px;"></div>
 							
 								<!--<table id="dvCSV"> </table>-->
 							</div>
