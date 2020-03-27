@@ -1,3 +1,4 @@
+
 <!DOCTYPE HTML>
 
 <html>
@@ -16,128 +17,16 @@
 <script src="/Libraries/jquery-3.4.1.min.js"></script>
 <script src="/Libraries/turf.min.js"></script>
 <script src="/Libraries/CanvasMap.js"></script>
-<script src="/Libraries/fuse.js"></script>
-
-<script src="/Map_JS.js"></script>
-
+<script src="https://cdnjs.cloudflare.com/ajax/libs/fuse.js/3.4.5/fuse.min.js" charset="utf-8"></script>
 
 <link href="/CanvasMapStyle.css" rel="stylesheet" type="text/css"></link>
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.8.0/css/bulma.min.css">
+    
 <link  href="https://use.fontawesome.com/releases/v5.7.0/css/all.css" rel="stylesheet" integrity="sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ" crossorigin="anonymous">
 	
-	
-<style>
-* {box-sizing: border-box;}
 
-body {
-  margin: 0;
-  font-family: Arial, Helvetica, sans-serif;
-}
-
-.topnav {
-  overflow: hidden;
-  background-color: #e9e9e9;
-}
-
-.topnav a {
-  margin: auto;
-  display: relative;
-  color: black;
-  text-align: center;
-  padding: 14px 16px;
-  text-decoration: none;
-  font-size: 17px;
-}
-
-.topnav a:hover {
-  background-color: #ddd;
-  color: black;
-}
-
-.topnav a.active {
-  background-color: #2196F3;
-  color: white;
-}
-
-form.example input[type=text] {
-  padding: 10px;
-  font-size: 17px;
-  border: 1px solid grey;
-  float: left;
-  width: 80%;
-  background: #f1f1f1;
-}
-
-form.example button {
-  float: right;
-  width: 20%;
-  padding: 10px;
-  background: #2196F3;
-  color: white;
-  font-size: 17px;
-  border: 1px solid grey;
-  border-left: none;
-  cursor: pointer;
-}
-
-form.example button:hover {
-  background: #0b7dda;
-}
-
-form.example::after {
-  content: "";
-  clear: both;
-  display: table;
-}
-
-@media screen and (max-width: 600px) {
-  .topnav a, .topnav input[type=text] {
-    float: none;
-    display: block;
-    text-align: left;
-    width: 100%;
-    margin: 0;
-    padding: 14px;
-  }
-  
-.myTable {
-  
-  width: 100%; /* Full-width */
-  border: 2px solid black; /* Add a grey border */
-  font-size: 12px; /* Increase font-size */
-}
-
-.myTable th, .myTable td {
-  text-align: left; /* Left-align text */
-  padding: 12px; /* Add padding */
-}
-
-.myTable tr {
-  /* Add a bottom border to all table rows */
-  border-bottom: 1px solid #ddd; 
-}
-
-.myTable tr.header, .myTable tr:hover {
-  /* Add a grey background color to the table header and on hover */
-  background-color: #f1f1f1;
-  
-}
-
-.container .checkmark:after {
-  left: 9px;
-  top: 5px;
-  width: 5px;
-  height: 10px;
-  border: solid white;
-  border-width: 0 3px 3px 0;
-  -webkit-transform: rotate(45deg);
-  -ms-transform: rotate(45deg);
-  transform: rotate(45deg);
-}
-
-</style>
 <style>
 /* Modal stylings are set here  */
-
 /* The Modal (background) */
 
 .modal {
@@ -177,66 +66,12 @@ form.example::after {
   cursor: pointer;
 }
 
-</style>
-<style>
-/*  Styling for the information form in Modal popup  */
-
-input[type=text], select {
-  width: 100%;
-  padding: 12px 20px;
-  margin: 8px 0;
-  display: block;
-  border: 1px solid #ccc;
-  border-radius: 4px;
-  box-sizing: border-box;
+tr {
+  /* Add a bottom border to all table rows */
+  border-bottom: 1px solid #ddd; 
 }
-
-input[type=submit] {
-  width: 100%;
-  background-color: #4CAF50;
-  color: white;
-  padding: 14px 20px;
-  margin: 8px 0;
-  border: none;
-  border-radius: 4px;
-  cursor: pointer;
-}
-
-input[type=submit]:hover {
-  background-color: #45a049;
-}
-
-div.container {
-  border-radius: 5px;
-  background-color: #f2f2f2;
-  padding: 20px;
-}
-</style>
-<style>
-/* style table elements  */
-
-#dvCSV tr:hover {
- /* font-weight: bold; */ 
- background-color: #ffff99;
- border: solid #000;
- border-width: 0 1px;
-}
-
-#dvCSV td:hover {
- background-color: white;
- border: 1px black solid;
-}
-
-#dvCSV th{
- border: 1px solid black;
- box-shadow:0px 0px 1px 1px darkgrey;
-}
-
-</style>
-<style>
 
 /* Sets the initial style of the InfoBox */
-
 #InfoBoxStyle {
  /* background-color: red;  #use this to visualize the background of the text */ 
  font-size: 18px;
@@ -247,9 +82,9 @@ div.container {
 </style>
 </head>
 
-<!-- //********************************************************** -->
-<!-- // Start of HTML -->
-<!-- //********************************************************** -->
+<!-- ********************************************************** -->
+<!-- Start of HTML -->
+<!-- ********************************************************** -->
 <!--- body tag should call a function to initialize the map -->
 <body onload="init()" style="background-color:white; width:100%;"><!-- This will appear above the map --><!--<h1 style="text-align: center;">Salmon of the Klamath</h1> --><!-- This text must also be positioned absolutely so it appears below instead of behind the map -->
 <div style="width:100%; margin:0px; background-color: white;" > <!-- Try this:  width:80%;margin: auto; -->
@@ -260,31 +95,28 @@ div.container {
 		<td>
 			<div>
 				<a href="http://www.tgaec.com/">
-					<img style=" top:10px; left:10px; margin:15px; position:relative; box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);" src="//nebula.wsimg.com/3bfa3b83216b61a90ed2e00def1de76b?AccessKeyId=A13D63BD52FCB9239B4B&amp;disposition=0&amp;alloworigin=1;">
+					<img style=" top:10px; left:10px; margin:15px; min-width: 300px; min-height:90; position:relative; box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);" src="//nebula.wsimg.com/3bfa3b83216b61a90ed2e00def1de76b?AccessKeyId=A13D63BD52FCB9239B4B&amp;disposition=0&amp;alloworigin=1;">
 				</a>
 			</div>
 		</td>
+		
 		<td>
 			<!-- BUTTON THAT TRIGGERS THE MODAL BOX -->
 			
 			<div>
-				<h1 style="text-align:center; margin:auto;padding-top:5px;">Gast Oceanography Collection</h1>
+				<h1 class="is-size-3" style="text-align:center; margin:auto;padding-top:5px;">Gast Oceanography Collection</h1>
 				<p style="padding-left:80px; padding-right:80px; min-height:30px; position:block;">This map is a geolibrary that contains decades of oceanography research from the personal collection of Humboldt State University Professor James Gast.
 			In addition to teaching oceanography for over 30 years, Professor Gast served as the founding director of the Telonicher Marine Laboratory in Trinidad, California from 1964 - 1970. (http://www.hsumarinelab.org/lab-history).
 				<br>
 				
-				<!-- <br>
-				<p>
-				To order documents, press the select checkboxes next to the document information to add them to the document cart. Press the Document Cart button in the top right corner and a popup window will appear where you can complete your order.
-				</p>
-				<br> -->
-				
 			</div>
 		</div>
+		<div id="cart" class="table-container"></div>
 		</td>
+		
 		<td style="width:300px">
 			<div>
-				<button id="myBtn" style=" top:10px; right:10px; margin:15px; position:relative; box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);">
+				<button id="myBtn" style=" top:10px; right:10px; margin:15px; min-width: 300px; min-height:90px; position:relative; box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);">
 					<div>
 						<h3> Document Cart </h3>
 						<p> Click here to review requested documents</p>
@@ -292,81 +124,69 @@ div.container {
 				</button>
 			</div>
 		</td>
-		</tr>
-		</table>
+	</tr>
+</table>
 		<!-- MODAL BOX WITH DOCUMENT CART HERE -->
-		
 			<!-- The Modal -->
 		<div id="myModal" class="modal" style="display:none;z-index:10;">
 
-		  <!-- Modal content -->
+		<!-- Modal content -->
 			<div class="modal-content">
 				<span class="close">&times;</span>
 				
 				<!-- This is going to be the contents of the Document cart -->
-				
 				<div>
 					<h3> Review Selected Documents </h3>
 					<div class="container">
 						<form action="/action_page.php">
 							<div style="border: 2px darkgrey solid; padding:5px;">
-								<table 	style="margin:auto;">
-									<tbody>
-										<tr>
-											<td style="width:500px;">
-												<div>
-													<label for="name">Full Name</label>
-													<input type="text" id="name" name="name" placeholder="Your name..">
-												</div>
-											</td>
-											<td style="width:500px;">
-												<div>
-													<label for="email">Email</label>
-													<input type="text" id="email" name="email" placeholder="Your email..">
-												</div>
-											</td>
-										</tr>
+							    <form name="requestForm" action="index.html" method="get" id="requestForm">
+								  <div class="field">
+									<label class="label">Full Name</label>
+									<div class="control has-icons-left has-icons-right">
+									  <input class="input request" type="text" placeholder="Enter your full name" name="fullName" required>
+									  <span class="icon is-small is-left">
+										<i class="fas fa-user"></i>
+									  </span>
+									</div>
+								  </div>
 
-										<tr>
-											<td style="width:500px;">
-												<label for="organization">Organization</label>
-												<input type="text" id="organization" name="organization" placeholder="Your organization..">
-											</td>
-											
-											<td style="width:500px;">
-											<label for="affiliation">Affiliation</label>
-													<select id="affiliation" name="affiliation">
-													  <option value="academic">Academic</option>
-													  <option value="government">Government</option>
-													  <option value="commercial">Commercial</option>
-													  <option value="private">Private</option>
-													</select>
-											</td>
-										</tr>
-									</tbody>
-								</table>
-								<table style="margin:auto;">
-									<tbody>
-										<tr>
-											<td style="width:1000px;">
-												<div>
-													<label for="email">Purpose</label>
-													<input type="text" id="purpose" name="purpose" placeholder="Purpose for these documents..">
-												</div>
-											</td>
-										</tr>
-									</tbody>
-								</table>
-							</div>
-							<input type="submit" value="Submit your Document Request">
-							
-							<!-- Table of selected docs goes here -->
-							<table>
-								<tr><th>Select</th><th>FID</th><th>Year</th><th>Author</th><th>Title</th><th>Location</th></tr>
-								
-								<tr id="SelectedDocs"> </tr>
-								
-								</table>
+								  <div class="field">
+									<label class="label">Email</label>
+									<div class="control has-icons-left has-icons-right">
+									  <input class="input request" type="email" placeholder="Enter your email" name="email" required>
+									  <span class="icon is-small is-left">
+										<i class="fas fa-envelope"></i>
+									  </span>
+									</div>
+								  </div>
+
+								  <div class="field">
+									<label class="label">Affiliation</label>
+									<div class="control">
+									  <div class="select">
+										<select name="affiliation" required>
+										  <option value="" selected>Select dropdown</option>
+										  <option value="Academic">Academic</option>
+										  <option value="Government">Government</option>
+										  <option value="Private">Private Industry</option>
+										</select>
+									  </div>
+									</div>
+								  </div>
+								  <div class="field is-grouped">
+									<div class="control">
+									  <input type="submit" class="button is-link" value="Send request"></input>
+									</div>
+									<div class="control">
+									  <button class="button is-link is-light">Cancel</button>
+									</div>
+								  </div>
+								</form>
+							<pre id="output"></pre>
+							<table>    
+								<h1 class="is-size-2"> Document Cart </h1>
+							</table>
 							<!-- selected document data will be appended here inside of <td> -->	
 						</form>
 					</div>
@@ -389,30 +209,24 @@ div.container {
 						</div>
 					</td>
 					<!-- Search bar Items -->
-					<td style="width:50%; min-width:400px;">
-						<div><!-- This is the container for the map. -->
+					<td style="width:50%; min-width:400px; max-width:800px;">
+						<div>
 							<div style="background: lightgrey;text-align: center; margin:auto; position: inherit;">
 			
 								<!-- From w3 schools: https://www.w3schools.com/howto/tryit.asp?filename=tryhow_css_searchbar -->
-								<div class="topnav">
-									<h3> Search through the documents by year, author, or title. </h3> <!-- starts with 1 because the checkbox counts as 0 -->
-									<!-- <a><input type="radio" name="Method" value="0" onclick="displayRadioValue(1)"/>FID </a> -->
-									<a><input type="radio" name="Method" value="0" onclick="displayRadioValue(1)"/>Year </a>
-									<a><input type="radio" name="Method" value="1" onclick="displayRadioValue(2)"/>Author </a>
-									<a><input type="radio" name="Method" value="2" onclick="displayRadioValue(3)"/>Title </a>
-									<a><input type="radio" name="Method" value="4" onclick="displayRadioValue(4)"/>Location </a>
-									
-									<!-- <a><input type="radio" name="Method" value="4" onclick="displayRadioValue(4)"/>FilePath </a> -->
+								<h1 class="is-size-3">Search through Documents</h1>
+								<input class="input" type="text" placeholder="Text input", onkeydown="fusesearch(this.value)" id="fusefield">
 
-									<input type="text" id="myInput" onkeyup="readTable()" placeholder="Search for documents..">
-									
 								</div>
-
+							
 							<!-- JSON will be read in here and converted to the HTML table -->		
 
-							<div  style="height: 600px; float:right; display:inline; overflow-y:auto; /* overflow-x:auto */;"> <!-- make scrollable -->
-								<table id="dvCSV"> </table>
-							</div> 
+							<div  style="height: 700px; display:inline; overflow-y:scroll; overflow:hidden;"> <!-- make scrollable -->
+								        <h1 class="is-size-4" style="margin: auto; text-align: center"> Search Results </h1>
+										<div id="clicky" class="table-container"></div>
+							
+								<!--<table id="dvCSV"> </table>-->
+							</div>
 						</div>
 					</td>
 				</tr>
@@ -425,7 +239,7 @@ div.container {
 <!-- <p style="text-align: center;"><a href="http://www.tgaec.com/"><b>Thomas Gast & Associates Environmental Consultants | 2020 </b></a></p> -->
 <!--<p>Data from:USGS and US Census</p>-->
 
-
+<script src="Map_JS.js"></script>
 
 <script id="__bs_script__">//<![CDATA[
     document.write("<script async src='http://HOST:3000/browser-sync/browser-sync-client.js?v=2.26.7'><\/script>".replace("HOST", location.hostname));
