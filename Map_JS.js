@@ -1,3 +1,7 @@
+
+var InfoBox = null;
+
+
 // This has to set the value of the column before the search function is performed
 function displayRadioValue(value) {
   column = value;
