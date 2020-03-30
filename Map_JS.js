@@ -558,7 +558,7 @@ document.addEventListener("DOMContentLoaded", function() {
       let formData = new FormData();
       formData.append("request", tmp);
 
-      fetch("/test.php", { method: "POST", body: formData })
+      fetch("./api/sg-trans.php", { method: "POST", body: formData })
         .then(function(response) {
           return response.text();
         })
