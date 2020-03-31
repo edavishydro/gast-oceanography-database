@@ -332,6 +332,7 @@ fetch("DocsJSON.json")
     makeSearch();
     additionListener();
     removalListener();
+    initModal();
   });
 
 let data;
@@ -486,7 +487,13 @@ let options = {
 
 function fusesearch() {
   let fusefield = document.querySelector("#fusefield");
-  let result = fuse.search(fusefield.value);
+  let query = fusefield.value;
+  let result;
+  if (!query) {
+    result = data;
+  } else {
+    result = fuse.search(query);
+  }
   if (result.length == 0) {
     var html = "No search results found.";
   } else {
@@ -510,7 +517,6 @@ function fusesearch() {
     html += "</table>";
   }
   document.querySelector("div#clicky").innerHTML = html;
-  return;
 }
 
 /* FORM SUBMISSION */
@@ -574,6 +580,19 @@ document.addEventListener("DOMContentLoaded", function() {
 });
 
 /////////////////////////////////////////////////////////////////////////////////////////
+const initModal = () => {
+  const modal = document.getElementById("myModal");
+  const btn = document.getElementById("myBtn");
+  const span = document.getElementsByClassName("close")[0];
+
+  btn.onclick = () => (modal.style.display = "block");
+  span.onclick = () => (modal.style.display = "none");
+  window.onclick = event => {
+    if (event.target == modal) {
+      modal.style.display = "none";
+    }
+  };
+};
 
 document.onreadystatechange = function() {
   if (document.readyState === "complete") {
@@ -592,35 +611,5 @@ document.onreadystatechange = function() {
         document.getElementById("coordinate").innerHTML = test;
       }
     }
-
-    /* MODAL SCRIPT */
-    /* this script is at the end of the HTML because it needs to be loaded first for the script to work */
-    /* The Modal (background) */
-
-    // Get the modal
-    var modal = document.getElementById("myModal");
-
-    // Get the button that opens the modal
-    var btn = document.getElementById("myBtn");
-
-    // Get the <span> element that closes the modal
-    var span = document.getElementsByClassName("close")[0];
-
-    // When the user clicks on the button, open the modal
-    btn.onclick = function() {
-      modal.style.display = "block";
-    };
-
-    // When the user clicks on <span> (x), close the modal
-    span.onclick = function() {
-      modal.style.display = "none";
-    };
-
-    // When the user clicks anywhere outside of the modal, close it
-    window.onclick = function(event) {
-      if (event.target == modal) {
-        modal.style.display = "none";
-      }
-    };
   }
 };

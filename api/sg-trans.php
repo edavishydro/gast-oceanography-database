@@ -2,7 +2,7 @@
   require_once __DIR__.'/phpdotenv/vendor/autoload.php';
   require_once __DIR__.'/sendgrid-php/vendor/autoload.php';
 
-  $dotenv = Dotenv\Dotenv::createImmutable(__DIR__.'/../../etc/', 'secrets.env');
+  $dotenv = Dotenv\Dotenv::createImmutable(__DIR__.'/../../etc', 'secrets.env');
   $dotenv->load();
 
   if(isset($_POST['request'])) {
@@ -28,7 +28,7 @@
     $email->setSubject("I am a subject!");
 
     $email->addTo(
-        $userMail,
+        'edavis@tgaec.com',
         $userFullName,
         $sendgridData,
         0
