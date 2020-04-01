@@ -1,6 +1,5 @@
-
+var column = null;
 var InfoBox = null;
-
 
 // This has to set the value of the column before the search function is performed
 function displayRadioValue(value) {
@@ -135,23 +134,11 @@ function init() {
   MarineBodies.SetSetting("Style", "strokeStyle", "rgba(60,60,60,0.2)");
   MarineBodies.SetSetting("Style", "lineWidth", 2);
 
-  MarineBodies.SetSetting(
-    "MouseOverStyle",
-    "fillStyle",
-    "rgba(255,255,255,.2)"
-  );
-  MarineBodies.SetSetting("MouseOverStyle", "shadowBlur", "20");
-  MarineBodies.SetSetting(
-    "MouseOverStyle",
-    "shadowColor",
-    "rgba(255,255,255,.75)"
-  );
 
-  MarineBodies.SetSetting(
-    "MouseOverStyle",
-    "strokeStyle",
-    "rgba(255,255,255,.2)"
-  );
+  MarineBodies.SetSetting("MouseOverStyle","fillStyle","rgba(255,255,255,.2)");
+  //MarineBodies.SetSetting("MouseOverStyle","shadowBlur", "20");
+  //MarineBodies.SetSetting("MouseOverStyle","shadowColor","rgba(255,255,255,.75)");
+  //MarineBodies.SetSetting("MouseOverStyle","strokeStyle","rgba(255,255,255,.2)");
   MarineBodies.SetSetting("MouseOverStyle", "lineWidth", "1");
 
   TheMainContainer.AddLayer(MarineBodies);
@@ -333,6 +320,7 @@ fetch("DocsJSON.json")
     makeSearch();
     additionListener();
     removalListener();
+    initModal();
   });
 
 let data;
@@ -344,7 +332,7 @@ const writeData = source => {
 const makeDataTable = data => {
   let html = '<table class="table is-striped" id="addition">';
   html += "<tr>";
-  const headers = ["Year", "Author", "Title", "Tags", ""];
+  const headers = ["Year", "Author", "Title", ""];
   headers.forEach(header => {
     return (html += `<th>${header}</th>`);
   });
@@ -355,12 +343,7 @@ const makeDataTable = data => {
       <td>${doc.Year}</td>
       <td>${doc.Author}</td>
       <td>${doc.Title}</td>
-      <td>${Object.keys(doc.contentTags).map(key => {
-        return ` ${doc.contentTags[key]}`;
-      })}</td>
-      <td><button class="button is-link is-outlined is-small addCart" id="${
-        doc.FID
-      }">Add to cart</button></td>
+      <td><button class="button is-link is-outlined is-small addCart" id="${doc.FID}">Add to cart</button></td>
       </tr>`;
     return (html += tableRow);
   });
@@ -452,7 +435,7 @@ function removeDoc(fid) {
 function makeCartTable() {
   let html = '<table class="table is-striped">';
   html += "<tr>";
-  const headers = ["Year", "Author", "Title", "Tags", ""];
+  const headers = ["Year", "Author", "Title", ""];
   headers.forEach(header => {
     return (html += `<th>${header}</th>`);
   });
@@ -462,7 +445,6 @@ function makeCartTable() {
     <td>${doc.Year}</td>
     <td>${doc.Author}</td>
     <td>${doc.Title}</td>
-    <td>${doc.contentTags}</td>
     <td><button class="button is-danger is-outlined is-small" id="${doc.FID}">Remove from cart</button></td>
     </tr>`;
     return (html += tableRow);
@@ -486,21 +468,27 @@ let options = {
   distance: 100,
   maxPatternLength: 32,
   minMatchCharLength: 1,
-  keys: ["Title", "Author"]
+  keys: ["Title", "Author", "contentTags"]
 };
 
 /* FUSE SEARCH RESULTS */
 
 function fusesearch() {
   let fusefield = document.querySelector("#fusefield");
-  let result = fuse.search(fusefield.value);
+  let query = fusefield.value;
+  let result;
+  if (!query) {
+    result = data;
+  } else {
+    result = fuse.search(query);
+  }
   if (result.length == 0) {
     var html = "No search results found.";
   } else {
     var html = `<p>Your search returned ${result.length} results.</p><table class="table is-striped" id="addition">`;
     html += "<tr>";
     var flag = 0;
-    var headers = ["Year", "Author", "Title", "Tags", ""];
+    var headers = ["Year", "Author", "Title", ""];
     headers.forEach(header => {
       return (html += `<th>${header}</th>`);
     });
@@ -510,7 +498,6 @@ function fusesearch() {
       <td>${doc.Year}</td>
       <td>${doc.Author}</td>
       <td>${doc.Title}</td>
-      <td>${doc.contentTags}</td>
       <td><button class="button is-link is-outlined is-small addCart" id="${doc.FID}">Add to cart</button></td>
       </tr>`;
       return (html += tableRow);
@@ -518,7 +505,6 @@ function fusesearch() {
     html += "</table>";
   }
   document.querySelector("div#clicky").innerHTML = html;
-  return;
 }
 
 /* FORM SUBMISSION */
@@ -569,7 +555,7 @@ document.addEventListener("DOMContentLoaded", function() {
       let formData = new FormData();
       formData.append("request", tmp);
 
-      fetch("/test.php", { method: "POST", body: formData })
+      fetch("./api/sg-trans.php", { method: "POST", body: formData })
         .then(function(response) {
           return response.text();
         })
@@ -582,6 +568,19 @@ document.addEventListener("DOMContentLoaded", function() {
 });
 
 /////////////////////////////////////////////////////////////////////////////////////////
+const initModal = () => {
+  const modal = document.getElementById("myModal");
+  const btn = document.getElementById("myBtn");
+  const span = document.getElementsByClassName("close")[0];
+
+  btn.onclick = () => (modal.style.display = "block");
+  span.onclick = () => (modal.style.display = "none");
+  window.onclick = event => {
+    if (event.target == modal) {
+      modal.style.display = "none";
+    }
+  };
+};
 
 document.onreadystatechange = function() {
   if (document.readyState === "complete") {
@@ -600,35 +599,5 @@ document.onreadystatechange = function() {
         document.getElementById("coordinate").innerHTML = test;
       }
     }
-
-    /* MODAL SCRIPT */
-    /* this script is at the end of the HTML because it needs to be loaded first for the script to work */
-    /* The Modal (background) */
-
-    // Get the modal
-    var modal = document.getElementById("myModal");
-
-    // Get the button that opens the modal
-    var btn = document.getElementById("myBtn");
-
-    // Get the <span> element that closes the modal
-    var span = document.getElementsByClassName("close")[0];
-
-    // When the user clicks on the button, open the modal
-    btn.onclick = function() {
-      modal.style.display = "block";
-    };
-
-    // When the user clicks on <span> (x), close the modal
-    span.onclick = function() {
-      modal.style.display = "none";
-    };
-
-    // When the user clicks anywhere outside of the modal, close it
-    window.onclick = function(event) {
-      if (event.target == modal) {
-        modal.style.display = "none";
-      }
-    };
   }
 };

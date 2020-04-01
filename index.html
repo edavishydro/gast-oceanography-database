@@ -1,5 +1,5 @@
 
-<!DOCTYPE HTML>
+
 
 <html>
 <head><meta http-equiv="Content-Type" content="text/html; charset=us-ascii">
@@ -19,11 +19,12 @@
 <script src="/Libraries/CanvasMap.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/fuse.js/3.4.5/fuse.min.js" charset="utf-8"></script>
 
+<link href="/Libraries/bulma.css" rel="stylesheet" type="text/css"></link>
 <link href="/CanvasMapStyle.css" rel="stylesheet" type="text/css"></link>
-<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.8.0/css/bulma.min.css">
+<!--<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.8.0/css/bulma.min.css"> -->
     
 <link  href="https://use.fontawesome.com/releases/v5.7.0/css/all.css" rel="stylesheet" integrity="sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ" crossorigin="anonymous">
-	
+
 
 <style>
 /* Modal stylings are set here  */
@@ -79,6 +80,41 @@ tr {
 	
 }
 
+<!-- TopNAV -->
+
+/* Add a black background color to the top navigation */
+.topnav {
+  background-color: black;
+  overflow: hidden;
+}
+
+/* Style the links inside the navigation bar */
+.topnav a {
+
+ float: left;
+  padding: 12px;
+  color: darkgrey;
+  text-decoration: none;
+  font-size: 17px;
+  width: 20%; /* Four equal-width links. If you have two links, use 50%, and 33.33% for three links, etc.. */
+  text-align: center; /* If you want the text to be centered */
+  
+}
+
+/* Change the color of links on hover */
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+/* Add a color to the active/current link */
+.topnav a.active {
+  background-color: darkgrey;
+  color: black;
+}
+
+
+
 </style>
 </head>
 
@@ -86,119 +122,133 @@ tr {
 <!-- Start of HTML -->
 <!-- ********************************************************** -->
 <!--- body tag should call a function to initialize the map -->
-<body onload="init()" style="background-color:white; width:100%;"><!-- This will appear above the map --><!--<h1 style="text-align: center;">Salmon of the Klamath</h1> --><!-- This text must also be positioned absolutely so it appears below instead of behind the map -->
-<div style="width:100%; margin:0px; background-color: white;" > <!-- Try this:  width:80%;margin: auto; -->
-	<div style="background-color: rgb(224, 226, 229);">
-		<div>
-		<table>
-		<tr>
-		<td>
-			<div>
-				<a href="http://www.tgaec.com/">
-					<img style=" top:10px; left:10px; margin:15px; min-width: 300px; min-height:90; position:relative; box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);" src="//nebula.wsimg.com/3bfa3b83216b61a90ed2e00def1de76b?AccessKeyId=A13D63BD52FCB9239B4B&amp;disposition=0&amp;alloworigin=1;">
-				</a>
-			</div>
-		</td>
-		
-		<td>
-			<!-- BUTTON THAT TRIGGERS THE MODAL BOX -->
-			
-			<div>
-				<h1 class="is-size-3" style="text-align:center; margin:auto;padding-top:5px;">Gast Oceanography Collection</h1>
-				<p style="padding-left:80px; padding-right:80px; min-height:30px; position:block;">This map is a geolibrary that contains decades of oceanography research from the personal collection of Humboldt State University Professor James Gast.
-			In addition to teaching oceanography for over 30 years, Professor Gast served as the founding director of the Telonicher Marine Laboratory in Trinidad, California from 1964 - 1970. (http://www.hsumarinelab.org/lab-history).
-				<br>
-				
-			</div>
-		</div>
-		<div id="cart" class="table-container"></div>
-		</td>
-		
-		<td style="width:300px">
-			<div>
-				<button id="myBtn" style=" top:10px; right:10px; margin:15px; min-width: 300px; min-height:90px; position:relative; box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);">
-					<div>
-						<h3> Document Cart </h3>
-						<p> Click here to review requested documents</p>
-					</div>
-				</button>
-			</div>
-		</td>
-	</tr>
-</table>
-		<!-- MODAL BOX WITH DOCUMENT CART HERE -->
-			<!-- The Modal -->
-		<div id="myModal" class="modal" style="display:none;z-index:10;">
+<body onload="init()" style="background-color:white"><!-- This will appear above the map --><!--<h1 style="text-align: center;">Salmon of the Klamath</h1> --><!-- This text must also be positioned absolutely so it appears below instead of behind the map -->
 
-		<!-- Modal content -->
-			<div class="modal-content">
-				<span class="close">&times;</span>
-				
-				<!-- This is going to be the contents of the Document cart -->
+	<div class="topnav" style="height:48px; margin: auto;">
+	  <a  href="http://tgaec.com" style="background-color: black; color:white;"><b>TGAEC Home Page</b></a>
+	  <a  class="active" href="#home">Oceanography Database</a>
+	  <a  href="#contact">How to Use this tool</a>
+	  <a  href="#nothingyet"> About this Tool</a>
+	  <a  id="myBtn" >Document Cart</a>
+	</div>
+
+	<div style="width:100%; margin:0px; background-color: white;" > <!-- Try this:  width:80%;margin: auto; -->
+		<div style="background-color: rgb(224, 226, 229);">
+			<div>
+			<table>
+			<tr>
+			<td>
+				<!--
 				<div>
-					<h3> Review Selected Documents </h3>
-					<div class="container">
-						<form action="/action_page.php">
-							<div style="border: 2px darkgrey solid; padding:5px;">
-							    <form name="requestForm" action="index.html" method="get" id="requestForm">
-								  <div class="field">
-									<label class="label">Full Name</label>
-									<div class="control has-icons-left has-icons-right">
-									  <input class="input request" type="text" placeholder="Enter your full name" name="fullName" required>
-									  <span class="icon is-small is-left">
-										<i class="fas fa-user"></i>
-									  </span>
-									</div>
-								  </div>
+					<a href="http://www.tgaec.com/">
+						<img style=" top:10px; left:10px; margin:15px; min-width: 300px; min-height:90; position:relative; box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);" src="//nebula.wsimg.com/3bfa3b83216b61a90ed2e00def1de76b?AccessKeyId=A13D63BD52FCB9239B4B&amp;disposition=0&amp;alloworigin=1;">
+					</a>
+				</div>
+				-->
+			</td>
+			
+			<td>
+				<!-- BUTTON THAT TRIGGERS THE MODAL BOX -->
+				
+				<div>
+					<h1 class="is-size-3" style="text-align:center; margin:auto;padding-top:5px;">Gast Oceanography Collection</h1>
+					
+					<p style="padding-left:80px; padding-right:80px; min-height:30px; position:block;">This map is a geolibrary that contains decades of oceanography research from the personal collection of Humboldt State University Professor James Gast.
+				In addition to teaching oceanography for over 30 years, Professor Gast served as the founding director of the Telonicher Marine Laboratory in Trinidad, California from 1964 - 1970. (http://www.hsumarinelab.org/lab-history).
+					
+					<br>
+				</div>
+				
+			</div>
+			</td>
+			<!--
+			<td style="width:300px">
+				<div>
+					<button id="myBtn" style=" top:10px; right:10px; margin:15px; min-width: 300px; min-height:90px; position:relative; box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);">
+						<div>
+							<h3> Document Cart </h3>
+							<p> Click here to review requested documents</p>
+						</div>
+					</button>
+				</div>
+			</td>
+			-->
+		</tr>
+	</table>
+			<!-- MODAL BOX WITH DOCUMENT CART HERE -->
+				<!-- The Modal -->
+	<div id="myModal" class="modal" style="display:none;z-index:10;">
 
-								  <div class="field">
-									<label class="label">Email</label>
-									<div class="control has-icons-left has-icons-right">
-									  <input class="input request" type="email" placeholder="Enter your email" name="email" required>
-									  <span class="icon is-small is-left">
-										<i class="fas fa-envelope"></i>
-									  </span>
-									</div>
-								  </div>
+	<!-- Modal content -->
+	<div class="modal-content">
+		<span class="close">&times;</span>
+		
+		<!-- This is going to be the contents of the Document cart -->
+		<div>
+			<h3> Review Selected Documents </h3>
+			<div class="container">
+				<div style="border: 2px darkgrey solid; padding:5px;">
+					<form name="requestForm" action="index.html" method="get" id="requestForm">
+					  <div class="field">
+						<label class="label">Full Name</label>
+						<div class="control has-icons-left has-icons-right">
+						  <input class="input request" type="text" placeholder="Enter your full name" name="fullName" required>
+						  <span class="icon is-small is-left">
+							<i class="fas fa-user"></i>
+						  </span>
+						</div>
+					  </div>
 
-								  <div class="field">
-									<label class="label">Affiliation</label>
-									<div class="control">
-									  <div class="select">
-										<select name="affiliation" required>
-										  <option value="" selected>Select dropdown</option>
-										  <option value="Academic">Academic</option>
-										  <option value="Government">Government</option>
-										  <option value="Private">Private Industry</option>
-										</select>
-									  </div>
-									</div>
-								  </div>
-								  <div class="field is-grouped">
-									<div class="control">
-									  <input type="submit" class="button is-link" value="Send request"></input>
-									</div>
-									<div class="control">
-									  <button class="button is-link is-light">Cancel</button>
-									</div>
-								  </div>
-								</form>
-							<pre id="output"></pre>
-							<table>    
-								<h1 class="is-size-2"> Document Cart </h1>
-							</table>
-							<!-- selected document data will be appended here inside of <td> -->	
+					  <div class="field">
+						<label class="label">Email</label>
+						<div class="control has-icons-left has-icons-right">
+						  <input class="input request" type="email" placeholder="Enter your email" name="email" required>
+						  <span class="icon is-small is-left">
+							<i class="fas fa-envelope"></i>
+						  </span>
+						</div>
+					  </div>
+
+					  <div class="field">
+						<label class="label">Affiliation</label>
+							<div class="control">
+							  <div class="select">
+								<select name="affiliation" required>
+								  <option value="" selected>Select dropdown</option>
+								  <option value="Academic">Academic</option>
+								  <option value="Government">Government</option>
+								  <option value="Private">Private Industry</option>
+								</select>
+							  </div>
+							</div>
+						  </div>
+						  <div class="field is-grouped">
+							<div class="control">
+							  <input type="submit" class="button is-link" value="Send request"></input>
+							</div>
+							<div class="control">
+							  <button class="button is-link is-light">Cancel</button>
+							</div>
+						  </div>
 						</form>
+						<pre id="output"></pre>
+
+						<table>
+							 
+							<h1 class="is-size-2"> Shopping Cart </h1>
+							<div id="cart" class="table-container"></div>
+						</table>
+						<!-- selected document data will be appended here inside of <td> -->	
 					</div>
 				</div>
 			</div>
 		</div>
-		</div>
 	</div>
+</div>
 
 	<!-- TABLE CONTAINING MAIN CONTENT -->
 	<div style="padding-top:5px;">
-		<table style="width:90%; border: 1px solid black; background-color: rgb(224, 226, 229); margin:auto; position:inherit; box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);">
+		<table style="width:96%; border: 1px solid black; background-color: rgb(224, 226, 229); margin:auto; position:inherit; box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);">
 			<tbody>
 				<tr >
 					<!-- Map content -->
@@ -221,9 +271,9 @@ tr {
 							
 							<!-- JSON will be read in here and converted to the HTML table -->		
 
-							<div  style="height: 700px; display:inline; overflow-y:scroll; overflow:hidden;"> <!-- make scrollable -->
+							<div  style="height: 650px; float:right; display:inline-block; overflow-y:auto;"> <!-- make scrollable -->
 								        <h1 class="is-size-4" style="margin: auto; text-align: center"> Search Results </h1>
-										<div id="clicky" class="table-container"></div>
+										<div id="clicky" class="table-container" style="height:650px;"></div>
 							
 								<!--<table id="dvCSV"> </table>-->
 							</div>
@@ -240,10 +290,6 @@ tr {
 <!--<p>Data from:USGS and US Census</p>-->
 
 <script src="Map_JS.js"></script>
-
-<script id="__bs_script__">//<![CDATA[
-    document.write("<script async src='http://HOST:3000/browser-sync/browser-sync-client.js?v=2.26.7'><\/script>".replace("HOST", location.hostname));
-//]]></script>
 
 </body>
 </html>
