@@ -327,12 +327,13 @@ document.ondblclick = function ElementCoords() {
 fetch("DocsJSON.json")
   .then(res => res.json())
   .then(data => {
-    writeData(data);
-    makeDataTable(data);
-    makeSearch();
-    additionListener();
-    removalListener();
-    initModal();
+    writeData(data); // writes JSON as JS object
+    makeDataTable(data); // presents data in table
+    makeSearch(); // initiates Fuse search
+    additionListener(); // listener for doc adds
+    removalListener(); // listener for doc removes
+    initModal(); // initiates modal functions
+    makeCartTable(); // presents shopping cart in table
   });
 
 let data;
@@ -364,7 +365,14 @@ const makeDataTable = data => {
 };
 
 /* SHOPPING CART */
-let docsInCart = [];
+// If user has cart data in their localStorage, this becomes `docsInCart`
+let cartStore = JSON.parse(window.localStorage.getItem("cartStore"));
+let docsInCart = cartStore;
+
+const modifyCartStore = () => {
+  window.localStorage.setItem("cartStore", JSON.stringify(docsInCart));
+  cartStore = JSON.parse(window.localStorage.getItem("cartStore"));
+};
 
 const additionListener = () => {
   const addition = document.getElementById("clicky");
@@ -404,7 +412,7 @@ function addDoc(fid) {
       }
     }
   });
-  console.log(docsInCart);
+  modifyCartStore();
   makeCartTable();
 }
 
@@ -420,7 +428,6 @@ const removalListener = () => {
       }
       let fid = event.target.id;
       removeDoc(fid);
-      //logText(event);
     },
     false
   );
@@ -439,9 +446,8 @@ function removeDoc(fid) {
     }
   });
   docsInCart.splice(docIndex, 1);
-  console.log(docsInCart);
+  modifyCartStore();
   makeCartTable();
-  return;
 }
 
 function makeCartTable() {
@@ -452,7 +458,7 @@ function makeCartTable() {
     return (html += `<th>${header}</th>`);
   });
   html += "</tr>";
-  docsInCart.forEach(doc => {
+  cartStore.forEach(doc => {
     const tableRow = `<tr>
     <td>${doc.Year}</td>
     <td>${doc.Author}</td>
@@ -463,7 +469,6 @@ function makeCartTable() {
   });
   html += "</table>";
   document.querySelector("div#cart").innerHTML = html;
-  console.log(docsInCart);
 }
 
 /* FUSE SEARCH */
@@ -569,6 +574,7 @@ document.addEventListener("DOMContentLoaded", function() {
 
       fetch("./api/sg-trans.php", { method: "POST", body: formData })
         .then(function(response) {
+          window.localStorage.removeItem("cart");
           return response.text();
         })
         .then(function(body) {
