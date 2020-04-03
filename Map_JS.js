@@ -134,23 +134,11 @@ function init() {
   MarineBodies.SetSetting("Style", "strokeStyle", "rgba(60,60,60,0.2)");
   MarineBodies.SetSetting("Style", "lineWidth", 2);
 
-  MarineBodies.SetSetting(
-    "MouseOverStyle",
-    "fillStyle",
-    "rgba(255,255,255,.2)"
-  );
-  MarineBodies.SetSetting("MouseOverStyle", "shadowBlur", "20");
-  MarineBodies.SetSetting(
-    "MouseOverStyle",
-    "shadowColor",
-    "rgba(255,255,255,.75)"
-  );
+  MarineBodies.SetSetting("MouseOverStyle","fillStyle","rgba(255,255,255,.2)");	
+  //MarineBodies.SetSetting("MouseOverStyle","shadowBlur", "20");	
+  //MarineBodies.SetSetting("MouseOverStyle","shadowColor","rgba(255,255,255,.75)");	
+  //MarineBodies.SetSetting("MouseOverStyle","strokeStyle","rgba(255,255,255,.2)");	
 
-  MarineBodies.SetSetting(
-    "MouseOverStyle",
-    "strokeStyle",
-    "rgba(255,255,255,.2)"
-  );
   MarineBodies.SetSetting("MouseOverStyle", "lineWidth", "1");
 
   TheMainContainer.AddLayer(MarineBodies);
@@ -333,7 +321,7 @@ fetch("DocsJSON.json")
     additionListener(); // listener for doc adds
     removalListener(); // listener for doc removes
     initModal(); // initiates modal functions
-    initCartStore(); // initiates localStorage function
+	initCartStore(); // initiates localStorage function
     makeCartTable(); // presents shopping cart in table
   });
 
@@ -367,15 +355,14 @@ const makeDataTable = data => {
 
 /* SHOPPING CART */
 // If user has cart data in their localStorage, this becomes `docsInCart`
-let cartStore;
-let docsInCart;
-
-const initCartStore = () => {
-  if (JSON.parse(window.localStorage.getItem("cart")) === null) {
-    window.localStorage.setItem("cart", "[]");
-  }
-  cartStore = JSON.parse(window.localStorage.getItem("cart"));
-  docsInCart = cartStore;
+	let cartStore;	
+	let docsInCart;	
+	const initCartStore = () => {	
+	if (JSON.parse(window.localStorage.getItem("cart")) === null) {	
+		window.localStorage.setItem("cart", "[]");	
+	}	
+	cartStore = JSON.parse(window.localStorage.getItem("cart"));	
+	docsInCart = cartStore;	
 };
 
 const modifyCartStore = () => {
