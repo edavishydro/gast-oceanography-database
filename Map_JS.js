@@ -366,8 +366,16 @@ const makeDataTable = data => {
 
 /* SHOPPING CART */
 // If user has cart data in their localStorage, this becomes `docsInCart`
-let cartStore = JSON.parse(window.localStorage.getItem("cartStore"));
-let docsInCart = cartStore;
+let cartStore;
+let docsInCart;
+
+const initCartStore = () => {
+  if (JSON.parse(window.localStorage.getItem("cart")) === null) {
+    window.localStorage.setItem("cart", "[]");
+  }
+  cartStore = JSON.parse(window.localStorage.getItem("cart"));
+  docsInCart = cartStore;
+};
 
 const modifyCartStore = () => {
   window.localStorage.setItem("cartStore", JSON.stringify(docsInCart));
