@@ -1,7 +1,3 @@
-
-<?php
-?>
-
 <html>
 <head><meta http-equiv="Content-Type" content="text/html; charset=us-ascii">
 	<title>Oceanography Research</title>
@@ -87,7 +83,7 @@ tr {
 <!-- Start of HTML -->
 <!-- ********************************************************** -->
 <!--- body tag should call a function to initialize the map -->
-<body onload="init()" style="background-color:white; width:100%;"><!-- This will appear above the map --><!--<h1 style="text-align: center;">Salmon of the Klamath</h1> --><!-- This text must also be positioned absolutely so it appears below instead of behind the map -->
+<body style="background-color:white; width:100%;"><!-- This will appear above the map --><!--<h1 style="text-align: center;">Salmon of the Klamath</h1> --><!-- This text must also be positioned absolutely so it appears below instead of behind the map -->
 <div style="width:100%; margin:0px; background-color: white;" > <!-- Try this:  width:80%;margin: auto; -->
 	<div style="background-color: rgb(224, 226, 229);">
 		<div>
@@ -216,7 +212,7 @@ tr {
 			
 								<!-- From w3 schools: https://www.w3schools.com/howto/tryit.asp?filename=tryhow_css_searchbar -->
 								<h1 class="is-size-3">Search through Documents</h1>
-								<input class="input" type="text" placeholder="Text input", onkeydown="fusesearch(this.value)" id="fusefield">
+								<input class="input" type="text" placeholder="Text input", id="fusefield">
 
 								</div>
 							
@@ -240,7 +236,7 @@ tr {
 <!-- <p style="text-align: center;"><a href="http://www.tgaec.com/"><b>Thomas Gast & Associates Environmental Consultants | 2020 </b></a></p> -->
 <!--<p>Data from:USGS and US Census</p>-->
 
-<script src="Map_JS.js"></script>
+<script src="dist/main.js"></script>
 
 </body>
 </html>

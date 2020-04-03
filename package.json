@@ -1,0 +1,33 @@
+{
+  "name": "gast-oceanography-database",
+  "version": "1.0.0",
+  "description": "Codebase for Gast Oceanography Database on TGAEC.com",
+  "main": "Map_JS.js",
+  "scripts": {
+    "build": "webpack --progess --mode=production",
+    "watch": "webpack --progress --watch",
+    "server": "webpack-dev-server --open"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/edavishydro/gast-oceanography-database.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/edavishydro/gast-oceanography-database/issues"
+  },
+  "homepage": "https://github.com/edavishydro/gast-oceanography-database#readme",
+  "devDependencies": {
+    "@babel/core": "^7.9.0",
+    "@babel/preset-env": "^7.9.0",
+    "babel-loader": "^8.1.0",
+    "webpack": "^4.42.1",
+    "webpack-cli": "^3.3.11",
+    "webpack-dev-server": "^3.10.3"
+  },
+  "dependencies": {
+    "fuse.js": "^5.1.0"
+  }
+}
