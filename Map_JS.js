@@ -134,11 +134,11 @@ function init() {
   MarineBodies.SetSetting("Style", "strokeStyle", "rgba(60,60,60,0.2)");
   MarineBodies.SetSetting("Style", "lineWidth", 2);
 
+  MarineBodies.SetSetting("MouseOverStyle","fillStyle","rgba(255,255,255,.2)");	
+  //MarineBodies.SetSetting("MouseOverStyle","shadowBlur", "20");	
+  //MarineBodies.SetSetting("MouseOverStyle","shadowColor","rgba(255,255,255,.75)");	
+  //MarineBodies.SetSetting("MouseOverStyle","strokeStyle","rgba(255,255,255,.2)");	
 
-  MarineBodies.SetSetting("MouseOverStyle","fillStyle","rgba(255,255,255,.2)");
-  //MarineBodies.SetSetting("MouseOverStyle","shadowBlur", "20");
-  //MarineBodies.SetSetting("MouseOverStyle","shadowColor","rgba(255,255,255,.75)");
-  //MarineBodies.SetSetting("MouseOverStyle","strokeStyle","rgba(255,255,255,.2)");
   MarineBodies.SetSetting("MouseOverStyle", "lineWidth", "1");
 
   TheMainContainer.AddLayer(MarineBodies);
@@ -315,12 +315,14 @@ document.ondblclick = function ElementCoords() {
 fetch("DocsJSON.json")
   .then(res => res.json())
   .then(data => {
-    writeData(data);
-    makeDataTable(data);
-    makeSearch();
-    additionListener();
-    removalListener();
-    initModal();
+    writeData(data); // writes JSON as JS object
+    makeDataTable(data); // presents data in table
+    makeSearch(); // initiates Fuse search
+    additionListener(); // listener for doc adds
+    removalListener(); // listener for doc removes
+    initModal(); // initiates modal functions
+	initCartStore(); // initiates localStorage function
+    makeCartTable(); // presents shopping cart in table
   });
 
 let data;
@@ -352,7 +354,21 @@ const makeDataTable = data => {
 };
 
 /* SHOPPING CART */
-let docsInCart = [];
+// If user has cart data in their localStorage, this becomes `docsInCart`
+	let cartStore;	
+	let docsInCart;	
+	const initCartStore = () => {	
+	if (JSON.parse(window.localStorage.getItem("cart")) === null) {	
+		window.localStorage.setItem("cart", "[]");	
+	}	
+	cartStore = JSON.parse(window.localStorage.getItem("cart"));	
+	docsInCart = cartStore;	
+};
+
+const modifyCartStore = () => {
+  window.localStorage.setItem("cartStore", JSON.stringify(docsInCart));
+  cartStore = JSON.parse(window.localStorage.getItem("cartStore"));
+};
 
 const additionListener = () => {
   const addition = document.getElementById("clicky");
@@ -392,7 +408,7 @@ function addDoc(fid) {
       }
     }
   });
-  console.log(docsInCart);
+  modifyCartStore();
   makeCartTable();
 }
 
@@ -408,7 +424,6 @@ const removalListener = () => {
       }
       let fid = event.target.id;
       removeDoc(fid);
-      //logText(event);
     },
     false
   );
@@ -427,9 +442,8 @@ function removeDoc(fid) {
     }
   });
   docsInCart.splice(docIndex, 1);
-  console.log(docsInCart);
+  modifyCartStore();
   makeCartTable();
-  return;
 }
 
 function makeCartTable() {
@@ -440,7 +454,7 @@ function makeCartTable() {
     return (html += `<th>${header}</th>`);
   });
   html += "</tr>";
-  docsInCart.forEach(doc => {
+  cartStore.forEach(doc => {
     const tableRow = `<tr>
     <td>${doc.Year}</td>
     <td>${doc.Author}</td>
@@ -451,7 +465,6 @@ function makeCartTable() {
   });
   html += "</table>";
   document.querySelector("div#cart").innerHTML = html;
-  console.log(docsInCart);
 }
 
 /* FUSE SEARCH */
@@ -557,6 +570,7 @@ document.addEventListener("DOMContentLoaded", function() {
 
       fetch("./api/sg-trans.php", { method: "POST", body: formData })
         .then(function(response) {
+          window.localStorage.removeItem("cart");
           return response.text();
         })
         .then(function(body) {
