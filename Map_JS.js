@@ -82,7 +82,7 @@ function init() {
     "http://b.tile.stamen.com/terrain/{z}/{x}/{y}.jpg",
     "http://tile.stamen.com/toner/{z}/{x}/{y}.png",
     "http://c.tile.stamen.com/watercolor/{z}/{x}/{y}.png",
-    "http://b.tiles.mapbox.com/v3/jeffmerrick.map-tnw3k3na/{z}/{x}/{y}.png"
+    "http://b.tiles.mapbox.com/v3/jeffmerrick.map-tnw3k3na/{z}/{x}/{y}.png",
   ];
 
   var NameArray = [
@@ -95,7 +95,7 @@ function init() {
     "Stamen Terrain",
     "Stamen Toner",
     "Stamen Watercolor",
-    "CartoDB"
+    "CartoDB",
   ];
 
   var Index = 2;
@@ -134,11 +134,23 @@ function init() {
   MarineBodies.SetSetting("Style", "strokeStyle", "rgba(60,60,60,0.2)");
   MarineBodies.SetSetting("Style", "lineWidth", 2);
 
-  MarineBodies.SetSetting("MouseOverStyle","fillStyle","rgba(255,255,255,.2)");	
-  //MarineBodies.SetSetting("MouseOverStyle","shadowBlur", "20");	
-  //MarineBodies.SetSetting("MouseOverStyle","shadowColor","rgba(255,255,255,.75)");	
-  //MarineBodies.SetSetting("MouseOverStyle","strokeStyle","rgba(255,255,255,.2)");	
+  MarineBodies.SetSetting(
+    "MouseOverStyle",
+    "fillStyle",
+    "rgba(255,255,255,.2)"
+  );
+  MarineBodies.SetSetting("MouseOverStyle", "shadowBlur", "20");
+  MarineBodies.SetSetting(
+    "MouseOverStyle",
+    "shadowColor",
+    "rgba(255,255,255,.75)"
+  );
 
+  MarineBodies.SetSetting(
+    "MouseOverStyle",
+    "strokeStyle",
+    "rgba(255,255,255,.2)"
+  );
   MarineBodies.SetSetting("MouseOverStyle", "lineWidth", "1");
 
   TheMainContainer.AddLayer(MarineBodies);
@@ -147,7 +159,7 @@ function init() {
 
   MarineBodies.Old_MouseOver = MarineBodies.MouseOver;
   // override the Layer's mouse down function to put information in the info box
-  MarineBodies.MouseOver = function(TheView, RefX, RefY, FeatureIndex) {
+  MarineBodies.MouseOver = function (TheView, RefX, RefY, FeatureIndex) {
     result = this.Old_MouseOver(TheView, RefX, RefY, FeatureIndex);
 
     if (FeatureIndex != -1) {
@@ -226,7 +238,7 @@ function init() {
   WestUSCurrents.RequestData();
 
   WestUSCurrents.SetSettingGroup("Style", {
-    fillStyle: "rgba(227,232,239,0.0)"
+    fillStyle: "rgba(227,232,239,0.0)",
   }); // fill the data with pale green color
 
   TheMainContainer.AddLayer(WestUSCurrents);
@@ -313,34 +325,34 @@ document.ondblclick = function ElementCoords() {
 
 /* READ IN LOCAL JSON AS ARRAY */
 fetch("DocsJSON.json")
-  .then(res => res.json())
-  .then(data => {
+  .then((res) => res.json())
+  .then((data) => {
     writeData(data); // writes JSON as JS object
     makeDataTable(data); // presents data in table
     makeSearch(); // initiates Fuse search
     additionListener(); // listener for doc adds
     removalListener(); // listener for doc removes
     initModal(); // initiates modal functions
-	initCartStore(); // initiates localStorage function
+    initCartStore(); // initiates localStorage function
     makeCartTable(); // presents shopping cart in table
   });
 
 let data;
-const writeData = source => {
+const writeData = (source) => {
   data = source;
 };
 
 /* LOCAL JSON TABLE */
-const makeDataTable = data => {
+const makeDataTable = (data) => {
   let html = '<table class="table is-striped" id="addition">';
   html += "<tr>";
   const headers = ["Year", "Author", "Title", ""];
-  headers.forEach(header => {
+  headers.forEach((header) => {
     return (html += `<th>${header}</th>`);
   });
   html += "</tr>";
   let thing = 1;
-  data.forEach(doc => {
+  data.forEach((doc) => {
     const tableRow = `<tr class="addCart">
       <td>${doc.Year}</td>
       <td>${doc.Author}</td>
@@ -355,26 +367,27 @@ const makeDataTable = data => {
 
 /* SHOPPING CART */
 // If user has cart data in their localStorage, this becomes `docsInCart`
-	let cartStore;	
-	let docsInCart;	
-	const initCartStore = () => {	
-	if (JSON.parse(window.localStorage.getItem("cart")) === null) {	
-		window.localStorage.setItem("cart", "[]");	
-	}	
-	cartStore = JSON.parse(window.localStorage.getItem("cart"));	
-	docsInCart = cartStore;	
+let cartStore;
+let docsInCart;
+
+const initCartStore = () => {
+  if (JSON.parse(window.localStorage.getItem("cart")) === null) {
+    window.localStorage.setItem("cart", "[]");
+  }
+  cartStore = JSON.parse(window.localStorage.getItem("cart"));
+  docsInCart = cartStore;
 };
 
 const modifyCartStore = () => {
-  window.localStorage.setItem("cartStore", JSON.stringify(docsInCart));
-  cartStore = JSON.parse(window.localStorage.getItem("cartStore"));
+  window.localStorage.setItem("cart", JSON.stringify(docsInCart));
+  cartStore = JSON.parse(window.localStorage.getItem("cart"));
 };
 
 const additionListener = () => {
   const addition = document.getElementById("clicky");
   addition.addEventListener(
     "click",
-    event => {
+    (event) => {
       event.preventDefault();
       const isButton = event.target.nodeName === "BUTTON";
       if (!isButton) {
@@ -388,7 +401,7 @@ const additionListener = () => {
 };
 
 function addDoc(fid) {
-  data.forEach(doc => {
+  data.forEach((doc) => {
     if (fid === doc.FID) {
       if (docsInCart && docsInCart.length) {
         let found = false;
@@ -416,7 +429,7 @@ const removalListener = () => {
   const removal = document.getElementById("cart");
   removal.addEventListener(
     "click",
-    event => {
+    (event) => {
       event.stopPropagation();
       const isButton = event.target.nodeName === "BUTTON";
       if (!isButton) {
@@ -436,7 +449,7 @@ const removalListener = () => {
 function removeDoc(fid) {
   let docIndex;
 
-  docsInCart.forEach(doc => {
+  docsInCart.forEach((doc) => {
     if (fid === doc.FID) {
       docIndex = docsInCart.indexOf(doc);
     }
@@ -450,11 +463,11 @@ function makeCartTable() {
   let html = '<table class="table is-striped">';
   html += "<tr>";
   const headers = ["Year", "Author", "Title", ""];
-  headers.forEach(header => {
+  headers.forEach((header) => {
     return (html += `<th>${header}</th>`);
   });
   html += "</tr>";
-  cartStore.forEach(doc => {
+  cartStore.forEach((doc) => {
     const tableRow = `<tr>
     <td>${doc.Year}</td>
     <td>${doc.Author}</td>
@@ -481,7 +494,7 @@ let options = {
   distance: 100,
   maxPatternLength: 32,
   minMatchCharLength: 1,
-  keys: ["Title", "Author", "contentTags"]
+  keys: ["Title", "Author", "contentTags"],
 };
 
 /* FUSE SEARCH RESULTS */
@@ -502,11 +515,11 @@ function fusesearch() {
     html += "<tr>";
     var flag = 0;
     var headers = ["Year", "Author", "Title", ""];
-    headers.forEach(header => {
+    headers.forEach((header) => {
       return (html += `<th>${header}</th>`);
     });
     html += "</tr>";
-    result.forEach(doc => {
+    result.forEach((doc) => {
       const tableRow = `<tr>
       <td>${doc.Year}</td>
       <td>${doc.Author}</td>
@@ -550,13 +563,13 @@ function getInputs(form) {
 
 /* LISTENER FOR CLICKING SUBMIT BUTTON */
 
-document.addEventListener("DOMContentLoaded", function() {
+document.addEventListener("DOMContentLoaded", function () {
   const form = document.getElementById("requestForm");
   const output = document.getElementById("output");
 
   form.addEventListener(
     "submit",
-    function(e) {
+    function (e) {
       e.preventDefault();
       let user = getInputs(this);
       let docs = wrapDocs();
@@ -569,11 +582,11 @@ document.addEventListener("DOMContentLoaded", function() {
       formData.append("request", tmp);
 
       fetch("./api/sg-trans.php", { method: "POST", body: formData })
-        .then(function(response) {
+        .then(function (response) {
           window.localStorage.removeItem("cart");
           return response.text();
         })
-        .then(function(body) {
+        .then(function (body) {
           console.log(body);
         });
     },
@@ -589,14 +602,14 @@ const initModal = () => {
 
   btn.onclick = () => (modal.style.display = "block");
   span.onclick = () => (modal.style.display = "none");
-  window.onclick = event => {
+  window.onclick = (event) => {
     if (event.target == modal) {
       modal.style.display = "none";
     }
   };
 };
 
-document.onreadystatechange = function() {
+document.onreadystatechange = function () {
   if (document.readyState === "complete") {
     function setCoordinates() {
       var Long = document.getElementById("Long").value;
