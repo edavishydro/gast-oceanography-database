@@ -280,7 +280,7 @@ tr {
 
 							<!-- JSON will be read in here and converted to the HTML table -->
 
-							<div  style="height: 650px; float:right; display:inline-block; > <!-- make scrollable -->
+							<div  style="height: 650px; float:right; display:inline-block;" > <!-- make scrollable -->
 								        <h1 class="is-size-4" style="margin: auto; text-align: center"> Search Results </h1>
 										<div id="clicky" class="table-container" style="height:650px;overflow-y:auto;""></div>
 
