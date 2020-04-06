@@ -139,18 +139,10 @@ function init() {
     "fillStyle",
     "rgba(255,255,255,.2)"
   );
-  MarineBodies.SetSetting("MouseOverStyle", "shadowBlur", "20");
-  MarineBodies.SetSetting(
-    "MouseOverStyle",
-    "shadowColor",
-    "rgba(255,255,255,.75)"
-  );
+  //MarineBodies.SetSetting("MouseOverStyle","shadowBlur", "20");
+  //MarineBodies.SetSetting("MouseOverStyle","shadowColor","rgba(255,255,255,.75)");
+  //MarineBodies.SetSetting("MouseOverStyle","strokeStyle","rgba(255,255,255,.2)");
 
-  MarineBodies.SetSetting(
-    "MouseOverStyle",
-    "strokeStyle",
-    "rgba(255,255,255,.2)"
-  );
   MarineBodies.SetSetting("MouseOverStyle", "lineWidth", "1");
 
   TheMainContainer.AddLayer(MarineBodies);
