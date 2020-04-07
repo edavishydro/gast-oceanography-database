@@ -28,6 +28,7 @@
     "webpack-dev-server": "^3.10.3"
   },
   "dependencies": {
-    "fuse.js": "^5.1.0"
+    "fuse.js": "^5.1.0",
+    "lazy.js": "^0.5.1"
   }
 }

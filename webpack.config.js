@@ -1,10 +1,10 @@
 // webpack.config.js
 module.exports = {
   mode: "development",
-  entry: "./src/Map_JS.js",
+  entry: "./src/main.js",
   output: {
     filename: "main.js",
-    publicPath: "dist"
+    publicPath: "dist",
   },
   module: {
     rules: [
@@ -14,10 +14,10 @@ module.exports = {
         use: {
           loader: "babel-loader",
           options: {
-            presets: ["@babel/preset-env"]
-          }
-        }
-      }
-    ]
-  }
+            presets: ["@babel/preset-env"],
+          },
+        },
+      },
+    ],
+  },
 };

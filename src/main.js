@@ -20,7 +20,7 @@ fetch("DocsJSON.json")
     cart.makeCartTable(); // generates shopping cart table in modal
   });
 
-let data;
+let data = [];
 
 const writeData = (source) => {
   data = source;
@@ -29,7 +29,7 @@ const writeData = (source) => {
 /* SHOPPING CART */
 // If user has cart data in their localStorage, this becomes `docsInCart`
 
-export const additionListener = () => {
+const additionListener = () => {
   const addition = document.getElementById("clicky");
   addition.addEventListener(
     "click",
@@ -46,7 +46,7 @@ export const additionListener = () => {
   );
 };
 
-export const removalListener = () => {
+const removalListener = () => {
   const removal = document.getElementById("cart");
   removal.addEventListener(
     "click",
@@ -67,17 +67,16 @@ export const removalListener = () => {
 let fuse;
 
 const makeSearch = () => {
+  let options = {
+    shouldSort: true,
+    threshold: 0.6,
+    location: 0,
+    distance: 100,
+    maxPatternLength: 32,
+    minMatchCharLength: 1,
+    keys: ["Title", "Author", "contentTags"],
+  };
   fuse = new Fuse(data, options);
-};
-
-let options = {
-  shouldSort: true,
-  threshold: 0.5,
-  location: 0,
-  distance: 100,
-  maxPatternLength: 32,
-  minMatchCharLength: 1,
-  keys: ["Title", "Author", "contentTags"],
 };
 
 /* FUSE SEARCH RESULTS */

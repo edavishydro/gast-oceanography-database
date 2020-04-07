@@ -82,7 +82,7 @@ function init() {
     "http://b.tile.stamen.com/terrain/{z}/{x}/{y}.jpg",
     "http://tile.stamen.com/toner/{z}/{x}/{y}.png",
     "http://c.tile.stamen.com/watercolor/{z}/{x}/{y}.png",
-    "http://b.tiles.mapbox.com/v3/jeffmerrick.map-tnw3k3na/{z}/{x}/{y}.png"
+    "http://b.tiles.mapbox.com/v3/jeffmerrick.map-tnw3k3na/{z}/{x}/{y}.png",
   ];
 
   let NameArray = [
@@ -95,7 +95,7 @@ function init() {
     "Stamen Terrain",
     "Stamen Toner",
     "Stamen Watercolor",
-    "CartoDB"
+    "CartoDB",
   ];
 
   let Index = 2;
@@ -155,11 +155,11 @@ function init() {
 
   TheMainContainer.AddLayer(MarineBodies);
 
-  OceanicBodies = MarineBodies;
+  let OceanicBodies = MarineBodies;
 
   MarineBodies.Old_MouseOver = MarineBodies.MouseOver;
   // override the Layer's mouse down function to put information in the info box
-  MarineBodies.MouseOver = function(TheView, RefX, RefY, FeatureIndex) {
+  MarineBodies.MouseOver = function (TheView, RefX, RefY, FeatureIndex) {
     result = this.Old_MouseOver(TheView, RefX, RefY, FeatureIndex);
 
     if (FeatureIndex != -1) {
@@ -217,7 +217,7 @@ function init() {
       ); // fill the data with blue color
     }
   }
-  OceanCurrents = Currents;
+  let OceanCurrents = Currents;
 
   //******************** West Coast Ocean Currents******************************
   //****************************************************************************
@@ -238,11 +238,11 @@ function init() {
   WestUSCurrents.RequestData();
 
   WestUSCurrents.SetSettingGroup("Style", {
-    fillStyle: "rgba(227,232,239,0.0)"
+    fillStyle: "rgba(227,232,239,0.0)",
   }); // fill the data with pale green color
 
   TheMainContainer.AddLayer(WestUSCurrents);
-  WestNorthAmericanOceanCurrents = WestUSCurrents;
+  let WestNorthAmericanOceanCurrents = WestUSCurrents;
 
   //****************************************************************************
   // add the Document Locations
@@ -251,6 +251,8 @@ function init() {
 
   DocLocations.SetSetting("Item", "Name", "DocLocations");
   DocLocations.SetSettingAttribute("Layer", "InfoText", "Title");
+  DocLocations.SetSettingAttribute("Layer", "Latitude", "lat");
+  DocLocations.SetSettingAttribute("Layer", "Longitude", "long");
 
   DocLocations.SetSetting("Layer", "ZoomToBoundsOnLoad", false);
   DocLocations.SetSetting("Dataset", "URL", "OceanData/Docs_March2.js");
@@ -266,7 +268,35 @@ function init() {
 
   TheMainContainer.AddLayer(DocLocations);
 
-  DocumentLocations = DocLocations;
+  let DocumentLocations = DocLocations;
+
+  DocLocations.MouseDown = function (TheView, RefX, RefY) {
+    var Used = false; // flag to indicate if we have used the event
+
+    if (this.GetVisible()) {
+      // get the feature selected, if any
+
+      var FeatureIndex = this.In(TheView, RefX, RefY);
+
+      if (FeatureIndex != -1) {
+        // -1 indicates no feature selected
+        this.SetSelectedFeature(FeatureIndex);
+
+        let lat = JSON.stringify(
+          this.FeatureSettings[FeatureIndex].Layer.Latitude
+        );
+        let lon = JSON.stringify(
+          this.FeatureSettings[FeatureIndex].Layer.Longitude
+        );
+
+        getDocuments(lat, lon);
+
+        Used = true; // let the caller know we've used the event so no one else uses it
+      }
+    }
+
+    return Used;
+  };
 
   //#############################################################
 
@@ -318,6 +348,19 @@ document.ondblclick = function ElementCoords() {
     //document.getElementById("demooo").innerHTML = coordinates; //this will appear under the discription text
     document.getElementById("myInput").value = coordinatesFinal;
   }
+};
+
+const getDocuments = (lat, lon) => {
+  let pre = document.getElementById("testy");
+  let results = [];
+  import("./DocsJSON").then((module) => {
+    module.data.forEach((doc) => {
+      if (doc.lat === lat && doc.long === lon) {
+        results.push(doc);
+      }
+    });
+  });
+  import("./dataTable").then((module) => module.default(results));
 };
 
 window.onload = () => init();
