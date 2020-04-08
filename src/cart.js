@@ -58,23 +58,27 @@ export function makeCartTable() {
   } else {
     docsInCart = cartStore;
   }
-
-  let html = '<table class="table is-striped">';
-  html += "<tr>";
-  const headers = ["Year", "Author", "Title", ""];
-  headers.forEach((header) => {
-    return (html += `<th>${header}</th>`);
-  });
-  html += "</tr>";
-  cartStore.forEach((doc) => {
-    const tableRow = `<tr>
-      <td>${doc.Year}</td>
-      <td>${doc.Author}</td>
-      <td>${doc.Title}</td>
-      <td><button class="button is-danger is-outlined is-small" id="${doc.FID}">Remove from cart</button></td>
-      </tr>`;
-    return (html += tableRow);
-  });
-  html += "</table>";
-  document.querySelector("div#cart").innerHTML = html;
+  if (!cartStore.length) {
+    let html = "<p>Your shopping cart is empty.</p>";
+    document.querySelector("div#cart").innerHTML = html;
+  } else {
+    let html = '<table class="table is-striped">';
+    html += "<tr>";
+    const headers = ["Year", "Author", "Title", ""];
+    headers.forEach((header) => {
+      return (html += `<th>${header}</th>`);
+    });
+    html += "</tr>";
+    cartStore.forEach((doc) => {
+      const tableRow = `<tr>
+        <td>${doc.Year}</td>
+        <td>${doc.Author}</td>
+        <td>${doc.Title}</td>
+        <td><button class="button is-danger is-outlined is-small" id="${doc.FID}">Remove from cart</button></td>
+        </tr>`;
+      return (html += tableRow);
+    });
+    html += "</table>";
+    document.querySelector("div#cart").innerHTML = html;
+  }
 }

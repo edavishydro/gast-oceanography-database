@@ -1,11 +1,13 @@
 const initModal = () => {
   const modal = document.getElementById("myModal");
   const btn = document.getElementById("myBtn");
-  const span = document.getElementsByClassName("close")[0];
+  const xClose = document.querySelector("header > button");
+  const cancelClose = document.querySelector("#cancel");
 
   btn.onclick = () => (modal.style.display = "block");
-  span.onclick = () => (modal.style.display = "none");
-  window.onclick = event => {
+  xClose.onclick = () => (modal.style.display = "none");
+  cancelClose.onclick = () => (modal.style.display = "none");
+  window.onclick = (event) => {
     if (event.target == modal) {
       modal.style.display = "none";
     }
