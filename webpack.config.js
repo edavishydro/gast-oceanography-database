@@ -1,10 +1,15 @@
 // webpack.config.js
+const path = require("path");
+
 module.exports = {
   mode: "development",
-  entry: "./src/main.js",
+  entry: {
+    app: "./src/main.js",
+  },
   output: {
-    filename: "main.js",
-    publicPath: "dist",
+    filename: "bundle.js",
+    filename: "[name].bundle.js",
+    path: path.resolve(__dirname, "dist"),
   },
   module: {
     rules: [

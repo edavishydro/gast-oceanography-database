@@ -1,4 +1,6 @@
-
+<?php
+//Silence is golden 
+?>
 <html>
 <head><meta http-equiv="Content-Type" content="text/html; charset=us-ascii">
 	<title>Oceanography Research</title>
@@ -152,5 +154,6 @@
 
 <script src="/dist/app.bundle.js"></script>
 <script src="/dist/1.bundle.js"></script>
+
 </body>
 </html>
