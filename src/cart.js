@@ -62,7 +62,7 @@ export function makeCartTable() {
     let html = "<p>Your shopping cart is empty.</p>";
     document.querySelector("div#cart").innerHTML = html;
   } else {
-    let html = '<table class="table is-striped">';
+    let html = '<table class="table is-striped is-fullwidth">';
     html += "<tr>";
     const headers = ["Year", "Author", "Title", ""];
     headers.forEach((header) => {

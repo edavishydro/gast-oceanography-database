@@ -21,7 +21,7 @@ function SetupInfoBox(TheHTML) {
     InfoBox.className = "CM_InfoBox";
 
     TheCanvasElement.appendChild(InfoBox);
-    CMUtilities.AbsolutePosition(InfoBox, 275, 5, 350, 25); //left, top, width, height
+    CMUtilities.AbsolutePosition(InfoBox, 250, 5, 325, 25); //left, top, width, height
   }
   InfoBox.innerHTML = TheHTML;
 }
@@ -363,4 +363,6 @@ const getDocuments = (lat, lon) => {
   import("./dataTable").then((module) => module.default(results));
 };
 
-window.onload = () => init();
+window.onload = () => {
+  init();
+};

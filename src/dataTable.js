@@ -1,6 +1,6 @@
 /* LOCAL JSON TABLE */
 const makeDataTable = (data) => {
-  let html = '<table class="table is-striped" id="addition">';
+  let html = '<table class="table is-striped is-fullwidth" id="addition">';
   html += "<tr>";
   const headers = ["Year", "Author", "Title", ""];
   headers.forEach((header) => {
