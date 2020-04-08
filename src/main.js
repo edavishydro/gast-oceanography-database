@@ -200,7 +200,7 @@ document.addEventListener("DOMContentLoaded", function () {
         .then(function (body) {
           console.log(body);
         })
-        .catch(alert("Something went wrong..."));
+        .catch((error) => console.error(error));
     },
     false
   );

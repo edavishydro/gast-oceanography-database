@@ -104,8 +104,8 @@
 							<div id="cart" class="table-container"></div>
 			  </section>
 			  <footer class="modal-card-foot">
-				<button class="button is-success">Checkout</button>
-				<button class="button" id="cancel">Cancel</button>
+				<button class="button is-success" type="submit" form="requestForm">Checkout</button>
+				<button class="button" type="button" id="cancel">Cancel</button>
 			  </footer>
 			</div>
 		  </div>
@@ -154,6 +154,5 @@
 
 <script src="/dist/app.bundle.js"></script>
 <script src="/dist/1.bundle.js"></script>
-
 </body>
 </html>
