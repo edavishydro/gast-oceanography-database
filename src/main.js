@@ -1,5 +1,5 @@
 import Fuse from "fuse.js";
-import initModal from "./modal";
+import * as modal from "./modal";
 import "./map";
 import * as cart from "./cart";
 import makeDataTable from "./dataTable";
@@ -16,8 +16,8 @@ fetch("DocsJSON.json")
     makeSearch(); // initiates Fuse search
     additionListener(); // listener for doc adds
     removalListener(); // listener for doc removes
-    initModal(); // initiates modal functions
     cart.makeCartTable(); // generates shopping cart table in modal
+    modal.initModal(); // initiates modal functions
   });
 
 let data = [];
@@ -153,20 +153,20 @@ function getInputs(form) {
 
 document.addEventListener("DOMContentLoaded", function () {
   const form = document.getElementById("requestForm");
-  const output = document.getElementById("output");
 
   cart.initCartStore();
+  //modal.showSuccess();
 
   // Get all "navbar-burger" elements
-  const $navbarBurgers = Array.prototype.slice.call(
+  const navbarBurgers = Array.prototype.slice.call(
     document.querySelectorAll(".navbar-burger"),
     0
   );
 
   // Check if there are any navbar burgers
-  if ($navbarBurgers.length > 0) {
+  if (navbarBurgers.length > 0) {
     // Add a click event on each of them
-    $navbarBurgers.forEach((el) => {
+    navbarBurgers.forEach((el) => {
       el.addEventListener("click", () => {
         // Get the target from the "data-target" attribute
         const target = el.dataset.target;
@@ -194,13 +194,20 @@ document.addEventListener("DOMContentLoaded", function () {
 
       fetch("./api/sg-trans.php", { method: "POST", body: formData })
         .then(function (response) {
-          window.localStorage.removeItem("cart");
-          return response.text();
+          if (response.status != 200) {
+            throw new error("POST not accepted");
+          } else {
+            return response.text();
+          }
         })
         .then(function (body) {
+          //window.localStorage.removeItem("cart");
           console.log(body);
         })
-        .catch((error) => console.error(error));
+        .catch((error) => {
+          modal.showSuccess();
+          console.error(error);
+        });
     },
     false
   );

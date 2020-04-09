@@ -65,15 +65,34 @@
 <main>
 	<div class="container">
 <!--MODAL-->
-		<div class="modal" id="myModal">
+
+<article class="message is-large is-primary success-message">
+	<div class="message-header">
+	  <p>Thank you!</p>
+	  <button class="delete is-medium" aria-label="delete" type="button"></button>
+	</div>
+	<div class="message-body">
+	  Thank you for placing a document request! We will review your request and respond to the email provided. If you have any questions about your request, contact us at FAKE-EMAIL.
+	</div>
+  </article>
+
+		<div class="modal" id="cartModal">
 			<div class="modal-background"></div>
 			<div class="modal-card">
+
+
 			  <header class="modal-card-head">
-				<p class="modal-card-title">Document Shopping Cart</p>
+				<p class="modal-card-title">Document Cart</p>
 				<button class="delete close" aria-label="close"></button>
 			  </header>
 			  <section class="modal-card-body">
 				<div>
+
+					<h1 class="title">Document List</h1>
+					<div id="cart" class="table-container"></div>
+
+					<h1 class="title">Your Information</h1>
+					<p class="subtitle">Please fill out the following form to submit your request.</p>
 					<form name="requestForm" action="index.html" method="get" id="requestForm">
 					  <div class="field">
 						<label class="label">Full Name</label>
@@ -96,23 +115,42 @@
 					  </div>
 
 					  <div class="field">
-						<label class="label">Affiliation</label>
-							<div class="control">
-							  <div class="select">
+						<label class="label">Organization</label>
+						<div class="control has-icons-left has-icons-right">
+							<input class="input request" type="text" placeholder="Enter the name of your organization" name="email" required>
+							<span class="icon is-small is-left">
+							<i class="fas fa-building"></i>
+							</span>
+						</div>
+					</div>
+
+					  <div class="field">
+						<label class="label">Industry</label>
+							<div class="control has-icons-left">
+							  <span class="select">
 								<select name="affiliation" required>
-								  <option value="" selected>Select dropdown</option>
+								  <option value="" selected>Select industry</option>
 								  <option value="Academic">Academic</option>
 								  <option value="Government">Government</option>
-								  <option value="Private">Private Industry</option>
+								  <option value="Non-profit">Non-profit</option>
+								  <option value="Private Industry">Private Industry</option>
 								</select>
-							  </div>
+								</span>
+								<span class="icon is-small is-left">
+									<i class="fas fa-industry"></i>
+								  </span>
 							</div>
 						  </div>
-						  <h1 class="is-size-2"> Shopping Cart </h1>
-							<div id="cart" class="table-container"></div>
+
+						  <div class="field">
+							<label class="label">Intended use</label>
+							<div class="control">
+							  <textarea class="textarea" placeholder="Please provide a brief description of how the requested document(s) will be used. This information helps us improve our service." name="intendedUse" required></textarea>
+							</div>
+						  </div>
 			  </section>
 			  <footer class="modal-card-foot">
-				<button class="button is-primary" type="submit" form="requestForm">Checkout</button>
+				<button class="button is-primary" type="submit" form="requestForm">Submit request</button>
 				<button class="button" type="button" id="cancel">Cancel</button>
 			  </footer>
 			</div>
@@ -129,7 +167,7 @@
 			<div class="column results-column">
 				<!-- Search bar Items -->
 				<div>
-					<h1 class="is-size-3">Search through Documents</h1>
+					<h1 class="is-size-3 has-text-weight-semibold">Document Search</h1>
 					<p class="control has-icons-left">
 						<input class="input" type="text" placeholder="Search" id="fusefield">
 						<span class="icon is-left">
@@ -140,7 +178,7 @@
 				
 				<!-- JSON will be read in here and converted to the HTML table -->		
 				<div> 
-					<h1 class="is-size-4" style="margin: auto; text-align: center"> Search Results </h1>
+					<h1 class="is-size-4 has-text-weight-semibold">Results</h1>
 					<div id="clicky" class="table-container" style="max-height:670px; overflow-y: auto;"></div>
 				</div>
 				</div>

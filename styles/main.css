@@ -35,3 +35,7 @@
 .results-column {
   height: 821px;
 }
+
+.success-message {
+  display: none;
+}
