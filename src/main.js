@@ -197,12 +197,12 @@ document.addEventListener("DOMContentLoaded", function () {
           if (response.status != 200) {
             throw new error("POST not accepted");
           } else {
+            modal.showSuccess();
+            window.localStorage.removeItem("cart");
             return response.text();
           }
         })
         .then(function (body) {
-          modal.showSuccess();
-          window.localStorage.removeItem("cart");
           console.log(body);
         })
         .catch((error) => {
