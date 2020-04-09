@@ -23,14 +23,14 @@
   position: static;
 }
 
-.navbar-dropdown {
+/* .navbar-dropdown {
   border-bottom: unset;
   box-shadow: unset;
   background-color: unset;
   border-top: unset;
   font-size: unset;
   padding: unset;
-}
+} */
 
 .results-column {
   height: 821px;
