@@ -201,11 +201,11 @@ document.addEventListener("DOMContentLoaded", function () {
           }
         })
         .then(function (body) {
-          //window.localStorage.removeItem("cart");
+          modal.showSuccess();
+          window.localStorage.removeItem("cart");
           console.log(body);
         })
         .catch((error) => {
-          modal.showSuccess();
           console.error(error);
         });
     },
