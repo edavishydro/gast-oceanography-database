@@ -1,3 +1,6 @@
+import { data } from "./DocsJSON";
+import makeDataTable from "./dataTable";
+
 let column = null;
 let InfoBox = null;
 
@@ -73,16 +76,16 @@ function init() {
   // Add the background layers
 
   let URLArray = [
-    "http://server.arcgisonline.com/ArcGIS/rest/services/NatGeo_World_Map/MapServer/tile/{z}/{y}/{x}",
-    "http://server.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/tile/{z}/{y}/{x}",
-    "http://b.tile.opentopomap.org/{z}/{x}/{y}.png",
-    "http://c.tiles.wmflabs.org/bw-mapnik/{z}/{x}/{y}.png",
+    "https://server.arcgisonline.com/ArcGIS/rest/services/NatGeo_World_Map/MapServer/tile/{z}/{y}/{x}",
+    "https://server.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/tile/{z}/{y}/{x}",
+    "https://b.tile.opentopomap.org/{z}/{x}/{y}.png",
+    "https://c.tiles.wmflabs.org/bw-mapnik/{z}/{x}/{y}.png",
     "https://server.arcgisonline.com/ArcGIS/rest/services/World_Topo_Map/MapServer/tile/{z}/{y}/{x}",
-    "http://c.tile.stamen.com/watercolor/{z}/{x}/{y}.jpg",
-    "http://b.tile.stamen.com/terrain/{z}/{x}/{y}.jpg",
-    "http://tile.stamen.com/toner/{z}/{x}/{y}.png",
-    "http://c.tile.stamen.com/watercolor/{z}/{x}/{y}.png",
-    "http://b.tiles.mapbox.com/v3/jeffmerrick.map-tnw3k3na/{z}/{x}/{y}.png",
+    "https://c.tile.stamen.com/watercolor/{z}/{x}/{y}.jpg",
+    "https://b.tile.stamen.com/terrain/{z}/{x}/{y}.jpg",
+    "https://tile.stamen.com/toner/{z}/{x}/{y}.png",
+    "https://c.tile.stamen.com/watercolor/{z}/{x}/{y}.png",
+    "https://b.tiles.mapbox.com/v3/jeffmerrick.map-tnw3k3na/{z}/{x}/{y}.png",
   ];
 
   let NameArray = [
@@ -160,7 +163,7 @@ function init() {
   MarineBodies.Old_MouseOver = MarineBodies.MouseOver;
   // override the Layer's mouse down function to put information in the info box
   MarineBodies.MouseOver = function (TheView, RefX, RefY, FeatureIndex) {
-    result = this.Old_MouseOver(TheView, RefX, RefY, FeatureIndex);
+    let result = this.Old_MouseOver(TheView, RefX, RefY, FeatureIndex);
 
     if (FeatureIndex != -1) {
       // -1 indicates no feature selected
@@ -289,9 +292,9 @@ function init() {
           this.FeatureSettings[FeatureIndex].Layer.Longitude
         );
 
-        getDocuments(lat, lon);
-
         Used = true; // let the caller know we've used the event so no one else uses it
+
+        getDocuments(lat, lon);
       }
     }
 
@@ -351,16 +354,13 @@ document.ondblclick = function ElementCoords() {
 };
 
 const getDocuments = (lat, lon) => {
-  let pre = document.getElementById("testy");
   let results = [];
-  import("./DocsJSON").then((module) => {
-    module.data.forEach((doc) => {
-      if (doc.lat === lat && doc.long === lon) {
-        results.push(doc);
-      }
-    });
+  data.forEach((doc) => {
+    if (doc.lat === lat && doc.long === lon) {
+      results.push(doc);
+    }
   });
-  import("./dataTable").then((module) => module.default(results));
+  makeDataTable(results);
 };
 
 window.onload = () => {
